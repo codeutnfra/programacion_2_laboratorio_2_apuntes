@@ -122,6 +122,24 @@ namespace Hola_Mundo
     }
 } 
 ```
+
+##### Nombres de métodos
+Los nombres de los métodos deben ser *verbos* escritos con **notación Pascal (*Pascal Case*)**. La notación Pascal, también conocida como Upper Camel Case, indica que la primera letra de cada palabra dentro de un nombre compuesto debe estar en maýuscula.  
+
+Ejemplos:
+*MostrarDatos()*
+*ConfirmarCompra()*
+*RechazarPedido()*
+*CancelarOperacion()*
+
+##### Método Main
+El método `Main` es el **punto de entrada (entry point)** de todos los programas en C#, es decir, el primer método en ejecutarse.
+
+Analicemos su firma:
+* `static`: Es un modificador que permite ejecutar un método sin tener que instanciar a una variable (sin crear un objeto). El método `Main` debe ser estático. 
+* `void`: Indica el tipo retorno del método. `void` se utiliza cuando el método no retorna ningún valor. No necesariamente tiene que ser void, se puede especificar otro tipo de retorno.
+* `string[] args`: Es un array de tipo `string`. Si la aplicación de consola recibe argumentos para su ejecución, los valores estarán dentro de este array. Este parámetro es opcional.
+
 #### Tipos, atributos y variables. Los sustantivos de C#.
 En español los sustantivos son palabras que se utilizan para denominar seres, entidades u objetos. 
 
@@ -134,6 +152,9 @@ Por otra parte, *Fede* no es el único ser de tipo `Profesor`, también están *
 ## Trabajando con variables
 
 ### Constantes
+
+##### Nombres de variables
+Los nombres de las variables deben escribirse con notación Camel Case
 
 ### Inferencia de tipos
 
@@ -330,4 +351,20 @@ Valor por defecto de strings:
 Valor por defecto de chars:
 ```
 
-## 
+
+
+## Sentencias condicionales
+
+Operadores lógicos - cortocircuito
+
+Conversiones implícitas y explícitas
+
+Operadores aritméticos
+
+if, if-else, if-else-if, switch
+
+sizeof, nameof
+
+## Sentencias repetitivas
+
+for, foreach, while, do while,

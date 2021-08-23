@@ -26,7 +26,7 @@ module.exports = {
         }
       ]
     },
-    {
+/*    {
       type: 'category',
       label: 'Métodos estáticos',      
       collapsible: true,
@@ -39,7 +39,7 @@ module.exports = {
         }
       ]
     },
-/*    {
+    {
       type: 'category',
       label: 'Programación orientada a objetos',
       collapsible: true,

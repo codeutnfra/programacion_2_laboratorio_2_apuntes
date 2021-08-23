@@ -10,6 +10,12 @@ authorURL: https://github.com/mauricioCerizza
 ## Trabajando con la consola
 Las aplicaciones de consola se basan en texto y corren sobre la línea de comandos. Se suelen utilizar para ejecutar tareas simples y concretas. Entre sus tareas más habituales se encuentra escribir y leer datos. 
 
+:::note Información
+
+Prácticamente toda la interacción con la consola se logra a través de los métodos y propiedades de la clase `Console`. Para más información sobre esta clase visita la [documentación oficial](https://docs.microsoft.com/en-us/dotnet/api/system.console?view=net-5.0).
+
+:::
+
 ## Salida de datos por consola
 Para mostrar texto se utilizan los métodos `Write` y `WriteLine` de la clase `Console`, cuya única diferencia es que el último genera un salto de línea después de imprimir el texto. 
 
@@ -323,6 +329,16 @@ Para cambiar el título que se muestra en la ventana de la consola se debe asign
 ```csharp
 Console.Title = "Mi primer programa en C#";
 ```
+
+### Cerrar la consola
+Para cerrar la consola se utiliza el método `Exit` de la clase `Environment`.
+
+```csharp
+Environment.Exit(0);
+```
+
+`Exit` recibe como argumento un código de salida. El código `0` se utiliza para indicar que el proceso finalizó correctamente, otros números se pueden usar para señalizar errores de ejecución. 
+
 ### Emitir un sonido
 El método `Beep` de la clase `Console` nos permite emitir un sonido a través del altavoz de la consola. Opcionalmente, se le puede pasar como argumentos la frecuencia del sonido en hertz y la duración en milisegundos. 
 

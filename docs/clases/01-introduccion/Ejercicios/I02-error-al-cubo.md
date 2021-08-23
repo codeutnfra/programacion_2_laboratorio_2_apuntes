@@ -9,7 +9,7 @@ hide_title: false
 ---
 ---
 ### Consigna
-Ingresar un número y mostrar: el cuadrado y el cubo del mismo. Se debe validar que el número sea mayor que cero, caso contrario, mostrar el mensaje: "ERROR. ¡Reingresar número!".
+Ingresar un número y mostrar el cuadrado y el cubo del mismo. Se debe validar que el número sea mayor que cero, caso contrario, mostrar el mensaje: *"ERROR. ¡Reingresar número!"*.
 
 :::important Importante
 
