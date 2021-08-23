@@ -98,7 +98,7 @@ module.exports = {
           title: "Reportar un error",
           items: [
             {
-              html: "<a href=\"https://codeutnfra.github.io/programacion_2_laboratorio_2_apuntes/issues/new\" target=\"_blank\"><img src=\"https://i.im.ge/2021/08/08/01RjT.md.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
+              html: "<a href=\"https://github.com/codeutnfra/programacion_2_laboratorio_2_apuntes/issues/new\" target=\"_blank\"><img src=\"https://i.im.ge/2021/08/08/01RjT.md.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
             }
           ],
         },
