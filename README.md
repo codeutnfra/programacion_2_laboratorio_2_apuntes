@@ -32,7 +32,7 @@ Este proyecto es una web estática construida con el framework [Docusaurus 2](ht
 Para obtener el código fuente, ejecutar el siguiente comando en el directorio donde se desee descargar el proyecto:
 
 ```git
-git clone https://github.com/mauricioCerizza/utn-prog-ii
+git clone https://codeutnfra.github.io/programacion_2_laboratorio_2_apuntes
 ```
 
 ### Ejecución local
@@ -66,7 +66,7 @@ Siempre pushear a la rama `master`, salvo que se esté trabajando por algún mot
 Para generar los apuntes en PDF se deberá ejecutar el siguiente comando desde el directorio raíz (***después de haber deployado la última versión***):
 
 ```console
-npx mr-pdf --initialDocURLs="https://mauriciocerizza.github.io/utn-prog-ii/docs/clases/programa" --contentSelector="article" --paginationSelector=".pagination-nav__item--next > a" --excludeSelectors=".margin-vert--xl a" --coverImage="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" --coverTitle="Programación II" --pdfFormat="A4" --outputPDFFilename="static/clases/Programacion-II.pdf"
+npx mr-pdf --initialDocURLs="https://codeutnfra.github.io/programacion_2_laboratorio_2_apuntes/docs/clases/programa" --contentSelector="article" --paginationSelector=".pagination-nav__item--next > a" --excludeSelectors=".margin-vert--xl a" --coverImage="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" --coverTitle="Programación II" --pdfFormat="A4" --outputPDFFilename="static/clases/Programacion-II.pdf"
 ```
 
 ## Estructura del proyecto
