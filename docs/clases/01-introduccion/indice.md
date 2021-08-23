@@ -15,9 +15,9 @@ Se apuntará a introducir las principales características de la plataforma y de
 ## Apuntes
 [Introducción a .NET](./Apuntes/00-introduccion-net.md)
 
-[Crear un proyecto de consola](./Apuntes/02-proyecto-consola.md)
+[Crear un proyecto de consola](./Apuntes/01-proyecto-consola.md)
  
-[Introducción a C#](./Apuntes/03-introduccion-c-sharp.md)
+[Introducción a C#](./Apuntes/02-introduccion-c-sharp.md)
 
 [Trabajando con la consola](./Apuntes/04-input-output.md)
 
