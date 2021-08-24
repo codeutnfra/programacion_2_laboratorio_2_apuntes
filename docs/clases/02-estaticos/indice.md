@@ -10,7 +10,7 @@ hide_title: false
 ## Resumen
 Aprenderemos a declarar clases y métodos estáticos que nos ayudarán a generar código reutilizable. 
 
-Además, aprenderemos qué es un espacio de nombres y exploraremos funciones de la plataforma que nos ayudarán a la hora de trabajar sobre texto, fechas o realizar cálculos matemáticos.
+Además, entenderemos qué es un espacio de nombres y exploraremos funciones de la plataforma que nos ayudarán a la hora de trabajar sobre texto, fechas o realizar cálculos matemáticos.
 
 ## Apuntes
 [Métodos estáticos](./Apuntes/00-metodos-estaticos.md)
