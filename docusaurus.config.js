@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: "Google Classroom",
-              href: "https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa",
+              href: "https://classroom.google.com/c/NTQ1MTg2NjM5NDBa?cjc=lqqdttc",
             },
           ],
         },
