@@ -100,6 +100,12 @@ if (x < 10)
 }
 ```
 
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `if` más rápido, para accionarlo debemos escribir `if` y presionar dos veces la tecla `TAB`.
+
+:::
+
 El bloque `else` es opcional y sólo se ejecuta si la expresión del `if` resulta en `false`.
 
 ```csharp
@@ -115,6 +121,12 @@ else
     MetodoDos();
 }
 ```
+
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `else` más rápido, para accionarlo debemos escribir `else` y presionar dos veces la tecla `TAB`.
+
+:::
 
 Los bloques `if` se pueden anidar. También se pueden combinar con otros `if` usando `else if`, siempre y cuando las condiciones sean mutuamente excluyentes. 
 
@@ -152,6 +164,8 @@ else
 No usar llaves no hace al código más eficiente ni trae ningún tipo de ventaja, al contrario, hace al código menos mantenible y puede introducir errores. 
 
 Por ejemplo, en 2012 se lanzó iOS 6 y trajo un bug que afectaba su sistema de encriptación Secure Sockets Layer (SSL). Los usuarios estuvieron expuestos a vulnerabilidades de seguridad durante 18 meses porque una verificación importante estaba siendo accidentalmente salteada. Todo por no usar llaves en un bloque if. 
+
+https://embeddedgurus.com/barr-code/2014/03/apples-gotofail-ssl-security-bug-was-easily-preventable/
 
 :::
 
@@ -200,3 +214,9 @@ switch  (a)
 
 En el ejemplo anterior se ejecutará el `MetodoTres()`.
 
+
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `switch` más rápido, para accionarlo debemos escribir `switch` y presionar dos veces la tecla `TAB`.
+
+:::

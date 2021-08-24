@@ -1,7 +1,7 @@
 ---
-sidebar_label: I06 - El tiempo pasa...
-title: Ejercicio I06 - El tiempo pasa...
-position: 1
+sidebar_label: I08 - El tiempo pasa...
+title: Ejercicio I08 - El tiempo pasa...
+sidebar_position: 8
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
@@ -13,11 +13,7 @@ Crear un método estático que reciba una fecha y calcule el número de días qu
 
 Pedir por consola la *fecha de nacimiento* de una persona (día, mes y año) y calcule el *número de días vividos* por esa persona hasta la fecha actual utilizando el método desarrollado anteriormente.
 
-:::tip
-
-La fecha y hora actual se puede obtener con `DateTime.Now`.
-
-:::
+Ayudarse con las funcionalidades del tipo [`DateTime`](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0) para resolver el ejercicio.
 
 :::note Nos vamos poniendo viejos...
 

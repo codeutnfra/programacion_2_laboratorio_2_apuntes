@@ -1,7 +1,7 @@
 ---
 sidebar_label: I02 - ¿Desea continuar?
 title: Ejercicio I02 - ¿Desea continuar?
-position: 2
+sidebar_position: 2
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true

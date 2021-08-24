@@ -1,7 +1,7 @@
 ---
 sidebar_label: I03 - Conversor binario
 title: Ejercicio I03 - Conversor binario
-position: 3
+sidebar_position: 3
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
@@ -9,11 +9,23 @@ hide_title: false
 ---
 ---
 ### Consigna
-Ingresar 5 números por consola, guardándolos en una variable escalar. Luego calcular y mostrar: el valor máximo, el valor mínimo y el promedio.
+Desarollar una clase llamada `Conversor` que posea dos métodos de clase (estáticos):
 
-:::note Información
+El método `ConvertirDecimalABinario` que convierte un número entero del sistema decimal al sistema binario.
 
-Un **escalar** es una constante o variable que contiene un dato atómico y unidimensional. En contraposición al concepto de escalar, están los conceptos de array, lista y objeto, que pueden tener almacenado en su estructura más de un valor.​ [Ver en Wikipedia](https://es.wikipedia.org/wiki/Escalar_(inform%C3%A1tica)) 
+```csharp
+public string ConvertirDecimalABinario(int numeroEntero) {}
+```
+
+El método `ConvertirBinarioADecimal` que convierte un número entero del sistema binario al sistema decimal.
+
+```csharp
+public int ConvertirBinarioADecimal(int numeroEntero) {}
+```
+
+:::important Importante
+
+**NO** utilizar los atajos del lenguaje, hacerlo mediante estructuras de iteración y selección.
 
 :::
 

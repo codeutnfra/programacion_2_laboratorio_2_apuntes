@@ -1,7 +1,7 @@
 ---
 sidebar_label: I01 - Validador de rangos
 title: Ejercicio I01 - Validador de rangos
-position: 1
+sidebar_position: 1
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true

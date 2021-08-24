@@ -76,6 +76,36 @@ Los **fragmentos de código (code snippets)** son pequeños bloques de código r
 
 Visual Studio trae por defecto una serie de fragmentos de código y además nos permite crear nuevos. 
 
+Para usarlos hay que escribir el comando o palabra clave y presionar dos veces la tecla `TAB`.
+
+Les dejamos algunos snippets útiles:
+
+| Comando del snippet | Descripción                                                          |
+| :------------------ | :------------------------------------------------------------------- |
+| `cw`                | Método `Console.WriteLine("")`.                                      |
+| `if`                | Sentencia de selección `if` (solo if).                               |
+| `else`              | Sentencia de selección `else` (solo else).                           |
+| `switch`            | Sentencia de selección `switch`.                                     |
+| `for`               | Sentencia de iteración `for`.                                        |
+| `forr`              | Sentencia de iteración `for` en reversa (decrementando el contador). |
+| `foreach`           | Sentencia de iteración `foreach`.                                    |
+| `while`             | Sentencia de iteración `while`.                                      |
+| `do`                | Sentencia de iteración `do while`.                                   |
+| `namespace`         | Declaración de espacio de nombre.                                    |
+| `class`             | Declaración de clase.                                                |
+| `ctor`              | Constructor público sin parámetros.                                  |
+| `mbox`              | Método `MessageBox.Show("")` de Windows Forms.                       |
+| `propfull`          | Atributo y propiedad de lectura-escritura para ese atributo.         |
+| `prop`              | Propiedad de tipo *auto-property*.                                   |
+| `propg`             | Propiedad de tipo *auto-property* con setter privado.                |
+| `enum`              | Declaración de enumerado.                                            |
+| `equals`            | Sobrescritura del método `Equals`.                                   |
+| `Exception`         | Clase para excepción personalizada.                                  |
+| `try`               | Sentencia `try-catch`.                                               |
+| `tryf`              | Sentencia `try-finally`.                                             |
+| `interface`         | Declaración de interface.                                            |
+| `using`             | Sentencia `using` para trabajar con recursos no administrados.       |
+
 Para más información lee el siguiente artículo: [Code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2019).
 
 #### Extensions 

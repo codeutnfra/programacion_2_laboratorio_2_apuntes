@@ -34,6 +34,12 @@ Texto con salto de línea.
 Texto sin salto de línea.
 ```
 
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir el método `WriteLine` más rápido, para accionarlo debemos escribir `cw` y presionar dos veces la tecla `TAB`.
+
+:::
+
 ### Formato compuesto
 Ambos métodos soportan una característica llamada **formatos compuestos** que consisten es una lista de valores y una cadena de formato compuesto. Una **cadena de formato compuesto** está formada por texto fijo combinado con **marcadores de posición** que corresponden con los elementos de la lista. 
 

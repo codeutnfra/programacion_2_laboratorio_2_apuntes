@@ -26,9 +26,9 @@ module.exports = {
         }
       ]
     },
-/*    {
+    {
       type: 'category',
-      label: 'Métodos estáticos',      
+      label: 'Clases y métodos estáticos',      
       collapsible: true,
       collapsed: true,
       items:
@@ -39,7 +39,7 @@ module.exports = {
         }
       ]
     },
-    {
+/*    {
       type: 'category',
       label: 'Programación orientada a objetos',
       collapsible: true,

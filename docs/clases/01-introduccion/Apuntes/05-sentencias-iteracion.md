@@ -18,9 +18,31 @@ En C# existen dos sentencias de selección `if` y `switch`, y la segunda es sól
 
 ```
 
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `while` más rápido, para accionarlo debemos escribir `while` y presionar dos veces la tecla `TAB`.
+
+:::
 ### Sentencia do-while
 
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `do-while` más rápido, para accionarlo debemos escribir `do` y presionar dos veces la tecla `TAB`.
+
+:::
 
 ### Sentencia for
 
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `for` más rápido, para accionarlo debemos escribir `for` y presionar dos veces la tecla `TAB`.
+
+:::
+
 ### Sentencia foreach
+
+:::tip
+
+Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `foreach` más rápido, para accionarlo debemos escribir `foreach` y presionar dos veces la tecla `TAB`.
+
+:::
