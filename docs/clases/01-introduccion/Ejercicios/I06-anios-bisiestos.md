@@ -17,7 +17,7 @@ Pedirle al usuario un año de inicio y otro de fin y mostrar todos los años bis
 
 :::important Importante
 
-Utilizar estructuras repetitivas, selectivas y el operador módulo (%).
+Utilizar sentencias de iteración, selectivas y el operador módulo (%).
 
 :::
 

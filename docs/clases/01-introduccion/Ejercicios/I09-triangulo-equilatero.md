@@ -23,7 +23,7 @@ El usuario indicará cuál será la altura del triángulo ingresando un número 
 
 :::important Importante
 
-Utilizar estructuras repetitivas y selectivas.
+Utilizar sentencias de iteración y selectivas.
 
 :::
 

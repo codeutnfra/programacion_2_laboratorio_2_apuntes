@@ -21,7 +21,7 @@ Al finalizar, preguntar al usuario si desea volver a operar. Si la respuesta es 
 
 :::important Importante
 
-Utilizar estructuras repetitivas, selectivas y el operador módulo (%).
+Utilizar sentencias de iteración, selectivas y el operador módulo (%).
 
 :::
 

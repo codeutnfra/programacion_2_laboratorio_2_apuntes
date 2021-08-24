@@ -17,7 +17,7 @@ Mostrar el recibo correspondiente con el *nombre*, la *antigüedad*, el *valor h
 
 :::important Importante
 
-Utilizar estructuras repetitivas y selectivas. 
+Utilizar sentencias de iteración y selectivas. 
 
 No es necesario ni se deben utilizar vectores/arrays.
 

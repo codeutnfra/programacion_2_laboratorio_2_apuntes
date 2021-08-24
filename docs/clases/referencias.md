@@ -16,7 +16,7 @@ Estos se complementan con los dictados de clases. En los parciales se podrán ev
 
 ### Convenciones
 * Se utilizará **negrita** para remarcar conceptos clave o nueva terminología técnica.
-* Se utilizará `énfasis` para hacer referencia a palabras del código, extensiones, nombres del carpeta, etc.
+* Se utilizará `énfasis` para hacer referencia a palabras del código, extensiones, nombres de carpetas, etc.
 * Se utilizará *itálica* para marcar palabras a las que se les quiera dar realce. 
 
 ### Descarga en PDF

@@ -44,7 +44,7 @@ Originalmente, Microsoft sólo ofrecía un entorno de ejecución para Windows, e
 
 ![Mono logo](/clases/00-introduccion/apuntes/mono-logo.png)
 
-Ximian fue adquirida por Novell en 2003. A su vez, Novell fue adquirida a Attachmate en 2011. Esto último fue sucedido por múltiples despidos dentro de la flota de trabajo que había sido heredada de Novell, incluyendo a Miguel de Icaza. A raíz de esto, Miguel y gran parte del equipo original de Mono, terminan fundando Xamarin. Xamarin fue la empresa que continuó soportando el desarrollo de Mono. 
+Ximian fue adquirida por Novell en 2003. A su vez, Novell fue adquirida por Attachmate en 2011. Esto último fue sucedido por múltiples despidos dentro de la flota de trabajo que había sido heredada de Novell, incluyendo a Miguel de Icaza. A raíz de esto, Miguel y gran parte del equipo original de Mono, terminan fundando Xamarin. Xamarin fue la empresa que continuó soportando el desarrollo de Mono. 
 
 Para este tiempo, lograron adquirir los permisos y licencias para continuar trabajando sobre MonoTouch (para iOS) y Mono for Android, los cuales pasaron a llamarse respectivamente Xamarin.iOS y Xamarin.Android. En 2012 Xamarin lanza Xamarin.Mac, que permitía desarrollar aplicaciones para MacOS con C#. En 2013 lanzan el IDE Xamarin Studio, un cambio de marca del IDE original para Mono "Monodevelop" y la integración con Visual Studio, lo que permitió usar Visual Studio para crear aplicaciones para Android, iOS y Windows. 
 

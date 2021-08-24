@@ -8,33 +8,76 @@ authorURL: https://github.com/mauricioCerizza
 ---
 
 ## Introducción a C#
-Durante nuestro viaje a través de las características comunes de los lenguajes de alto nivel y la programación orientada a objetos nos acompañará el lenguaje de programación C#. 
+Durante nuestro viaje a través de las características comunes de los lenguajes de alto nivel y la programación orientada a objetos nos acompañará el lenguaje de programación C#. **C#**  (pronunciado 'si sharp' en inglés) es un lenguaje de programación diseñado para generar programas sobre la plataforma .NET. 
 
-Tal vez algunas de las características de este lenguaje les parezcan similares a otros lenguajes que conozcan, y están en lo correcto. El equipo de C#, desde sus inicios, no dudó en tomar grandes ideas de otros lenguajes y reformarlas para incorporarlas a C#. Las principales influencias han sido Java (sobre todo en los inicios), y más cerca en el tiempo el mismísimo F#. 
+Tal vez algunas de las características de este lenguaje les parezcan similares a otros lenguajes que conozcan, y están en lo correcto. El equipo de C#, desde sus inicios, no dudó en tomar grandes ideas de otros lenguajes y reformarlas para incorporarlas a C#. Las principales influencias han sido Java (sobre todo en los inicios), y más cerca en el tiempo el mismísimo F#. También podemos encontrar similitudes con C, C++ y JavaScript. 
 
 Fue diseñado por el ingeniero de Microsoft [Anders Hejlsberg](https://es.wikipedia.org/wiki/Anders_Hejlsberg), quien también está involucrado en el desarrollo de Typescript desde 2012. 
 
 ## Características de C#
-case sensitive
-tipado estático
-compilado
+#### Compilación híbrida
+Para construir programas con C# se requiere de un **compilador** para traducir todo el código fuente a un lenguaje que permita ejecutar la aplicación en una computadora. C# se compila primero a un lenguaje intermedio y posteriormente al ejecutarse es recompilado a lenguaje nativo/máquina. 
 
-### Tipado estático y tipado dinámico
+Esto se contrapone a los lenguajes cuyo código fuente es ejecutado línea a línea y en tiempo de ejecución por un **intérprete**.
+
+#### Orientado a objetos
+El lenguaje ofrece una serie de características orientadas a objetos como soporte para herencia, polimorfismo y encapsulamiento. El **paradigma de programación orientada a objetos** se enfoca en en las relaciones entre clases y objetos. Profundizaremos este tema durante la cursada. 
+
+#### Orientado a componentes
+También presenta características que permiten el **desarrollo basado en componentes**. Un componente de software individual es un paquete de software o un módulo que encapsula un conjunto de datos o funciones relacionadas. Se trata de construir piezas de software débilmente acopladas (poco dependientes entre si), permitiendo la reutilización e intercambio de las mismas. 
+
+#### Seguridad de tipos
+Es un lenguaje principalmente de tipado estático.
+
 Recordemos la diferencia entre tipado estático y tipado dinámico.
 
-__Tipado estático__ → Decimos que un lenguaje es de tipado estático, porque los tipos tienen que definirse en tiempo de compilación para que el programa funcione.
+__Tipado estático__ → Decimos que un lenguaje es de tipado estático cuando los tipos de las variables tienen que definirse antes de compilar el programa.
+__Tipado dinámico__ → Decimos que un lenguaje es de tipado dinámico cuando los tipos de las variables se definen durante la ejecución del programa.
 
+C# cuenta con características que permiten trabajar con tipado dinámico, pero no es lo más común. 
 
+#### Garbage Collection
+Está integrado un programa especial que se encarga de la liberación de memoria no utilizada en el segmento heap. A este programa se lo conoce como **Garbage Collector** y nos evita tener que programar explícitamente instrucciones para la administración de memoria. Esto facilita el desarrollo y genera beneficios de seguridad y eficiencia.
 
-
-### Proceso de compilación
+#### Sistema de tipos unificado
+Todos los tipos de datos en C#, incluyendo los primitivos (como `int` o `double`), heredan de la clase `System.Object`. Esto significa que todos los tipos de dato tienen una serie de operaciones/funcionalidades en común. Los valores de cualquier tipo pueden ser almacenados, transportados y operadores de una manera consistente. 
+#### Case sensitive
+C# es un lenguaje que distingue mayúsculas de minúsculas. No es lo mismo una variable llamada *numero* a una llamada *Numero*.
 
 ## Gramática de C#
+Los lenguajes de computación, al igual que los lenguajes humanos, tienen sintaxis y semántica.
 
-sintaxis vocabulario semántica
+La **sintaxis** es una serie de reglas que define las combinaciones correctas de símbolos y el orden para formar sentencias y expresiones válidas. En otras palabras, define cómo debe estar escrito y estructurado un lenguaje para construir sentencias válidas. 
+
+Algunos ejemplos de sintaxis de C# son terminar las sentencias con un punto y coma, o encerrar las expresiones condicionales de un bloque if dentro de paréntesis. 
+
+Si la sintaxis es inválida el programa no compila. 
+
+El **vocabulario** del lenguaje son una serie de palabras reservadas y operadores que sirven para construir sentencias y expresiones siguiendo las reglas de sintaxis. 
+
+La **semántica** es el signicado que surge de la combinación de esas sentencias y expresiones con una sintaxis válida. ¿Qué instrucción generan a la computadora? ¿tiene sentido lógico?.
+
+Por ejemplo, en español la oración *"Él tomar agua"* tiene una sintaxis incorrecta pero una semántica que se puede inferir. Por otro lado, en la oración *"Él toma arroz"* la sintaxis es correcta pero no la semántica, el significado no es coherente.
+
+Analicemos el siguiente fragmento de código.
+
+```csharp
+if (condicion)
+{
+    Console.WriteLine("Entiendo sintaxis y semántica.");
+}
+else
+{
+    Console.WriteLine("No entiendo nada.");
+}
+```
+
+Entre los elementos de sintaxis podemos identificar empezar el bloque con la palabra reservada `if` seguida de la expresión condicional entre paréntesis, el uso de llaves y la terminación de la sentencia `Console.WriteLine` con `;`. Si pusieramos el if sin paréntesis o nos faltara una de las llaves o nos olvidáramos de poner el punto y coma, el programa no compilaría ya que la sintaxis es inválida. 
+
+De la semántica se desprende que si la expresión condicional se cumple (es verdadera) entonces se mostrará en la salida de la consola la frase *"Entiendo sintaxis y semántica"*, de lo contrario mostrará *"No entiendo nada"*.
 
 ### Sintaxis de C#
-#### Declaraciones
+#### Sentencias
 Cuando escribimos en español, marcamos el fin de una oración con un punto. Una oración se compone de múltiples palabras y frases con un orden específico. Los lenguajes de programación también tienen reglas de sintaxis. 
 
 C# indica el fin de una declaración con un punto y coma. Una **declaración (*statement*)** puede estar compuesta de múltiples **variables** y **expresiones (*expressions*)**. En el siguiente ejemplo, `sueldoNeto` es una variable y `sueldoBruto - aportes - impuestos` es una expresión compuesta de 3 **operandos** (`sueldoBruto`, `aportes` y `impuestos`) y los **operadores** `-`. 
@@ -145,226 +188,86 @@ En español los sustantivos son palabras que se utilizan para denominar seres, e
 
 Por ejemplo, *Federico* es el nombre de un profesor. La palabra "profesor" nos indica el papel que juega *Fede* dentro del contexto de la universidad. Podemos decir que *Fede* es de tipo `Profesor`. `Profesor` no es el único tipo dentro del contexto de la facultad, también están `Alumno`, `Secretario`, `Coordinador`, `LibretaUniversitaria`, `Materia`, `Aula`, `Nota`, entre otros. Los **tipos** son sustantivos que categorizan cosas. 
 
-`legajoDocente` y `antigüedad` son características que forman parte de lo que describe a *Fede* como profesor, son **atributos**.
+`legajoDocente` y `antiguedad` son características que forman parte de lo que describe a *Fede* como profesor, son **atributos**.
 
 Por otra parte, *Fede* no es el único ser de tipo `Profesor`, también están *Lucas*, *Ezequiel* y *Mauricio*. Cada uno de estos seres o manifestaciones concretas de un tipo son **variables**, sustantivos que se refieren a una cosa específica.  
 
 ## Trabajando con variables
+Todas las aplicaciones procesan datos de algún tipo. El origen de los datos puede ser variado y pueden ser almacenados temporalmente en la memoria asignada al programa en ejecución. Cuando el programa finaliza se pierden los datos en memoria. 
 
-### Constantes
+Las variables se utilizan para almacenar los datos en memoria y así poder procesarlos. 
 
-##### Nombres de variables
-Los nombres de las variables deben escribirse con notación Camel Case
+En C# debemos definir un tipo de dato apropiado a la hora de declarar variables. El tipo de dato definirá un conjunto de métodos y atributos para trabajar con ese valor, así como el tamaño que podrá ocupar el valor en la memoria.
 
-### Inferencia de tipos
+Las variables locales, es decir aquellas declaradas dentro de métodos, existen sólo durante la ejecución de ese método. Si se trata de tipos de valor, la memoria es liberada inmediatamente al abandonar el método. Si se trata de tipos de referencia dependerán del proceso de *garbage collection*. 
 
-## Common Type System
-C# por defecto sólo trae algunas palabras y, estrictamente, no define ningún tipo. Todos los tipos que usamos en C# son provistos por el entorno de .NET. Durante la cursada aprenderemos sobre muchos de los tipos que tenemos disponibles en la plataforma y también crearemos nuevos.
-
-El **Common Type System (CTS)** define un conjunto de tipos de datos común a todos los lenguajes soportados por .NET. 
-* Establece un marco de herramientas que habilita la ejecución de los distintos lenguajes de la plataforma. 
-* Provee un modelo orientado a objetos. 
-* Define un conjunto de reglas que todos los lenguajes deben seguir en lo que refiere a tipos.
-* Provee una biblioteca que contiene los tipos primitivos básicos (Boolean, Int32, Byte, Char, etc). 
-* Define tipos de dato en dos categorías: de valor y de referencia.
-
-### Tipos de valor y tipos de referencia
-Existen dos segmentos o categorías de memoria: la **pila (*stack memory*)** y el **montón (*heap memory*)**. La memoria stack es más rápiida pero limitada en tamaño. La memoria heap es más lenta pero más abundante.
-
-:::warning Stack Overflow
-
-La famosa excepción Stack Overflow se lanza al llenarse el espacio de la memoria stack, que es muy limitado. Suele suceder cuando se producen llamadas recursivas accidentales o nos encontramos dentro de un loop infinito. 
-
-:::
-
-Los **tipos de valor (*value types*)** son tipos de dato representados por su valor real. Si son asignados a una variable, esa variable obtendrá una nueva copia del valor. **Todos los tipos de valor se almacenan en la pila.** 
-
-Los **tipos de referencia (*reference types*)**, al contrario, son tipos de dato representados por una referencia que apunta a un sector de memoria donde se encuentra el valor real. Si son asignados a una variable, esa variable almacenará la referencia y apuntará al valor original. No se realiza ninguna copia del valor. **Todos los tipos de referencia se almacenan en el montón.** 
-
-### Categorías de tipos
-.NET define cinco categorías de tipos de datos.
-
-| Categoría       | Palabra clave   | Valor/Referencia   |
-| --------------- | --------------- | ------------------ |
-| **Clases**      | ***class***     | Tipo de referencia |
-| **Estructuras** | ***struct***    | Tipo de valor      |
-| **Enumerados**  | ***enum***      | Tipo de valor      |
-| **Interfaces**  | ***interface*** | Tipo de referencia |
-| **Delegados**   | ***delegate***  | Tipo de referencia |
-
-Entraremos en el detalle de cada una de estas categorías a lo largo de la cursada. 
-
-### Aliases
-Algunas de las palabras clave de C# como `double`, `int` o `string` son **alias (*aliases*)** que representan tipos proveidos por la implementación de la plataforma .NET donde se ejecuta C#. Por ejemplo, `int` es un alias para el tipo `System.Int32`.
-
-### Literales
-Los **valores literales (*literal value*)** son una notación que representa un valor fijo. Dependiendo el tipo de dato, existe una notación diferente para los literales. 
+Para declarar una variable se debe colocar el tipo de dato seguido de un identificador (nombre):
 
 ```csharp
-string saludo = "Hola Mundo"; // "Hola Mundo" es un literal de texto que se está asignando a la variable 'saludo' de tipo string.
-
-int numero = 5; // 5 es un literal numérico que se está asignando a la variable 'numero' de tipo entero.
+string nombre;
+int horasAsignadas;
 ```
 
-### Caracteres
-Cuando trabajamos con un caracter individual, como podría ser una letra, el tipo a utilizar es `char`. 
-
-Los literales de este tipo deben estar encerrados por comillas simples `'`.
-
-Los `char` son tipos de valor.
+### Operadores de asignación
+Para asignar un valor a la variable se utiliza el operador de asignación `=`. Lo que está a la derecha del operador se lee y almacena en la variable de la izquierda.
 
 ```csharp
-char simbolo = '$';
-char letra = 'Z';
-char numero = '1'; // '1' se almacena como tipo char, no es numérico.
-```
+string nombre = "Lautaro";
+int horasTrabajadas = 8;
+int precioPorHora = 100;
+int costoTrabajo = horasTrabajadas * precioPorHora;
 
-### Strings
-Cuando trabajamos con texto formado por múltiples caracteres el tipo a utilizar es `string`. 
-
-Los literales de este tipo deben estar encerrados por comillas dobles `"`.
-
-Los `string` son tipos de referencia. Internamente son arrays de `char`, incluso pueden ser recorridos con un bucle `for` o `foreach`.
-
-Los `string` se pueden concatenar usando el operador `+`.
-
-```csharp
-string nombre = "Florencia";
-string telefono = "(+54) 9 11-12345-15432";
-string contacto = nombre + " tiene el número de teléfono " + telefono;
-```
-
-### Tipos numéricos
-Los números son datos con los que vamos a realizar alguna operación aritmética (como sumar o multiplicar). Un DNI, un número de teléfono, un legajo, NO son números. 
-
-Todos los tipos numéricos primitivos de C# son tipos de valor.
-
-#### Enteros
-El conjunto de **números reales** se puede dividir en dos subconjuntos: racionales e irracionales. Los **números racionales** son aquellos que pueden expresarse como la división de dos números enteros, los **números irracionales** son todos los demás. A su vez, el conjunto de los racionales se puede dividir en **números enteros** y **números fraccionarios**. 
-
-![Clasificación de los números](/clases/00-introduccion/apuntes/clasificacion-numeros.png)
-
-Los números enteros (sin punto decimal) se representan con los tipos `short`, `int` y `long`. Los enteros positivos incluyendo el cero se conocen como **números naturales** y se representan con los tipos enteros sin signo (***unsigned***) como `ushort`, `uint` y `ulong`.
-
-Los literales de `long` deben ir acompañados del sufijo `L`. Para los enteros no es necesarario un sufijo.
-
-```csharp
-uint numeroNatural = 10;
-
-int numeroEntero = -5;
-
-long numeroGrande = 20L;
-```
-
-| Palabra clave | Rango                                                      | Tamaño                     | Tipo en .NET    |
-| :------------ | :--------------------------------------------------------- | :------------------------- | :-------------- |
-| `sbyte`       | *-128* a *127*                                             | Entero de 8-bit con signo  | `System.SByte`  |
-| `byte`        | *0* a *255*                                                | Entero de 8-bit sin signo  | `System.Byte`   |
-| `short`       | *32.768* a *32.767*                                        | Entero de 16-bit con signo | `System.Int16`  |
-| `ushort`      | *0* a *65.535*                                             | Entero de 16-bit sin signo | `System.UInt16` |
-| `int`         | *-2.147.483.648* a *2.147.483.647*                         | Entero de 32-bit con signo | `System.Int32`  |
-| `uint`        | *0* a *4.294.967.295*                                      | Entero de 32-bit sin signo | `System.UInt32` |
-| `long`        | *-9.223.372.036.854.775.808* a *9.223.372.036.854.775.807* | Entero de 64-bit con signo | `System.Int64`  |
-| `ulong`       | *0* a *18.446.744.073.709.551.615*                         | Entero de 64-bit sin signo | `System.UInt64` |
-
-#### Punto flotante
-
-
-Por defecto los literales fraccionarios (con punto decimal) son de tipo `double`. Los literales de `float` deben ir acompañados del sufijo `F`. Los literales de `decimal` deben ir acompañados del sufijo `M`.
-
-```csharp
-float numeroFlotantePrecisionSimple = 2.5F;
-
-double numeroFlotantePrecisionDoble = 2.5;
-
-decimal numeroDecimal = 2.5M;
-```
-
-#### Decimales
-
-:::warning Advertencia
-
-No se deben comparar valores `double` usando `==`. El tipo `double` no garantiza precisión porque existen algunos números que no pueden ser representados como valores de punto flotante. 
-
-En 1991, durante la primera guerra del golfo, usar números de punto flotante [le costó la vida a 28 soldados](https://www-users.cse.umn.edu/~arnold/disasters/patriot.html) al no poder rastrear e interceptar un misil con precisión. 
-
-:::
-
-:::tip Buena práctica
-
-Es una buena práctica usar `int` para números enteros y `double` para fraccionarios que no serán comparados a otros valores. Usar `decimal` para dinero y valores donde la precisión es importante. 
-
-:::
-
-#### Notación binaria y hexadecimal
-C# también permite escribir literales numéricos en binario (base 2) y hexadecimal (base 16). Un literal binario debe empezar con `0b`, mientras que uno hexadecimal con `0x`.
-
-Desde C# 7.0 se puede usar el guión bajo `_` como separador de digitos con el único uso de mejorar la legibilidad del número. 
-
-En el siguiente ejemplo vemos como escribir el valor de dos millones en decimal, binario y hexadecimal.
-
-```csharp
-// Notación decimal
-int notacionBase10 = 2_000_000; // El _ es una ayuda visual para separar los dígitos. No cumple otra función. 
-
-// Notación binaria
-int notacionBase2 = 0b_0001_1110_1000_0100_1000_0000;
-
-// Notación hexadecimal
-int notacionBase16 = 0x_001E_8480;
-```
-
-Si comparamos las variables con el operador de igualdad `==` observaremos que, al ser el mismo valor pero expresado con diferentes notaciones, la igualdad es verdadera.
-
-### Tipos booleanos
-Los tipos booleanos sólo pueden contener dos valores literales `true` o `false`. Se usan principalmente en condiciones de bloques de selección  
-
-```csharp
-bool verdadero = true;
-bool falso = false;
-```
-
-### Tipos dinámicos y tipo object
-
-### Valores por defecto
-Por defecto los tipos de valor contienen del valor `0` si son numéricos, `false` si son de tipo `bool` y `''` si son de tipo `char`. Por otra parte, si no se inicializan, las variables de tipos de referencia contendrán el valor `null` que indica que esa variable no apunta a ninguna dirección de memoria.
-
-El operador `default` recibe como argumento un tipo de dato y nos devuelve el valor por defecto de ese tipo. 
-
-```csharp
-Console.WriteLine("Valor por defecto de enteros: {0}", default(int));
-Console.WriteLine("Valor por defecto de flotantes: {0}", default(double));
-Console.WriteLine("Valor por defecto de booleanos: {0}", default(bool));
-Console.WriteLine("Valor por defecto de fechas: {0}", default(DateTime));
-Console.WriteLine("Valor por defecto de strings: {0}", default(string));
-Console.WriteLine("Valor por defecto de chars: {0}", default(char));
+Console.WriteLine("{0} trabajó {1} horas. El costo por el trabajo es de ${2}.", nombre, horasTrabajadas, costoTrabajo);
 ```
 
 La salida del código anterior es:
 
 ```
-Valor por defecto de enteros: 0
-Valor por defecto de flotantes: 0
-Valor por defecto de booleanos: False
-Valor por defecto de fechas: 1/1/0001 00:00:00
-Valor por defecto de strings:
-Valor por defecto de chars:
+Lautaro trabajó 8 horas. El costo por el trabajo es de $800.
 ```
 
+### Constantes
+Las **constantes** representan valores *inmutables*, es decir que sus valores se definen en tiempo de compilación y no cambian durante el resto de la vida del programa.
 
+Se declaran antecediendo el modificador `const` al tipo de dato y al identificador de la constante.
 
-## Sentencias condicionales
+```csharp
+const decimal IVA = 0.21M;
 
-Operadores lógicos - cortocircuito
+decimal precioBruto = 100M;
+decimal precioNeto = precioBruto + precioBruto * IVA;
 
-Conversiones implícitas y explícitas
+Console.WriteLine("El precio bruto es {0} y aplicando IVA queda en {1}.", precioBruto, precioNeto);
+```
 
-Operadores aritméticos
+La salida del código anterior es:
 
-if, if-else, if-else-if, switch
+```
+El precio bruto es 100 y aplicando IVA queda en 121,00.
+```
 
-sizeof, nameof
+### Nombres de variables y atributos
+Los nombres de las variables y atributos deben ser *sustantivos* escritos con **notación Camel (*Camel Case*)**. La notación Camel, también conocida como Lower Camel Case, indica que la primera letra de un nombre va en minúscula y luego cada palabra adicional debe empezar en mayúscula.  
 
-## Sentencias repetitivas
+Ejemplos:
+*edad*
+*resultado*
+*valorMaximo*
+*cotizacionUsdArs*
+*materiasAsignadas*
+*numerosPrimos*
 
-for, foreach, while, do while,
+#### Operador nameof
+El operador `nameof()` retorna el nombre de una variable, tipo o atributo como una cadena de texto. 
+
+```csharp
+string nombre = "Lautaro";
+
+Console.WriteLine("La variable {0} contiene el valor {1}.", nameof(nombre), nombre);
+```
+
+La salida del código anterior es:
+
+```
+La variable nombre contiene el valor Lautaro.
+```

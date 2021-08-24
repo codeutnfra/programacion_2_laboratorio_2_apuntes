@@ -19,7 +19,13 @@ Se apuntará a introducir las principales características de la plataforma y de
  
 [Introducción a C#](./Apuntes/02-introduccion-c-sharp.md)
 
-[Trabajando con la consola](./Apuntes/04-input-output.md)
+[Common Type System](./Apuntes/03-common-type-system.md)
+
+[Sentencias de selección](./Apuntes/04-sentencias-seleccion.md)
+
+[Sentencias de iteración](./Apuntes/05-sentencias-iteracion.md)
+
+[Trabajando con la consola](./Apuntes/06-input-output.md)
 
 [Cuestionario](./Apuntes/cuestionario.md)
 

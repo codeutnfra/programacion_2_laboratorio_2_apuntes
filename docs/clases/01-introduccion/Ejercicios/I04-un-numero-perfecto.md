@@ -17,7 +17,7 @@ Escribir una aplicación que encuentre los 4 primeros números perfectos.
 
 :::important Importante
 
-Utilizar estructuras repetitivas y selectivas.
+Utilizar sentencias de iteración y selectivas.
 
 :::
 

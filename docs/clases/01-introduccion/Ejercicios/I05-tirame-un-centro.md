@@ -17,7 +17,7 @@ Se pide elaborar una aplicación que calcule los centros numéricos entre 1 y el
 
 :::important Importante
 
-Utilizar estructuras repetitivas y selectivas.
+Utilizar sentencias de iteración y selectivas.
 
 :::
 
