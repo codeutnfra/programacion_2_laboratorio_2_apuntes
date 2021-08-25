@@ -15,6 +15,7 @@ Abstracción
 UML - Crear un diagrama UMl
 
 ## Ejercicios
+https://github.com/mauricioCerizza/programacion-laboratorio-II/tree/master/Clase_03/Ejercicio_Mascotas
 
 ## Bibliografía
 
