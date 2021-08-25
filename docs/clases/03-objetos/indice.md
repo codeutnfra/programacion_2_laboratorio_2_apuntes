@@ -10,6 +10,9 @@ hide_title: false
 ## Resumen
 
 ## Apuntes
+Programación orientada a objetos
+Abstracción
+UML - Crear un diagrama UMl
 
 ## Ejercicios
 

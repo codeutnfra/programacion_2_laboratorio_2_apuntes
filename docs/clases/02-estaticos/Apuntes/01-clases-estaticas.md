@@ -42,8 +42,12 @@ Las constantes son como atributos estáticos, la única diferencia es que su val
 
 Si seguimos buenas prácticas de programación, los atributos de una clase siempre deberán ser privados.
 
-[//]: # "TODO ### Crear una biblioteca de clases"
+[//]: # "TODO ### Crear una biblioteca de clases. Establecer como proyecto de inicio."
 [//]: # "TODO ### Nulleables"
 [//]: # "TODO ### Conversiones out y ref"
 [//]: # "TODO ### Debugging en visual studio"
+[//]: # "TODO ### Agregar ejercicio de distancias. Hemos recorrido un largo camino."
+[//]: # "TODO ### Agregar ejercicio calculín"
+[//]: # "TODO ### Agregar ejercicio de matematicas hijo"
+
 
