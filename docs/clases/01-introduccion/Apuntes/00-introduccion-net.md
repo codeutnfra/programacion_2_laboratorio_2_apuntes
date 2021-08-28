@@ -105,7 +105,6 @@ Ambas reciben correcciones críticas relacionadas a temas de seguridad. Debemos 
 ![Release schedule](/clases/00-introduccion/apuntes/release-schedule.png)
 
 ## Características de .NET
-
 #### Multi-plataforma
 Existió una época donde esta plataforma sólo nos permitía trabajar para Windows, pero esos tiempos quedaron muy atrás. Desde la salida de .NET Core en 2016, podemos implementar nuestros sitios web, aplicaciones para servidores y programas de consola también en Linux y MacOS. 
 
@@ -131,7 +130,11 @@ Todas las implementaciones de .NET incluyen los siguientes componentes:
 * Opcionalmente, herramientas de desarrollo adicionales. 
 
 ### Common Language Runtime
-Un **entorno de ejecución (*runtime*)** es un programa encargado de administrar la ejecución de un programa. El runtime de .NET Framework y .NET 5+ se conoce como **Common Language Runtime (CLR)**. 
+Un **entorno de ejecución (*runtime*)** es un programa encargado de administrar la ejecución de un programa. Permite abstraer a nuestras aplicaciones de la máquina sobre la que se ejecutan. Todos los programas creados con .NET se ejecutan sobre un runtime.  
+
+Funcionan como una máquina virtual que sirve de intérprete e intermediario para darle instrucciones a la máquina sobre la que se están ejecutando. Además, son los encargados de administrar la memoria y los recursos. 
+
+El runtime de .NET Framework y .NET 5+ se conoce como **Common Language Runtime (CLR)**.
 
 Entre sus tareas se encuentra:
 * Administrar el uso, asignación y liberación de memoria.

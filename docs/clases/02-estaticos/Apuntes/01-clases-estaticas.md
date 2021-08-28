@@ -49,5 +49,9 @@ Si seguimos buenas prácticas de programación, los atributos de una clase siemp
 [//]: # "TODO ### Agregar ejercicio de distancias. Hemos recorrido un largo camino."
 [//]: # "TODO ### Agregar ejercicio calculín"
 [//]: # "TODO ### Agregar ejercicio de matematicas hijo"
+[//]: # "TODO ### Agregar ejercicio capicua
+Un entorno de ejecución o runtime permite abstraer a nuestros programas de la arquitectura sobre la que se ejecutan. Todos los programas creados con .NET se ejecutan sobre un runtime. 
+Los entornos de ejecución de .NET funcionan como una máquina virtual que sirve de intérprete e intermediario para darle instrucciones a la máquina sobre la que se están ejecutando. Además, son los encargados de administrar la memoria y los recursos. 
+El Common Language Runtime (CLR) es el entorno de ejecución de las aplicaciones construidas sobre .NET Framework. El Core Common Language Runtime (CoreCLR) es el entorno de ejecución de las aplicaciones construidas sobre .NET Core."
 
 
