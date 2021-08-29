@@ -19,3 +19,10 @@ Para alcanzar la promoción directa, además de cumplir las condiciones de regul
 El criterio de evaluación para alcanzar la aprobación (nota 4) o la promoción (nota 6+) es una decisión del docente a cargo. Deberán ser consultados directamente al docente de su comisión.
 
 :::
+
+### Trabajos prácticos
+La materia Laboratorio de Computación II cuenta con cuatro entregas de trabajos prácticos que deberán estar aprobados para regularizar la materia. 
+
+Programación II NO tiene trabajos prácticos obligatorios.
+
+Para más información, consultar [la sección de trabajos prácticos](../evaluaciones#trabajos-prácticos). 

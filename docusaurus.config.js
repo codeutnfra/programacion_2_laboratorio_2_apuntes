@@ -30,12 +30,12 @@ module.exports = {
           label: "Clases",
           position: "left",
         },
-/*         {
+        {
           to: "docs/evaluaciones",
           activeBasePath: "docs/evaluaciones",
           label: "Evaluaciones",
           position: "left",
-        }, */
+        }, 
         {
           href: "http://www.sistemas-utnfra.com.ar/#/home",
           label: "Tecnicaturas UTN-Fra",
@@ -57,10 +57,10 @@ module.exports = {
               label: "Clases",
               to: "docs/clases/programa",
             },
-/*             {
+            {
               label: "Evaluaciones",
               to: "docs/evaluaciones",
-            } */
+            } 
           ],
         },
         {
