@@ -103,7 +103,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} UTN Facultad Regional Avellaneda. Built with <a href=\"https://docusaurus.io/\" target=\"_blank\">Docusaurus</a>.`,
+      copyright: `Copyright © ${new Date().getFullYear()} UTN Facultad Regional Avellaneda. Built with <a style=\"color:#3578E5\" href=\"https://docusaurus.io/\" target=\"_blank\">Docusaurus</a>.`,
     },
     prism: {
       additionalLanguages: ["csharp"],

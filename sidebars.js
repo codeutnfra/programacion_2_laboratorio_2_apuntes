@@ -39,7 +39,7 @@ module.exports = {
         }
       ]
     },
-/*    {
+    {
       type: 'category',
       label: 'Programación orientada a objetos',
       collapsible: true,
@@ -65,7 +65,7 @@ module.exports = {
         }
       ]
     },
-    {
+/*    {
       type: 'category',
       label: 'Windows Forms',      
       collapsible: true,
