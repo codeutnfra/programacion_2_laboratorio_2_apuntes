@@ -1,7 +1,7 @@
 ---
 sidebar_label: A01 - Calcular un factorial
 title: Ejercicio A01 - Calcular un factorial
-sidebar_position: 9
+sidebar_position: 101
 author: Mauricio Cerizza
 authorURL: https://github.com/mauricioCerizza
 hide_table_of_contents: true

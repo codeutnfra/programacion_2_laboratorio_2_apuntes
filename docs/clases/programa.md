@@ -11,8 +11,6 @@ Estamos trabajando en el desarrollo de las secciones, por lo que **no todo el co
 
 Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
-![img](/base/robot-repara-chico.png)
-
 :::
 
 ## Primer parcial
@@ -20,9 +18,9 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 ### [Clase 02 - Métodos estáticos](./02-estaticos/indice.md)
 
-[//]: # "### [Clase 03 - Programación orientada a objetos](./03-objetos/indice.md)"
+### [Clase 03 - Programación orientada a objetos](./03-objetos/indice.md)
 
-[//]: # "### [Clase 04 - Sobrecarga](./04-sobrecarga/indice.md)"
+### [Clase 04 - Sobrecarga](./04-sobrecarga/indice.md)
 
 [//]: # "### [Clase 05 - Windows Forms](./05-forms/indice.md)"
 

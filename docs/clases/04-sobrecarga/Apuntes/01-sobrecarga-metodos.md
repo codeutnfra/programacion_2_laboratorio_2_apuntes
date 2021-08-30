@@ -1,5 +1,5 @@
 ---
-sidebar_label: Sobrecarga de Métodos
+sidebar_label: Sobrecarga de métodos
 slug: /clases/sobrecarga/apuntes/sobrecarga-metodos
 hide_table_of_contents: false
 hide_title: true

@@ -1,5 +1,5 @@
 ---
-sidebar_label: Sobrecarga de Operadores de Conversión
+sidebar_label: Sobrecarga de operadores de conversión
 slug: /clases/sobrecarga/apuntes/sobrecarga-operador-conversion
 hide_table_of_contents: false
 hide_title: true

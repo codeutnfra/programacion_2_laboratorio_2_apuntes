@@ -1,5 +1,5 @@
 ---
-sidebar_label: Sobrecarga de Operadores
+sidebar_label: Sobrecarga de operadores
 slug: /clases/sobrecarga/apuntes/sobrecarga-operadores
 hide_table_of_contents: false
 hide_title: true

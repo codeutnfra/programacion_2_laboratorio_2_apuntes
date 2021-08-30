@@ -1,5 +1,5 @@
 ---
-sidebar_label: Sobrecarga de Constructores
+sidebar_label: Sobrecarga de constructores
 slug: /clases/sobrecarga/apuntes/sobrecarga-constructores
 hide_table_of_contents: false
 hide_title: true
