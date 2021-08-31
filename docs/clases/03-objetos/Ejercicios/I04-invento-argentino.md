@@ -13,7 +13,7 @@ En un proyecto de biblioteca de clases, crear la clase `Boligrafo` a partir del 
 
 ![Diagrama de clases](/clases/03-objetos/ejercicios/invento-argentino-diagram.png)
 
-* La cantidad máxima de tinta para todos los bolígrafos será de 100. Generar una constante `cantidadTintaMaxima` en `Boligrafo` donde se guardará dicho valor.
+* La cantidad máxima de tinta para todos los bolígrafos será de 100. Generar una **constante** `cantidadTintaMaxima` en `Boligrafo` donde se guardará dicho valor.
 * Generar los métodos getter `GetColor` y `GetTinta` para los correspondientes atributos (sólo retornarán el valor de los mismos).
 * Generar un método setter **privado** `SetTinta` que valide el nivel de tinta y, si es válido, modifique el valor del atributo `tinta`.
   * El argumento `tinta` contedrá la cantidad de tinta a agregar o quitar. Podrá ser positivo (cargar tinta) o negativo (gastar tinta).
