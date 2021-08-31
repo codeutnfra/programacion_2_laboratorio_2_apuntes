@@ -23,15 +23,17 @@ En esta sección abordaremos el concepto de sobrecarga. Nos ocuparemos de la sob
 
 [Cuestionario](./Apuntes/cuestionario.md)
 ## Ejercicios
-### Introductorio
-
+#### Introducción
 [I01 - Sumador](./Ejercicios/I01-sumador.md)
 
-[I02 - Conversor](./Ejercicios/I02-cotizador.md)
+[I02 - Cotizador](./Ejercicios/I02-cotizador.md)
 
+#### Consolidación
+[C01 - Conversor binario recargado](./Ejercicios/C01-conversor-binario-recargado.md)
 
-### Análisis funcional
+[C02 - La estantería](./Ejercicios/C02-estanteria.md)
 
+#### Análisis funcional
 [A01 - Fahrenheit 451](./Ejercicios/A01-fahrenheit-451.md)
 
 ## Bibliografía

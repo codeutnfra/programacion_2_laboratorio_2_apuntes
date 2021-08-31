@@ -19,7 +19,7 @@ La clase `Estudiante`:
 * El método **setter** `SetNotaPrimerParcial` permitirá cambiar el valor del atributo `notaPrimerParcial`.
 * El método **setter** `SetNotaSegundoParcial` permitirá cambiar el valor del atributo `notaSegundoParcial`.
 * El método **privado** `CalcularPromedio` retornará el promedio de las dos notas. 
-* El método `CalcularFinal` deberá cargar la nota del final **con un numero aleatorio** entre 6 y 10 incluidos siempre y cuando las notas del primer y segundo parcial sean mayores o iguales a 4, caso contrario la inicializará con el valor -1.
+* El método `CalcularNotaFinal` deberá retornar la nota del final **con un numero aleatorio** entre 6 y 10 incluidos siempre y cuando las notas del primer y segundo parcial sean mayores o iguales a 4, caso contrario la inicializará con el valor -1.
 * El método `Mostrar` utilizará `StringBuilder` para armar una cadena de texto con todos los datos de los alumnos:  
   * Nombre, apellido y legajo.
   * Nota del primer y segundo parcial.

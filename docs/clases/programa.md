@@ -16,7 +16,7 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 ## Primer parcial
 ### [Clase 01 - Introducción a .NET y C#](./01-introduccion/indice.md)
 
-### [Clase 02 - Métodos estáticos](./02-estaticos/indice.md)
+### [Clase 02 - Clases y métodos estáticos](./02-estaticos/indice.md)
 
 ### [Clase 03 - Programación orientada a objetos](./03-objetos/indice.md)
 
