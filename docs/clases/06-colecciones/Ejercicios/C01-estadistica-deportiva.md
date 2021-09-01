@@ -1,6 +1,6 @@
 ---
-sidebar_label: C06 - Estadistica Deportiva.
-title: Ejercicio C06 - Estadistica Deportiva.
+sidebar_label: C01 - Estadistica Deportiva.
+title: Ejercicio C01 - Estadistica Deportiva.
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true

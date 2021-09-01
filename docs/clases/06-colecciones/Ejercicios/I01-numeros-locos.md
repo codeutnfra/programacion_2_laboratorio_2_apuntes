@@ -1,6 +1,6 @@
 ---
-sidebar_label: I03 - Array de Números Aleatorios.
-title: Ejercicio I03 - Array de Números Aleatorios.
+sidebar_label: I01 - Números Locos.
+title: Ejercicio I01 - Números Locos.
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
