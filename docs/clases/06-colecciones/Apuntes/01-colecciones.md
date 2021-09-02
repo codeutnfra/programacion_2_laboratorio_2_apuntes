@@ -6,7 +6,7 @@ hide_title: true
 author: 
 authorURL: 
 ---
-
+# Colecciones
 Los sistemas de hoy manejan grandes cantidades de datos y por eso requerimos herramientas poderosas para trabajar con ellos. Es ahí cuando las colecciones entran en acción.
 
 Las colecciones son **objetos** especializados en almacenar, organizar y administrar una gran cantidad de datos. 
@@ -56,4 +56,4 @@ Las colecciones que pertenecen al namespace System.Collections.Concurrent propor
 Algunas clases incluidas en el namespace System.Collections.Concurrent son BlockingCollection < T > , ConcurrentDictionary <TKey, TValue> , ConcurrentQueue < T > y ConcurrentStack < T > .
 
 ### Colecciones Inmutables
-Las colecciones que pertenecen al namespace System.Collections.Inmutable no pueden ser modificadas. Mantienen la cantidad de elementos y el orden relativo todo el tiempo y no permiten las asignaciones de elemento. 
+Las colecciones que pertenecen al namespace System.Collections.Immutable no pueden ser modificadas. Mantienen la cantidad de elementos y el orden relativo todo el tiempo y no permiten las asignaciones de elemento. 
