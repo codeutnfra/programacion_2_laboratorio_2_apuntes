@@ -20,17 +20,17 @@ En esta sección abordaremos los tipos que ofrece .NET para almacenar multiples 
 
 ### Introductorio
 
-[I03 - Numeros Ramdom](./Ejercicios/I03-array-de-numeros.md)
+[I01 - Números Locos.](./Ejercicios/I01-numeros-locos.md)
 
-[I04 - Numeros Ramdom II](./Ejercicios/I04-colecciones-de-numeros.md)
+[I02 - Numeros Locos II](./Ejercicios/I02-numeros-locos-II.md)
 
-[I05 - Contador de Palabras](./Ejercicios/I05-contador-palabras.md)
+[I03 - ¡A Contar Palabras!](./Ejercicios/I03-contador-palabras.md)
 
 ### Consolidación
 
-[C06 - Estadistica Deportiva](./Ejercicios/C06-estadistica-deportiva.md)
+[C01 - Estadistica Deportiva](./Ejercicios/C01-estadistica-deportiva.md)
 
-[C07 - Carrera F1](./Ejercicios/C07-carrera-F1.md)
+[C02 - Enciendan sus Motores.](./Ejercicios/C02-enciendan-sus-motores.md)
 
 ## Bibliografía
 * “Arrays (C# Programming Guide)” Microsoft Docs, https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/.

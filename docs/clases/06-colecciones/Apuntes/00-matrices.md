@@ -69,7 +69,7 @@ Las matrices pueden tener más de una dimensión.
 Creamos una matriz bidimensional de tres filas y cinco columnas.
 
 ```csharp
-int[,] array = new int[3, 5];
+int[,] array = new int[3, 2];
 ```
 
 ![Matriz multidimensional](/clases/06-colecciones/Apuntes/matriz-bidimensional.png)
@@ -85,6 +85,7 @@ int[,,] array1 = new int[4, 2, 3];
 ### Inicializar
 
 ```csharp
+
 int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
 
 //se accede a los elementos por indice

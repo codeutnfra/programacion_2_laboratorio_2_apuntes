@@ -1,6 +1,6 @@
 ---
-sidebar_label: I05 - Contador de Palabras.
-title: Ejercicio I05 - Contador de Palabras.
+sidebar_label: I03 - ¡A Contar Palabras!
+title: Ejercicio I03 - ¡A Contar Palabras!
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true

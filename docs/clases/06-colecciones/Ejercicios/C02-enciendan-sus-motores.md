@@ -1,6 +1,6 @@
 ---
-sidebar_label: C07 - Carrera F1.
-title: Ejercicio C07 - Carrera F1.
+sidebar_label: C02 - Enciendan sus Motores.
+title: Ejercicio C02 - Enciendan sus Motores.
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
