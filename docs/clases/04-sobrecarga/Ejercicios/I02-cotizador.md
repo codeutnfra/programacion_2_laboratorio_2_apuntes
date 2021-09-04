@@ -31,7 +31,7 @@ Para operar dos tipos de monedas distintos, primero se deberá convertir todo a 
 
 6. Crear un proyecto de consola y colocar dentro del método `Main` el código necesario para probar todas las funcionalidades.
 
-![Diagrama de clase Sumador](/clases/04-sobrecarga/Ejercicios/diagrama.ConversorDivisas.JPG)
+![Diagrama de clase Sumador](/clases/04-sobrecarga/Ejercicios/diagramaConversor.png)
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
