@@ -42,5 +42,6 @@ Aprenderemos de qué trata la programación orientada a objetos y cómo trabajar
 ## Bibliografía
 * *Programming paradigm*. Wikipedia, the free encyclopedia. https://en.wikipedia.org/wiki/Programming_paradigm.
 * Weisfeld, M. (2019). *The Object-Oriented Thought Process.* (5th ed.). Pearson Education.
+* McConnell, S. (2004). *Code complete - A practical handbook of software construction.* (2nd ed.). Microsoft Press.
 * Booch, G. & Rumbaugh J. & Jacobson I. (2005). *The unified modeling language.* (2th ed.). Packt Publishing.
 * Price, M. J. (2020). *C#9 and .NET 5 - Modern Cross-Platform Development.* (5th ed., pp. 249-289). Packt Publishing.

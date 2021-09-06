@@ -8,14 +8,16 @@ author:
 authorURL: 
 ---
 
+### Programación orientada a objetos
 1. ¿Qué es un paradigma? ¿Qué propone el paradigma orientado a objetos?
-7. Nombre a los pilares del paradigma orientado a objetos.
-8. ¿Qué es una clase?
-9. ¿Qué es un objeto? ¿En qué se relacionan con las clases?
-10. ¿Qué significa instanciar un objeto?
-11. Explique qué es la abstracción en el contexto de programación orientada a objetos y cuál es su relación con las clases.
-12. ¿Qué son los atributos o estado de un objeto?
-13. ¿Qué son los métodos de un objeto?
+2. Nombre a los pilares del paradigma orientado a objetos.
+3. Describa el pilar de la abstracción y de un ejemplo que no se haya mencionado en los apuntes o en clase. 
+9. ¿Qué es una clase?
+11. ¿Qué es un objeto? ¿En qué se relacionan con las clases?
+12. ¿Qué significa instanciar un objeto?
+13. Explique qué es la abstracción en el contexto de programación orientada a objetos y cuál es su relación con las clases.
+14. ¿Qué son los atributos o estado de un objeto?
+15. ¿Qué son los métodos de un objeto?
 
 
 ¿Qué es un método estático? ¿En qué se diferencia de los métodos de instancia (no estáticos)?

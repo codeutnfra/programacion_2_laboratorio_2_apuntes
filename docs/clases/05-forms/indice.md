@@ -8,15 +8,16 @@ hide_title: false
 ---
 
 ## Resumen
-En esta sección desarrollaremos el concepto de formulario: explicaremos que son, para que sirven y como trabajar con ellos.
+En esta sección desarrollaremos el concepto de formulario. Explicaremos qué son, para qué sirven y cómo trabajar con ellos.
 
 ## Apuntes
-[Definicion](./Apuntes/00-definicion.md)
+[Definición](./Apuntes/00-definicion.md)
 
-
+[Cuestionario](./Apuntes/cuestionario.md)
 
 ## Ejercicios
 #### Consolidación
 
 
 ## Bibliografía
+* *Clase Form*. Microsoft Docs. https://docs.microsoft.com/es-es/dotnet/api/system.windows.forms.form?view=net-5.0.

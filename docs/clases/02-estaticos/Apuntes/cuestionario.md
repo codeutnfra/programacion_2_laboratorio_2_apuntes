@@ -21,6 +21,13 @@ authorURL: https://github.com/mauricioCerizza
 4. ¿Para qué se usa la directiva alias?
 5. ¿Puedo declarar dos clases independientes/distintas con el mismo identificador dentro del mismo namespace? ¿Y en namespaces distintos?
 
+### Strings
+1. ¿Es lo mismo declarar una variable como string (en minúscula) o como String (con la primera letra en mayúscula)? ¿Por qué?
+2. ¿Se puede recorrer un string con un foreach? ¿Por qué?
+3. ¿Qué significa que los strings son inmutables? ¿qué sucede en realidad cuando usamos métodos u operadores para modificar un string?
+
+
+
 
 
 

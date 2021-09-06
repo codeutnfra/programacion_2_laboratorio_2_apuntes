@@ -18,7 +18,6 @@ Entre los paradigmas de programación más comunes se incluyen:
   * **Paradigma procedural** que separa estas instrucciones en procedimientos.
   * **Paradigma orientado a objetos** que agrupa estas instrucciones junto con el estado sobre el que operan.   
 
-
 * **Paradigma declarativo** en el que el programador solamente declara propiedades de un resultado deseado, pero no indica cómo calcularlo. 
   * **Paradigma funcional** donde el resultado deseado es declarado como el valor de una serie de aplicaciones de función.
   * **Paradigma lógico** donde el resultado deseado se declara como la respuesta a una pregunta sobre un sistema de hechos y reglas. 
