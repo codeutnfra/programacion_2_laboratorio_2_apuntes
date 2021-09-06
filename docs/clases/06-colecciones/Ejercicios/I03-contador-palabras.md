@@ -1,6 +1,7 @@
 ---
-sidebar_label: I03 - ¡A Contar Palabras!
-title: Ejercicio I03 - ¡A Contar Palabras!
+sidebar_label: I03 - ¡A contar palabras!
+title: Ejercicio I03 - ¡A contar palabras!
+sidebar_position: 3
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
@@ -8,17 +9,17 @@ hide_title: false
 ---
 ---
 ### Consigna
-1. Crear un proyecto de WindowsForm, con un <code>RichTextBox</code> y un botón <code>Calcular</code>. 
+Crear un proyecto de tipo **Windows Forms App**, con un `RichTextBox` y un botón `Calcular`. 
 
-El fomulario debe tener el siguiente aspecto:
+El formulario debe tener el siguiente aspecto:
 
-![Formato de forulario](/clases/06-colecciones/Ejercicios/formatoFormulario.PNG) 
+![Formato de formulario](/clases/06-colecciones/Ejercicios/formatoFormulario.PNG) 
 
+Utilizar diccionarios (`Dictionary<string, int>`) para realizar un contador de palabras. 
 
-2. Utilizar Diccionarios (Dictionary<string, int>) para realizar un contador de palabras, recorriendo el texto ingresado palabra por palabra se deberá lograr que si se trata de una nueva palabra, se la agregará al diccionario e inicializar su contador en 1, caso contrario se deberá incrementar dicho contador.
-3. Ordenar los resultados de forma descendente por cantidad de apariciones de cada palabra.
-4. Al presionar el botón <code>Calcular</code> informar mediante un <code>MessageBox</code> el TOP 3 de palabras con más apariciones.
-
+1. Se deberá recorrer el texto ingresado palabra por palabra. Si se trata de una nueva palabra, se la agregará al diccionario y se inicializará su contador en 1. Caso contrario, se deberá incrementar dicho contador.
+2. Ordenar los resultados de forma descendente por cantidad de apariciones de cada palabra.
+3. Al presionar el botón `Calcular` informar mediante un `MessageBox` el TOP 3 de palabras con más apariciones.
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |

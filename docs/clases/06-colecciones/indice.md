@@ -8,7 +8,7 @@ hide_title: false
 ---
 
 ## Resumen
-En esta sección abordaremos los tipos que ofrece .NET para almacenar multiples valores en una sola variable.
+En esta sección abordaremos los tipos que ofrece .NET para almacenar múltiples valores en una sola variable.
     
 ## Apuntes
 
@@ -16,21 +16,22 @@ En esta sección abordaremos los tipos que ofrece .NET para almacenar multiples 
 
 [Colecciones](./Apuntes/01-colecciones.md)
 
+[Cuestionario](./Apuntes/cuestionario.md)
+
 ## Ejercicios
+#### Introducción
 
-### Introductorio
-
-[I01 - Números Locos.](./Ejercicios/I01-numeros-locos.md)
+[I01 - Números Locos](./Ejercicios/I01-numeros-locos.md)
 
 [I02 - Numeros Locos II](./Ejercicios/I02-numeros-locos-II.md)
 
-[I03 - ¡A Contar Palabras!](./Ejercicios/I03-contador-palabras.md)
+[I03 - ¡A contar palabras!](./Ejercicios/I03-contador-palabras.md)
 
-### Consolidación
+#### Consolidación
 
-[C01 - Estadistica Deportiva](./Ejercicios/C01-estadistica-deportiva.md)
+[C01 - Estadística deportiva](./Ejercicios/C01-estadistica-deportiva.md)
 
-[C02 - Enciendan sus Motores.](./Ejercicios/C02-enciendan-sus-motores.md)
+[C02 - Enciendan sus motores](./Ejercicios/C02-enciendan-sus-motores.md)
 
 ## Bibliografía
 * “Arrays (C# Programming Guide)” Microsoft Docs, https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/.
