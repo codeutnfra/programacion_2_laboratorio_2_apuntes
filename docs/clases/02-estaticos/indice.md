@@ -19,7 +19,7 @@ Además, entenderemos qué es un espacio de nombres y exploraremos funciones de 
 
 [Namespaces](./Apuntes/02-namespaces.md)
 
-[Cuestionario](./Apuntes/cuestionario.md)
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
 #### Introducción

@@ -27,7 +27,7 @@ Se apuntará a introducir las principales características de la plataforma y de
 
 [Trabajando con la consola](./Apuntes/06-input-output.md)
 
-[Cuestionario](./Apuntes/cuestionario.md)
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
 #### Introducción

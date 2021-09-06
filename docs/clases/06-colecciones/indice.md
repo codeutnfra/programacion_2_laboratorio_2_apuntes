@@ -16,7 +16,7 @@ En esta sección abordaremos los tipos que ofrece .NET para almacenar múltiples
 
 [Colecciones](./Apuntes/01-colecciones.md)
 
-[Cuestionario](./Apuntes/cuestionario.md)
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
 #### Introducción

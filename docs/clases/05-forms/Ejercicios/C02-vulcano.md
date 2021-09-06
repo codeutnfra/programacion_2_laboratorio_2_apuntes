@@ -9,7 +9,7 @@ hide_title: false
 ---
 ---
 ### Consigna
-Partir del ejercicio [Conversor binario recargado](../../04-sobrecarga/Ejercicios/C01-conversor-binario-recargado.md) y agregarle un proyecto de tipo **Windows Forms App** con el siguiente formato:
+Partir del ejercicio [Fahrenheit 451](../../04-sobrecarga/Ejercicios/A01-fahrenheit-451.md) y agregarle un proyecto de tipo **Windows Forms App** con el siguiente formato:
 
 ![Resultado esperado](/clases/05-forms/ejercicios/vulcano.png)
  

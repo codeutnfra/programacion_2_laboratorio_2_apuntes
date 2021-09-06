@@ -21,7 +21,8 @@ En esta sección abordaremos el concepto de sobrecarga. Nos ocuparemos de la sob
 
 [Sobrecarga de Operadores de Conversión](./Apuntes/04-sobrecarga-operador-conversion.md)
 
-[Cuestionario](./Apuntes/cuestionario.md)
+**[Cuestionario](./Apuntes/cuestionario.md)**
+
 ## Ejercicios
 #### Introducción
 [I01 - Sumador](./Ejercicios/I01-sumador.md)

@@ -19,7 +19,7 @@ Aprenderemos de qué trata la programación orientada a objetos y cómo trabajar
 
 [Objetos](./Apuntes/03-objetos.md)
 
-[Cuestionario](./Apuntes/cuestionario.md)
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
 #### Introducción
