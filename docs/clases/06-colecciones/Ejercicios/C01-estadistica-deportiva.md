@@ -26,5 +26,5 @@ Crear un proyecto de biblioteca de clases que contenga las clases `Jugador` y `E
 Crear un proyecto de consola y generar las invocaciones necesarias en el método `Main` para probar el código.
 
 ### Resolución
-| ![img](/base/youtube.svg) | [Video](https://youtu.be/eb0TQ3wlPeg) | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/eb0TQ3wlPeg) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_06/C01_Estadistica_deportiva) |
 | :-----------------------: | :-----------------------------------: | :----------------------: | :----: |

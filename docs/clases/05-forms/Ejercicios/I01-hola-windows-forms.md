@@ -108,5 +108,5 @@ Podés consultar la [documentación del método String.IsNullOrWhiteSpace](https
 :::
 
 ## Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_05/I01_Hola_Windows_Forms) |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |

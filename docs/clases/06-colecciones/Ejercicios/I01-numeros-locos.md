@@ -16,5 +16,5 @@ Crear una aplicación de consola que cargue 20 números enteros (positivos y neg
 3. Por último, mostrar los negativos ordenados en forma creciente.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_06/I01_Numeros_locos) |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |

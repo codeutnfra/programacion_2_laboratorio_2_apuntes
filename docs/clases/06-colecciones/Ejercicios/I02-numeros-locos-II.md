@@ -1,6 +1,6 @@
 ---
-sidebar_label: I02 - Numeros locos II
-title: Ejercicio I02 - Numeros locos II
+sidebar_label: I02 - Números locos II
+title: Ejercicio I02 - Números locos II
 sidebar_position: 2
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
@@ -16,5 +16,5 @@ Crear una aplicación de consola que cargue en una **Lista**, **Pila** y **Cola*
 3. Por último, mostrar los negativos ordenados en forma creciente.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_06/I02_Numeros_locos_II) |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |

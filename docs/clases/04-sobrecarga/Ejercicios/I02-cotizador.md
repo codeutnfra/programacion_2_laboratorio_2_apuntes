@@ -34,7 +34,7 @@ Para operar dos tipos de monedas distintos, primero se deberá convertir todo a 
 ![Diagrama de clase Sumador](/clases/04-sobrecarga/Ejercicios/diagramaConversor.png)
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_04/I02_Cotizador) |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |
 
 

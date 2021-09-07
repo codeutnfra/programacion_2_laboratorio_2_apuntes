@@ -21,9 +21,9 @@ En esta sección abordaremos los tipos que ofrece .NET para almacenar múltiples
 ## Ejercicios
 #### Introducción
 
-[I01 - Números Locos](./Ejercicios/I01-numeros-locos.md)
+[I01 - Números locos](./Ejercicios/I01-numeros-locos.md)
 
-[I02 - Numeros Locos II](./Ejercicios/I02-numeros-locos-II.md)
+[I02 - Números locos II](./Ejercicios/I02-numeros-locos-II.md)
 
 [I03 - ¡A contar palabras!](./Ejercicios/I03-contador-palabras.md)
 
