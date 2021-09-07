@@ -1,5 +1,5 @@
 ---
-title: Cuestionario - Encapsulamiento, propiedades e indexadores
+title: Cuestionario - Encapsulamiento
 sidebar_label: Cuestionario
 slug: /clases/encapsulamiento/apuntes/cuestionario
 hide_table_of_contents: true
