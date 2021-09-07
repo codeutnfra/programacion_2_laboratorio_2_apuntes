@@ -1,5 +1,5 @@
 ---
-title: Índice - Encapsulamiento, propiedades e indexadores
+title: Índice - Encapsulamiento
 sidebar_label: Índice
 sidebar_position: 0
 slug: /encapsulamiento
@@ -8,8 +8,7 @@ hide_title: false
 ---
 
 ## Resumen
-
-En esta sección abordaremos el pilar de POO *Encapsulamiento* que consiste en ocultar el estado de un objeto de manera que sólo se puede cambiar mediante las operaciones definidas para ese objeto.
+En esta sección abordaremos el pilar de la programación orientada a objetos conocido como **encapsulamiento**. Aprenderemos a trabajar con **propiedades**, una herramienta de C# que nos facilitará la creación de métodos de acceso (getter y setter) con una sintaxis más sencilla. También descubriremos cómo indexar nuestros objetos a través de la declaración de **indexadores**. Por último, conoceremos en profundidad un nuevo tipo de dato: los **enumerados**.  
 
 ## Apuntes
 
@@ -24,7 +23,6 @@ En esta sección abordaremos el pilar de POO *Encapsulamiento* que consiste en o
 **[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
-
 ### Consolidación
 
 [C04 - Puesto de atención](./Ejercicios/C04-puesto-de-atencion.md)

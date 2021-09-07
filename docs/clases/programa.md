@@ -26,7 +26,7 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 ### [Clase 06 - Colecciones](./06-colecciones/indice.md)
 
-[//]: # "### [Clase 07 - Encapsulamiento, propiedades e indexadores.](./07-encapsulamiento/indice.md)"
+### [Clase 07 - Encapsulamiento](./07-encapsulamiento/indice.md)
 
 [//]: # "### [Clase 08 - Herencia.](./08-herencia/indice.md)"
  

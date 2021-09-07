@@ -1,5 +1,5 @@
 ---
-title: Apuntes - Encapsulamiento, propiedades e indexadores
+title: Apuntes - Encapsulamiento
 sidebar_label: Encapsulamiento
 slug: /clases/encapsulamiento/apuntes/encapsulamiento
 hide_table_of_contents: false
