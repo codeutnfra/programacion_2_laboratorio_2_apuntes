@@ -21,14 +21,14 @@ En esta sección abordaremos el pilar de POO *Encapsulamiento* que consiste en o
 
 [Enumerados](./Apuntes/03-enumerados.md)
 
-[Cuestionario](./Apuntes/cuestionario.md)
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
 
 ### Consolidación
 
-[C04 - Puesto de Atención](./Ejercicios/C04-puesto-de-atencion.md)
+[C04 - Puesto de atención](./Ejercicios/C04-puesto-de-atencion.md)
 
-[C05 - Indice de un Libro](./Ejercicios/C05-indice.md)
+[C05 - Indice de un libro](./Ejercicios/C05-indice.md)
 
 ## Bibliografía

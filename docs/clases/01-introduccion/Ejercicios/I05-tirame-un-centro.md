@@ -22,5 +22,5 @@ Utilizar sentencias de iteración y selectivas.
 :::
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/9BjfEf1NPJQ) | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

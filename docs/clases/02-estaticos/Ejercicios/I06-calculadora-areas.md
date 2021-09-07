@@ -26,5 +26,5 @@ public double CalcularAreaCirculo(double radio) {}
 El ingreso de los datos como la visualización se deberán realizar desde el método Main().
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/5gFZhYuB8jM) | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |
