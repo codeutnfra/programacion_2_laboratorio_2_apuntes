@@ -1,0 +1,39 @@
+---
+sidebar_label: I01 - Puesto de atención
+title: Ejercicio I01 - Puesto de atención
+sidebar_position: 1
+author: Federico Dávila
+authorURL: https://github.com/FedeDavila1984
+hide_table_of_contents: true
+hide_title: false
+---
+---
+
+### Consigna
+Crear un proyecto de biblioteca de clases para un sistema de atención al cliente. 
+
+Se deberán implementar las clases `Cliente`, `Negocio` y `PuestoAtencion`:
+
+![Diagrama de clases](/clases/07-encapsulamiento/Ejercicios/diagramaPuestoAtencion.PNG)
+
+#### Clase `PuestoAtencion`
++ El atributo `numeroActual` es **estático** y **privado**. Se inicializará en el constructor **de clase (estático)** con valor 0.
++ El método `Atender` simulará un tiempo de atención a un cliente: recibirá un cliente, simulará un tiempo de atención mediante el [método `Sleep` de la clase `Thread`](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-5.0) (perteneciente al espacio de nombre `System.Threading`) y retornará `true` para indicar el final de la atención.
++ La propiedad **estática** `NumeroActual` es la encargada de incrementar en 1 al atributo `numeroActual` y luego retornarlo.
+
+#### Clase `Cliente`:
++ La sobrecarga del operador `==` retornará `true` si dos clientes tienen el mismo número.
+
+#### Clase `Negocio`:
++ El constructor **privado** inicializará la colección y el puesto de atención como `Caja1`. 
++ El operador `+` será el único capaz de agregar un `Cliente` a la cola de atención. Sólo se agregará un `Cliente` si este no forma parte de la lista. Reutilizar el `==` de `Cliente`.
++ La propiedad `Cliente` retornará el próximo cliente en la cola de atención en el `get`. El `set` deberá controlar que el `Cliente` no figure en la cola de atención, caso contrario lo agregará.
++ El operador `==` retornará `true` si el cliente se encuentra en la colección.
++ El operador `~` generará una atención del próximo cliente en la cola, utilizando la propiedad `Cliente` y el método `Atender` de `PuestoAtencion`. Retornará `true` si pudo realizar la operación completa.
++ La propiedad `ClientesPendientes` retornará la cantidad de clientes esperando a ser atendidos.
+
+Crear un proyecto de consola y probar el código en el método `Main`.
+
+### Resolución
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| :-------------------------------------: | :---: | :------------------------------------: | :----: |

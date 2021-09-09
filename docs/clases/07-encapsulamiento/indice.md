@@ -23,10 +23,12 @@ En esta sección abordaremos el pilar de la programación orientada a objetos co
 **[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
+### Introducción
+[I01 - Puesto de atención](./Ejercicios/I01-puesto-de-atencion.md)
+
+[I02 - ¿Consultaste el índice?](./Ejercicios/I02-consultaste-el-indice.md)
+
 ### Consolidación
-
-[C04 - Puesto de atención](./Ejercicios/C04-puesto-de-atencion.md)
-
-[C05 - Indice de un libro](./Ejercicios/C05-indice.md)
+[C01 - Jugadores encapsulados](./Ejercicios/C01-jugadores-encapsulados.md)
 
 ## Bibliografía

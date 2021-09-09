@@ -24,7 +24,7 @@ Sigue los siguientes pasos para poder realizar la entrega de trabajos prácticos
 
 :::warning Fecha límite
 
-La fecha límite para registrar el repositorio es el **Viernes 12/09/2021**.
+La fecha límite para registrar el repositorio es el **Lunes 13/09/2021 a las 9 AM**.
 
 :::
 
