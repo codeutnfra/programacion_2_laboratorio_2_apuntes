@@ -28,32 +28,32 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 ### [Clase 07 - Encapsulamiento](./07-encapsulamiento/indice.md)
 
-[//]: # "### [Clase 08 - Herencia.](./08-herencia/indice.md)"
+### [Clase 08 - Herencia](./08-herencia/indice.md)
  
-[//]: # "### [Clase 09 - Polimorfismo.](./09-polimorfismo/indice.md)"
+[//]: # "### [Clase 09 - Polimorfismo](./09-polimorfismo/indice.md)"
 
-[//]: # "### [Clase 10 - Clases y métodos abstractos.](./10-abstract/indice.md)"
+[//]: # "### [Clase 10 - Clases y métodos abstractos](./10-abstract/indice.md)"
 
 ## Segundo parcial
-[//]: # "### [Clase 11 - Excepciones.](./11-excepciones/indice.md)"
+[//]: # "### [Clase 11 - Excepciones](./11-excepciones/indice.md)"
 
-[//]: # "### [Clase 12 - Pruebas unitarias.](./12-testing/indice.md)"
+[//]: # "### [Clase 12 - Pruebas unitarias](./12-testing/indice.md)"
 
-[//]: # "### [Clase 13 - Tipos Genéricos.](./13-generics/indice.md)"
+[//]: # "### [Clase 13 - Tipos Genéricos](./13-generics/indice.md)"
 
-[//]: # "### [Clase 14 - Interfaces.](./14-interfaces/indice.md)"
+[//]: # "### [Clase 14 - Interfaces](./14-interfaces/indice.md)"
 
-[//]: # "### [Clase 15 - Archivos y Serialización.](./15-serializacion/indice.md)"
+[//]: # "### [Clase 15 - Archivos y Serialización](./15-serializacion/indice.md)"
 
-[//]: # "### [Clase 16 - Introducción a SQL.](./16-sql/indice.md)"
+[//]: # "### [Clase 16 - Introducción a SQL](./16-sql/indice.md)"
 
-[//]: # "### [Clase 17 - Conexión a bases de datos.](./17-databases/indice.md)"
+[//]: # "### [Clase 17 - Conexión a bases de datos](./17-databases/indice.md)"
 
-[//]: # "### [Clase 18 - Delegados y expresiones lambda.](./18-delegados/indice.md)"
+[//]: # "### [Clase 18 - Delegados y expresiones lambda](./18-delegados/indice.md)"
 
-[//]: # "### [Clase 19 - Programación multi-hilo y concurrencia.](./19-concurrencia/indice.md)"
+[//]: # "### [Clase 19 - Programación multi-hilo y concurrencia](./19-concurrencia/indice.md)"
 
-[//]: # "### [Clase 20 - Eventos.](./20-eventos/indice.md)"
+[//]: # "### [Clase 20 - Eventos](./20-eventos/indice.md)"
 
 [//]: # "### [Clase 21 - Métodos de extensión](./21-otros/indice.md)"
 

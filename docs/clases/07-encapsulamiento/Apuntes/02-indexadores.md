@@ -8,8 +8,7 @@ authorURL:
 ---
 
 ## Indexadores
-
-Los indexadores son una conveniencia sintáctica que permiten a las instancias de una clase ser indexadas al igual que los arrays. Los indexadores se parecen a las propiedades, excepto que sus descriptores de acceso toman parámetros.
+Los **indexadores** son una conveniencia sintáctica que permiten a las instancias de una clase ser indexadas al igual que los arrays. Los indexadores se parecen a las propiedades, excepto que sus descriptores de acceso toman parámetros.
 
 ```csharp
 class Dias
@@ -42,11 +41,11 @@ class Program
 //    Miercoles
 ```
 
-+ Un descriptor de acceso <code>get</code> devuelve un valor. Un descriptor de acceso <code>set</code> asigna un valor.
++ Un descriptor de acceso `get` devuelve un valor. Un descriptor de acceso `set` asigna un valor.
 
-+ La palabra reservada <code>this</code> se utiliza para definir el indexador.
++ La palabra reservada `this` se utiliza para definir el indexador.
 
-+ La palabra reservada <code>value</code> se utiliza para definir el valor que asigna el <code>set</code>.
++ La palabra reservada `value` se utiliza para definir el valor que asigna el `set`.
 
 + No es necesario indexar sólo con números enteros.
 

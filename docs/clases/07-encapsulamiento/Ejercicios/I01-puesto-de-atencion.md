@@ -36,4 +36,4 @@ Crear un proyecto de consola y probar el código en el método `Main`.
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-------------------------------------: | :---: | :------------------------------------: | :----: |
+| :-----------------------: | :---: | :----------------------: | :----: |

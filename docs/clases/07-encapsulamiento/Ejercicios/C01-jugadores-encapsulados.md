@@ -19,4 +19,4 @@ Partir del ejercicio [Estadística deportiva](../../06-colecciones/Ejercicios/C0
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-------------------------------------: | :---: | :------------------------------------: | :----: |
+| :-----------------------: | :---: | :----------------------: | :----: |

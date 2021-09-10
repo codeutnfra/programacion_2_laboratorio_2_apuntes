@@ -22,4 +22,4 @@ Crear un proyecto de consola y probar la clase en el método `Main`.
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-------------------------------------: | :---: | :------------------------------------: | :----: |
+| :-----------------------: | :---: | :----------------------: | :----: |
