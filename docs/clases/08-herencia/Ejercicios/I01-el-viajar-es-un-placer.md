@@ -25,5 +25,5 @@ Crear un proyecto de biblioteca de clases con las clases `Automovil`, `Moto`, `C
 Crear un proyecto de consola y generar el código necesario para probar las clases.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-----------------------: | :---: | :----------------------: | :----: |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/_TV-BoJUrD8) | ![img](/base/github.svg) | Código |
+| :-----------------------: | :-----------------------------------: | :----------------------: | :----: |

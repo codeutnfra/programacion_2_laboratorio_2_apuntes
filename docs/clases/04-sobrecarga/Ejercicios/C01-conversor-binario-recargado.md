@@ -50,7 +50,7 @@ double numeroDecimal = (double)objDecimal;
 Generar el código en el método `Main` para instanciar un objeto de cada tipo y operar entre ellos, imprimiendo cada resultado por pantalla. 
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/YOdgSwkFTIA) | ![img](/base/github.svg) | Código |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |
 
 

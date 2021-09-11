@@ -28,5 +28,5 @@ Partir del ejercicio [Enciendan sus motores](../../06-colecciones/Ejercicios/C02
 <iframe width="560" height="315" src="https://www.youtube.com/embed/suCm1w_KTiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/Z31e0-ygQwg) | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

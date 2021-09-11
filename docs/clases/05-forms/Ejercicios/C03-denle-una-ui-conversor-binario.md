@@ -16,5 +16,5 @@ Partir del ejercicio [Conversor binario recargado](../../04-sobrecarga/Ejercicio
 Implementarlo de tal forma que al ingresar un valor válido en la primer casilla (`txtBinario` y `txtDecimal` respectivamente) y presionar el botón del medio (`btnBinToDec` y `btnDecToBin`) el resultado de la conversión se vea reflejado en las casillas de la derecha (`txtResultadoDec` y `txtResultadoBin`), las cuales no podrán ser editadas/escritas por el usuario.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/GOKJ1LOdnoQ) | ![img](/base/github.svg) | Código |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |
