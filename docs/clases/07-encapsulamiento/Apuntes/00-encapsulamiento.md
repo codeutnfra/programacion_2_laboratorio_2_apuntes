@@ -43,15 +43,15 @@ El acceso está limitado a la clase contenedora o las derivadas de la clase cont
 | -------------------- | ------ | --------- | -------- |--  |	--   |   --
 Dentro de la clase |   ✔️️  |   ✔️  |   ✔️  |   ✔️  |   ✔️  |   ✔️  |
 Clase derivada (mismo proyecto)|	✔️|	✔️|	✔️|	✔️|	✔️|	❌|
-Clase no derivada (mismo proyecto)|	✔️|	✔️|	❌|	✔️|	❌|	❌|
-Clase derivada (proyecto diferente)	|✔️|	✔️	|✔️	|❌	|❌	|❌|
+Clase no derivada (mismo proyecto)|	✔️|	❌|	✔️|	✔️|	❌|	❌|
+Clase derivada (proyecto diferente)	|✔️|	✔️	|❌	|✔️	|❌	|❌|
 Clase no derivada (proyecto diferente)|	✔️|	❌	|❌	|❌|	❌|	❌|
 
 
 El siguiente ejemplo demuestran cómo especificar modificadores de acceso en una clase y miembro:
 
 ```csharp
-public class Bicicle
+public class Bicicleta
 {
     public void Pedalear() { }
 }
@@ -61,6 +61,6 @@ public class Bicicle
 
 No todos los modificadores de acceso son válidos para todas los clases o miembros en todos los contextos. En algunos casos, la accesibilidad de un miembro está limitada por la accesibilidad de su clase contenedora.
 
-Los operadores definidos lxs programadorxs siempre deben declararse como public y static
+Los operadores definidos por lxs programadorxs siempre deben declararse como public y static
 
 :::
