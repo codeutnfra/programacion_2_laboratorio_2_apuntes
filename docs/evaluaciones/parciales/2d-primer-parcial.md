@@ -30,7 +30,7 @@ De las computadoras también se debe saber:
 * **Juegos disponibles** (Counter Strike, Diablo II, Mu Online, Lineage II, Warcraft III, Age of Empires II)
 * **Especificaciones de hardware** (procesador, ram, placa de video, etc).
 * Siéntanse libres de agregar otras opciones de software y juegos entre las existentes en la época. 
-* Cada computadora tiene que tener asoaciados distintos programas, juegos y periféricos, pero no todos ni repetirse (para simular una situación real). 
+* Cada computadora tiene que tener asociados distintos programas, juegos y periféricos, pero no todos ni repetirse (para simular una situación real). 
 
 El **costo de uso** en el caso de las llamadas telefónicas se mide por minuto y depende de la distancia:
 * ***Local***: $1.00 por minuto. Se reconoce a una llamada como local cuando el prefijo contiene un '11' o '011' luego del código de país y provincia (54 - 9 - 11 - #### - ####).
