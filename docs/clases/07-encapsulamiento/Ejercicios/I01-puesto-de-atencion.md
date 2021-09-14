@@ -34,9 +34,9 @@ Se deberán implementar las clases `Cliente`, `Negocio` y `PuestoAtencion`:
 
 Crear un proyecto de consola y pegar el siguiente código en el método `Main`;
 ```csharp
-    Cliente c1 = new Cliente("Lautaro",1);
-    Cliente c2 = new Cliente("Mauricio",2);
-    Cliente c3 = new Cliente("Esteban",3);
+    Cliente c1 = new Cliente(1,"Lautaro");
+    Cliente c2 = new Cliente(2,"Mauricio");
+    Cliente c3 = new Cliente(3, "Esteban");
     Negocio n1 = new Negocio("Kiosco-24");
     if (n1 + c1)
     {
