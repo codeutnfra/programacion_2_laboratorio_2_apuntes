@@ -39,11 +39,11 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 [//]: # "### [Clase 12 - Pruebas unitarias](./12-testing/indice.md)"
 
-[//]: # "### [Clase 13 - Tipos Genéricos](./13-generics/indice.md)"
+[//]: # "### [Clase 13 - Tipos genéricos](./13-generics/indice.md)"
 
 [//]: # "### [Clase 14 - Interfaces](./14-interfaces/indice.md)"
 
-[//]: # "### [Clase 15 - Archivos y Serialización](./15-serializacion/indice.md)"
+### [Clase 15 - Archivos y serialización](./15-serializacion/indice.md)
 
 [//]: # "### [Clase 16 - Introducción a SQL](./16-sql/indice.md)"
 

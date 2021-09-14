@@ -7,15 +7,19 @@ hide_title: false
 author: 
 authorURL: 
 ---
-
 ## Encapsulamiento
+El **encapsulamiento o encapsulación** es otro de los pilares de la programación orientada a objetos. El encapsulamiento retoma justo donde nos deja el pilar que vimos anteriormente, la abstracción. Recordemos que la abstracción es la habilidad de representar algo complejo de una forma simple, quedándonos con lo que resulta relevante dentro del contexto de negocio o problema que queremos resolver. De aplicar la abstracción a un determinado problema se desprende el diseño de las clases que darán forma a la implementación de la solución. La interfaz de una clase es el grupo de métodos públicos (incluyendo getters y setters) que expone la clase, es una abstracción de la implementación de la solución que se esconde tras esa interfaz. 
 
-El **encapsulamiento** en C#, como en otros lenguajes orientados a objetos, nos permite proteger o crear límites de acceso a los atributos y métodos de una clase, controlando con ello el comportamiento fuera y dentro de la misma clase.
+Imaginemos que estamos diseñando la clase `Empleado`, y tenemos 
+
+El encapsulamiento nos ayuda a manejar la complejidad de la solución al restringir el acceso de los usuarios de la clase (otros desarrolladores) a dicha complejidad. 
+
+en C#, como en otros lenguajes orientados a objetos, nos permite proteger o crear límites de acceso a los atributos y métodos de una clase, controlando con ello el comportamiento fuera y dentro de la misma clase.
 
 La encapsulación se encarga de mantener ocultos los procesos internos de un objeto, dándole a lxs programadxr que lo utilicen acceso sólo a lo que necesitan.
 
-### Niveles de encapsulamiento
-Los modificadores de acceso son palabras clave que se utilizan para especificar la accesibilidad declarada de una clase o miembro de una clase. El nivel de accesibilidad controla si se puede usar desde otra clase dentro del mismo proyecto o en otros proyectos. 
+### Niveles de ocultamiento / accesibilidad
+Los **modificadores de acceso** son palabras clave que se utilizan para especificar la accesibilidad declarada de una clase o miembro de una clase. El nivel de accesibilidad controla si se puede usar desde otra clase dentro del mismo proyecto o en otros proyectos. 
 
 Los siguientes seis niveles de accesibilidad se pueden especificar mediante los modificadores de acceso:
 

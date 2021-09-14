@@ -2,7 +2,7 @@
 title: Recuperatorios de trabajos prácticos
 sidebar_label: Recuperatorios de trabajos prácticos
 sidebar_position: 3
-slug: /trabajos-practicos/recuperatorios
+slug: /evaluaciones/trabajos-practicos/recuperatorios
 hide_table_of_contents: true
 hide_title: true
 ---

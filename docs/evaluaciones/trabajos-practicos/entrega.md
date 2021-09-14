@@ -2,7 +2,7 @@
 title: ¿Cómo entregar los trabajos prácticos?
 sidebar_label: ¿Cómo entregar los trabajos prácticos?
 sidebar_position: 1
-slug: /trabajos-practicos/entrega
+slug: /evaluaciones/trabajos-practicos/entrega
 hide_table_of_contents: true
 hide_title: true
 ---

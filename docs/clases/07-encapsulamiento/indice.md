@@ -31,3 +31,5 @@ En esta sección abordaremos el pilar de la programación orientada a objetos co
 [C01 - Jugadores encapsulados](./Ejercicios/C01-jugadores-encapsulados.md)
 
 ## Bibliografía
+* McConnell, S. (2004). *Code complete - A practical handbook of software construction.* (2nd ed.). Microsoft Press.
+* Price, M. J. (2020). *C#9 and .NET 5 - Modern Cross-Platform Development.* (5th ed., pp. ). Packt Publishing.

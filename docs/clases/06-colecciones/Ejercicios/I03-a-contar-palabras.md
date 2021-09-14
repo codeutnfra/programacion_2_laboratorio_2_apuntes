@@ -22,5 +22,5 @@ Utilizar diccionarios (`Dictionary<string, int>`) para realizar un contador de p
 3. Al presionar el botón `Calcular` informar mediante un `MessageBox` el TOP 3 de palabras con más apariciones.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_06/I03_A_contar_palabras) |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/YkuY0Ax-fX8) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_06/I03_A_contar_palabras) |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |
