@@ -19,7 +19,7 @@ En esta sección encontraremos modelos de examenes y las consignas de los trabaj
 [Consignas de trabajos prácticos](https://classroom.google.com/u/0/w/NTQ1MTg2NjM5NDBa/tc/NTQ1MTg2NjM5NTNa)
 
 ## Parciales
-[//]: # "[2do D - Primer parcial](./parciales/2d-primer-parcial.md)"
+[2do D - Primer parcial](./parciales/2d-primer-parcial.md)
 
 ## Modelos de parciales 
 ### Programación II
