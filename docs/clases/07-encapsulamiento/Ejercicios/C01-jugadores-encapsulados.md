@@ -18,5 +18,5 @@ Partir del ejercicio [Estadística deportiva](../../06-colecciones/Ejercicios/C0
 4. Realizar todos los cambios necesarios para que vuelva a funcionar como antes.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/Sis1ScMAp_M) | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

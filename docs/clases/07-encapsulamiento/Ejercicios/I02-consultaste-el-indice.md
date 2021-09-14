@@ -10,9 +10,9 @@ hide_title: false
 ---
 
 ### Consigna
-Crear la clase `Libro` en una biblioteca de clasesy el código necesario para acceder a las paginas mediante un valor numérico.
+Crear la clase `Libro` en una biblioteca de clases y el código necesario para acceder a las páginas mediante un valor numérico.
 
-![Diagrama de clase Indice](/clases/07-encapsulamiento/Ejercicios/diagramaIndice.PNG)
+![Diagrama de clases](/clases/07-encapsulamiento/Ejercicios/diagramaIndice.PNG)
 
 El descriptor de acceso `get` del indexador leerá la página pedida, siempre y cuando el subíndice se encuentre dentro de un rango correcto, sino retornará un string vacío.
 

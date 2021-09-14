@@ -68,5 +68,5 @@ Crear un proyecto de consola y pegar el siguiente código en el método `Main` p
 ```
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/udVMir9Q__8) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_07/I01_Puesto_de_atencion) |
 | :-----------------------: | :---: | :----------------------: | :----: |
