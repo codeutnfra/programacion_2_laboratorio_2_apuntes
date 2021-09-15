@@ -33,8 +33,8 @@ De las computadoras también se debe saber:
 * Cada computadora tiene que tener asociados distintos programas, juegos y periféricos, pero no todos ni repetirse (para simular una situación real). 
 
 El **costo de uso** en el caso de las llamadas telefónicas se mide por minuto y depende de la distancia:
-* ***Local***: $1.00 por minuto. Se reconoce a una llamada como local cuando el prefijo contiene un '11' o '011' luego del código de país y provincia (54 - 9 - 11 - #### - ####).
-* ***Larga distancia***: $2.50 por minuto. Se reconoce a una llamada como de larga distancia cuando el prefijo contiene un número distinto de '11' o '011' luego del código de país y provincia (54 - # - #### - #### - ####).
+* ***Local***: $1.00 por minuto. Se reconoce a una llamada como local cuando el prefijo contiene un '11' o '011' luego del código de país (54 - 11 - #### - ####).
+* ***Larga distancia***: $2.50 por minuto. Se reconoce a una llamada como de larga distancia cuando el prefijo contiene un número distinto de '11' o '011' luego del código de país (54 - #### - #### - ####).
 * ***Internacional***: $5.00 por minuto. Se reconoce a una llamada como de larga distancia cuando el código de país es distinto de '54'.
 
 La **costo de uso** de las computadoras es $0.50 por cada **fracción mínima de 30 minutos**. Se redondeará siempre hacia arriba (por ejemplo, 35 minutos se consideran una hora de uso).
@@ -58,7 +58,7 @@ Se deberá poder:
   * De las computadoras deberá ver toda la información de hardware y software disponible, y **sólo** poder seleccionar una que contenga lo que el cliente necesita. 
   * No se deben poder asignar cabinas o computadoras que se encuentren en uso. 
   * Para asignar una computadora se deberá ingresar el **tiempo solicitado de alquiler** u opción *"Libre"* que dejará correr el tiempo hasta que el cliente pida finalizar. La mínima fracción es de 30 minutos, es decir sólo se puede alquilar en bloques de media hora (1/2, 1, 1 y 1/2, 2, etc).  
-  * Para asignar un teléfono se deberá cargar el teléfono completo al que se va a llamar. Diferenciar **código de país**, **código de provincia** y **prefijo de localidad** del resto del número. 
+  * Para asignar un teléfono se deberá cargar el teléfono completo al que se va a llamar. Diferenciar **código de país** y **prefijo de localidad** del resto del número. 
 * Poder indicar la finalización del uso de una computadora o teléfono.
   * Al finalizar se le deberá mostrar al usuario el tiempo de uso, el costo final bruto por el servicio y el neto a pagar una vez aplicado IVA.  
   * No se debe poder marcar como finalizado algo que no está en uso. 
