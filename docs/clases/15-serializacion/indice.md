@@ -18,3 +18,5 @@ En esta sección aprenderemos a trabajar con archivos
 
 ## Bibliografía
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
+https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-overview

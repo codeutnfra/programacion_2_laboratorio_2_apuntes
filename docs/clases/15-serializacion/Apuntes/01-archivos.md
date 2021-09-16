@@ -18,8 +18,6 @@ La clase `File` provee métodos estáticos para trabajar con archivos:
 
 La objetos de tipo `StreamWriter` contienen los métodos de instancia `Write` y `WriteLine` para escribir en un archivo. Mientras que los de tipo `StreamReader` cuentan con los métodos de instancia `ReadToEnd`, `ReadLine` y `Read`.
 
-
-
 ```csharp
 using System;
 using System.IO;

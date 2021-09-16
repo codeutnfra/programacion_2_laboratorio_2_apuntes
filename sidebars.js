@@ -187,7 +187,7 @@ module.exports = {
         }
       ]
     },
-*//*      {
+*/      {
       type: 'category',
       label: 'Archivos y serialización',
       collapsible: true,
@@ -200,7 +200,7 @@ module.exports = {
         }
       ]
     },
-    {
+/*    {
       type: 'category',
       label: 'Introducción a SQL',
       collapsible: true,
