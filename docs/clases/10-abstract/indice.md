@@ -13,9 +13,6 @@ En esta sección abordaremos el uso de la palabra reservada *abtract*. Indica qu
 
 ## Apuntes
 
-[Clases Abstractas](./Apuntes/00-clases-abstractas.md)
-
-[Métodos Abtractos](./Apuntes/01-metodos-abstractos.md)
 
 
 ## Ejercicios

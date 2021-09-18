@@ -11,6 +11,9 @@ hide_title: false
 
 ## Apuntes
 
+[Clases Abstractas](./Apuntes/00-clases-abstractas.md)
+
+[Métodos Abtractos](./Apuntes/01-metodos-abstractos.md)
 ## Ejercicios
 
 ## Bibliografía
