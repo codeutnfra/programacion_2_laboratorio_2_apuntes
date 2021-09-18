@@ -61,7 +61,6 @@ public class Program
 | ***otraPersona*** |                       |                                             |                                |
 | ***profesor***    |                       |                                             |                                |
 
-
 ### Clases y miembros abstractos
 1. ¿Qué modificador debo utilizar si quiero declarar un método que **pueda** ser sobrescrito en las clases derivadas?
 2. ¿Qué modificador debo utilizar si quiero declarar un método que **deba** ser sobrescrito en las clases derivadas?
