@@ -1,6 +1,6 @@
 ---
-title: 2do D - Primer Parcial
-sidebar_label: 2do D - Primer Parcial
+title: 2do D - Primer Parcial - Laboratorio de Computación II
+sidebar_label: 2do D - Primer Parcial - Laboratorio de Computación II
 sidebar_position: 1
 slug: /evaluaciones/parciales/2d-primer-parcial
 hide_table_of_contents: false
@@ -88,7 +88,7 @@ Para trabajar con este archivo se deberá utilizar el lenguaje de marcado [Markd
 * **Sobre mí**: Presentarse brevemente. Contar su experiencia programando y lo que significó para vos este trabajo (¿fue un desafío? ¿fue fácil? ¿aprendiste? ¿te divertiste? etc...). 
 * **Resumen**: Explicar qué hace la aplicación y cómo se usa a grandes rasgos. 
 * **Diagrama de clases**: Pegar una foto del diagrama de clases correspondiente a la lógica de negocio. Se debe construir con [la herramienta de Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects?view=vs-2019) y deberá estar actualizado a la última versión entregada de la solución. 
-* **Justificación técnica**: Indicar tema a tema (de la clase 01 a la 10) dónde se fue aplicando en el código **y por qué se decidió implementarlo de esa forma**. Toda decisión tiene que estar argumentada con razones técnicas que giren alrededor de los pilares de la programación orientada a objetos y cuestiones de mantenibilidad, código limpio, flexibilidad al cambio, experiencia de usuario, accesibilidad, uso seguro, rendimiento y eficiencia. 
+* **Justificación técnica**: Indicar tema a tema (de las [clases 01 a la 09](../../clases/programa.md)) dónde se fue aplicando en el código **y por qué se decidió implementarlo de esa forma**. Toda decisión tiene que estar argumentada con razones técnicas que giren alrededor de los pilares de la programación orientada a objetos y cuestiones de mantenibilidad, código limpio, flexibilidad al cambio, experiencia de usuario, accesibilidad, uso seguro, rendimiento y eficiencia. 
   * Suma identificar pros y contras, si los tienen en mente. 
   * El objetivo es que demuestren que saben lo que hacen y que tomaron decisiones con criterio y no mecanizadas.
   * Si se utilizó alguna biblioteca externa también se deberá justificar la elección. 
@@ -107,7 +107,7 @@ Para alcanzar la aprobación (nota 4) se deberán cumplir todas las siguientes p
   * Deberá existir un límite mínimo para ajustar el tamaño que será aquel donde se pierde visibilidad de los controles o se dificulta el trabajo con la aplicación.
 * Las clases y sus miembros deberán estar correctamente documentados con la herramienta de documentación xml. 
 * Validar todos los ingresos de datos (cuando corresponda) mostrando mensajes claros para el usuario cuando un dato sea inválido. 
-* Abstraer las entidades y realizar un diseño orientado a objetos. Aplicar todos los temas de las clases 01 a la 10.
+* Abstraer las entidades y realizar un diseño orientado a objetos. Aplicar todos los temas de las [clases 01 a la 09](../../clases/programa.md) incluida.
   * Al menos dos formularios.
   * Se valorará el uso justificado de formularios MDI, pantallas modales y no-modales.
   * Ninguna entidad se debe comparar por defecto, sino por uno o varios de sus atributos (idealmente por su identificador). Se deberá cambiar el comportamiento todos los métodos de comparación (operador de igualdad, método `Equals` y método `GetHashCode`).

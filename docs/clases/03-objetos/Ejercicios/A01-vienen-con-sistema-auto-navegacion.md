@@ -8,7 +8,7 @@ hide_table_of_contents: true
 hide_title: false
 ---
 ---
-### Consigna
+### Requerimiento
 De una empresa de transporte de cargas se quiere guardar el nombre de los conductores y los kilómetros que conducen cada día de la semana.
 
 Para guardar esta información, la empresa de transporte tendrá un array de conductores.
@@ -24,6 +24,7 @@ De cada conductor se tendrá la siguiente información:
   * Día 6: 0
   * Día 7: 0
 
+### Consigna
 Desarrollar las clases y métodos necesarios. **Toda la lógica de negocio deberá estar encapsulada en clases y dentro de un proyecto de tipo biblioteca de clases**. 
 
 Crear un proyecto de consola y en el método `Main` cargar 3 conductores a la empresa de transportes. 
