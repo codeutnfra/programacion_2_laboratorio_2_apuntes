@@ -1,6 +1,6 @@
 ---
 sidebar_label: Clases abstractas
-slug: /clases/abstract/apuntes/abstract
+slug: /clases/polimorfismo/apuntes/abstract
 hide_table_of_contents: false
 hide_title: true
 author: 

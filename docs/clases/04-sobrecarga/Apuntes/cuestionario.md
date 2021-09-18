@@ -4,8 +4,8 @@ sidebar_label: Cuestionario
 slug: /clases/sobrecarga/apuntes/cuestionario
 hide_table_of_contents: true
 hide_title: false
-author: 
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 
 1. ¿Qué significa sobrecargar un método o constructor?

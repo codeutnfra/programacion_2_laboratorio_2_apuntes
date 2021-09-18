@@ -4,8 +4,8 @@ sidebar_label: Cuestionario
 slug: /clases/encapsulamiento/apuntes/cuestionario
 hide_table_of_contents: true
 hide_title: false
-author: 
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 ### Encapsulamiento
 1. Defina encapsulamiento / encapsulación en el contexto del paradigma orientado a objetos.

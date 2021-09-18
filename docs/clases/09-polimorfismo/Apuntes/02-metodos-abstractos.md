@@ -1,6 +1,6 @@
 ---
 sidebar_label: Métodos Abstractos
-slug: /clases/abstract/apuntes/metodos-abstractos
+slug: /clases/polimorfismo/apuntes/metodos-abstractos
 hide_table_of_contents: false
 hide_title: true
 author: 

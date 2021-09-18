@@ -1,7 +1,7 @@
 ---
-sidebar_label: "I02 - La centralita: Episodio I"
-title: "Ejercicio I02 - La centralita: Episodio I"
-sidebar_position: 2
+sidebar_label: "C03 - La centralita: Episodio I"
+title: "Ejercicio C03 - La centralita: Episodio I"
+sidebar_position: 103
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true

@@ -4,8 +4,8 @@ sidebar_label: Cuestionario
 slug: /clases/herencia/apuntes/cuestionario
 hide_table_of_contents: true
 hide_title: false
-author: 
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 ### Herencia
 1. ¿Qué es la herencia en el contexto de la programación orientada a objetos? ¿cuál es su propósito?
