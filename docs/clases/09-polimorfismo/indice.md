@@ -1,5 +1,5 @@
 ---
-title: Índice - Polimorfismo
+title: Índice - Polimorfismo y clases abstractas
 sidebar_label: Índice
 sidebar_position: 0
 slug: /polimorfismo

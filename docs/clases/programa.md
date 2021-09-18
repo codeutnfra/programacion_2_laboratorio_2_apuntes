@@ -30,9 +30,7 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 ### [Clase 08 - Herencia](./08-herencia/indice.md)
  
-[//]: # "### [Clase 09 - Polimorfismo](./09-polimorfismo/indice.md)"
-
-[//]: # "### [Clase 10 - Clases y métodos abstractos](./10-abstract/indice.md)"
+### [Clase 09 - Polimorfismo y clases abstractas](./09-polimorfismo/indice.md)
 
 ## Segundo parcial
 [//]: # "### [Clase 11 - Excepciones](./11-excepciones/indice.md)"

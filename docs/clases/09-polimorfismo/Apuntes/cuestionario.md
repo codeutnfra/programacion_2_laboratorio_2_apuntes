@@ -1,5 +1,5 @@
 ---
-title: Cuestionario - Polimorfismo
+title: Cuestionario - Polimorfismo y clases abstractas
 sidebar_label: Cuestionario
 slug: /clases/polimorfismo/apuntes/cuestionario
 hide_table_of_contents: true

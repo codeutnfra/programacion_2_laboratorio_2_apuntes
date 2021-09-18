@@ -1,6 +1,6 @@
 ---
-title: Apuntes - Polimorfismo
-sidebar_label: Polimorfismo
+title: Apuntes - Polimorfismo y clases abstractas
+sidebar_label: Polimorfismo y clases abstractas
 slug: /clases/polimorfismo/apuntes/polimorfismo
 hide_table_of_contents: false
 hide_title: false
