@@ -30,6 +30,31 @@ hide_title: false
       * El área y el perímetro de cada figura con una precisión de 2 decimales.
       * El tipo del objeto (método `GetType`).
 
+```
+=============== FIGURA 01 ==================
+ Tipo: Biblioteca.Circulo
+ Dibujando Círculo...
+ Área: 7,14
+ Perímetro: 12,57
+============================================
+
+
+=============== FIGURA 02 ==================
+ Tipo: Biblioteca.Cuadrado
+ Dibujando Cuadrado...
+ Área: 9,00
+ Perímetro: 12,00
+============================================
+
+
+=============== FIGURA 03 ==================
+ Tipo: Biblioteca.Rectangulo
+ Dibujando Rectángulo...
+ Área: 32,00
+ Perímetro: 24,00
+============================================
+```
+
 6. Responder:
    1. ¿Por qué la clase `Cuadrado` no está obligada a implementar el método `Dibujar`? ¿Las otras clases están obligadas a hacerlo?
    2. ¿Por qué la clase `Cuadrado` no está obligada a implementar el método `CalcularSuperficie`? ¿Las otras clases están obligadas a hacerlo?

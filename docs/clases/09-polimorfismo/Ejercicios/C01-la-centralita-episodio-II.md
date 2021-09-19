@@ -12,7 +12,7 @@ hide_title: false
 ### Consigna
 Partir del ejercicio [La centralita: Episodio I](../../08-herencia/Ejercicios/C03-la-centralita-episodio-I.md) y modificar la jerarquía de clases para obtener:
 
-![Diagrama de clases](/clases/08-herencia/ejercicios/centralita-diagram.PNG)
+![Diagrama de clases](/clases/09-polimorfismo/ejercicios/centralita_episodio_II_diagram.PNG)
 
 #### `Llamada`
 * La clase `Llamada` ahora será **abstracta**. Tendrá definida la propiedad de **sólo lectura** `CostoLlamada` que también será **abstracta**. 
@@ -41,6 +41,8 @@ Reescribir el método `Main` para que:
 
 Agregar un proyecto de tipo *Windows Forms App* y generar el siguiente formulario principal `FrmMenu`, que tendrá como **único atributo** una `Centralita`:
 
+![FrmMenu](/clases/09-polimorfismo/ejercicios/centralita_episodio_II_pantalla_01.PNG)
+
 Agregar los formularios `FrmLlamador` y `FrmMostrar`:
   * Recibirán en su constructor a la instancia de `Centralita` creada en `FrmMenu`.
   * `FrmLlamador` tendrá una propiedad de **sólo lectura** que expondrá dicha `Centralita`, a fin de volver a ser leída por el formulario de menú una vez terminada la acción. 
@@ -61,6 +63,8 @@ cmbFranja.DataSource = Enum.GetValues(typeof(Franjas));
 Franjas franjas;
 Enum.TryParse<Franjas>(cmbFranja.SelectedValue.ToString(), out franjas);
 ```
+
+![FrmLlamada](/clases/09-polimorfismo/ejercicios/centralita_episodio_II_pantalla_02.PNG)
 
 Si se presiona alguno de los botones `btnFacturacionTotal`, `btnFacturacionLocal` o `btnFacturacionProvincial`, abrir un formulario sólo con un `RichTextBox` y la información correspondiente impresa en él.
   * El formulario tendrá un atributo del tipo `TipoLlamada`, y una propiedad de **sólo escritura** para cargarle datos y así saber qué llamadas mostrar.

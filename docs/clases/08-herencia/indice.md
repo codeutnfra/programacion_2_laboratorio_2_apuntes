@@ -12,6 +12,10 @@ hide_title: false
 ## Apuntes
 [Herencia](./Apuntes/00-herencia.md)
 
+[Implementando herencia en C#](./Apuntes/01-herencia-csharp.md)
+
+[Clases selladas](./Apuntes/02-clases-selladas.md)
+
 **[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
@@ -26,3 +30,4 @@ hide_title: false
 [C03 - La centralita: Episodio I](./Ejercicios/C03-la-centralita-episodio-I.md)
 
 ## Bibliografía
+* McConnell, S. (2004). *Code complete - A practical handbook of software construction.* (2nd ed.). Microsoft Press.

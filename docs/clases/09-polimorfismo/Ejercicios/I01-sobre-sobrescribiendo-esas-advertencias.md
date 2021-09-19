@@ -13,6 +13,8 @@ hide_title: false
 ### Parte I
 Crear un proyecto de consola que contenga la clase `Sobrescrito`.
 
+![Salida por consola](/clases/09-polimorfismo/ejercicios/sobre_sobrescribiendo_pantalla.PNG)
+
 1. Sobrescribir el método `ToString` para que retorne *"¡Este es mi método ToString sobrescrito!"*.
 2. Sobrescribir el método `Equals` para que retorne `true` si son del mismo tipo (objetos de la misma clase), `false` caso contrario.
 3. Sorbescribir el método `GetHashCode` para que retorne el número 1142510181.

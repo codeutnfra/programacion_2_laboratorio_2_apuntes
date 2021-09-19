@@ -18,3 +18,8 @@ Entonces ¿Como hacemos para poder expandir o reescribir la definición de un m�
 
 Nuevamente, en tiempo de ejecución nuestros programas sabrán donde radica la implementación a ejecutarse, si una clase hija no aplica un override, sera la implementación de la clase base la que se ejecute en su lugar.
 Es importante recordar que se puede aplicar el mismo concepto con propiedades.
+
+Cuando aplicamos herencia debemos tomar algunas decisiones con respecto a los atributos y operaciones en la clase base:
+* ¿Serán visibles por las clases derivadas?
+* ¿Tendrán una implementación por defecto?
+* ¿Podrán sobrescribirse?

@@ -43,4 +43,8 @@ Los formularios, al ser objetos, poseen propiedades y métodos.
 
 ![Template Windows Forms Visual Studio](/clases/05-forms/apuntes/crearprog.png)
 
+## Creando un login con Windows Forms
+En el siguiente video, Lucas nos explica los conceptos clave para trabajar con Windows Forms y construye a modo de ejemplo una ventana de autenticación (login).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-4BuCOuE5YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
