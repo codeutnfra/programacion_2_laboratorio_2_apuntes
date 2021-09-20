@@ -31,3 +31,4 @@ hide_title: false
 
 ## Bibliografía
 * McConnell, S. (2004). *Code complete - A practical handbook of software construction.* (2nd ed.). Microsoft Press.
+* Price, M. J. (2020). *C#9 and .NET 5 - Modern Cross-Platform Development.* (5th ed., pp. 345- 355). Packt Publishing.

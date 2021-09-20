@@ -3,8 +3,8 @@ sidebar_label: Clases selladas
 slug: /clases/herencia/apuntes/clases-selladas
 hide_table_of_contents: false
 hide_title: true
-author: Juan Pablo Dos Santos
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 ## Clases selladas
 Existe la posibilidad de marcar una clase para que no pueda ser heredada (no pueda ser base). Para poder lograr esto agregaremos el modificador `sealed` a la declaración definiendo a la clase como **sellada**. De esta manera explicitaremos que nuestra clase no puede tener clases hijas. 

@@ -3,8 +3,8 @@ sidebar_label: Implementando herencia en C#
 slug: /clases/herencia/apuntes/herencia-csharp
 hide_table_of_contents: false
 hide_title: true
-author: Juan Pablo Dos Santos
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 ## Implementando herencia en C#
 La herencia en C# es híbrida y soporta los tipos de herencia simple, multi-nivel y jerárquica. No admite herencia múltiple, es decir que cada clase podrá heredar de solo una clase base. 

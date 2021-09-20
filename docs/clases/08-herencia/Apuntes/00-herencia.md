@@ -4,8 +4,8 @@ sidebar_label: Herencia
 slug: /clases/herencia/apuntes/herencia
 hide_table_of_contents: false
 hide_title: false
-author: Juan Pablo Dos Santos
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 ## Herencia
 En el desarrollo de software encontraremos con frecuencia objetos que se parecen mucho a otros objetos, salvo por algunas diferencias puntuales. Por ejemplo, en un sistema de liquidación de sueldos podemos tener empleados full-time y empleados part-time. La mayoría de los datos relacionados a los dos tipos de empleados es la misma, pero probablemente existirán algunas diferencias. En la programación orientada a objetos podremos definir un tipo general de empleado y luego, a partir de ese, definir los tipos más específicos: full-time y part-time. Cuando una operación en un empleado no depende de si el empleado trabaja tiempo completo o medio tiempo, entonces la operación es manejada dentro por el tipo más general. De lo contrario, se manejará en los tipos específicos. 

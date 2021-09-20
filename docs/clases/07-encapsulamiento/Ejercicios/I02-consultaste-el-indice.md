@@ -21,5 +21,5 @@ En el `set`, si la página existe (existe ese índice) le asignará el texto. Si
 Crear un proyecto de consola y probar la clase en el método `Main`.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_07/I02_Consultaste_el_indice) |
 | :-----------------------: | :---: | :----------------------: | :----: |
