@@ -17,23 +17,23 @@ Crear un proyecto de consola que contenga la clase `Sobrescrito`.
 
 1. Sobrescribir el método `ToString` para que retorne *"¡Este es mi método ToString sobrescrito!"*.
 2. Sobrescribir el método `Equals` para que retorne `true` si son del mismo tipo (objetos de la misma clase), `false` caso contrario.
-3. Sorbescribir el método `GetHashCode` para que retorne el número 1142510181.
+3. Sobrescribir el método `GetHashCode` para que retorne el número 1142510181.
 4. Agregar en el método `Main` el siguiente código:
 
 ```csharp
-Console.Title = "Ejercicio No38 Guía 2017";
-Sobrescrito sobrecarga = new Sobreescrito();
+Console.Title = "Ejercicio Sobre-Sobrescrito";
+Sobrescrito objetoSobrescrito = new Sobreescrito();
 
-Console.WriteLine(sobrecarga.ToString());
+Console.WriteLine(objetoSobrescrito.ToString());
 
 string objeto = "¡Este es mi método ToString sobrescrito!";
 
 Console.WriteLine("----------------------------------------------");
 Console.Write("Comparación Sobrecargas con String: ");
-Console.WriteLine(sobrecarga.Equals(objeto));
+Console.WriteLine(objetoSobrescrito.Equals(objeto));
 
 Console.WriteLine("----------------------------------------------");
-Console.WriteLine(sobrecarga.GetHashCode());
+Console.WriteLine(objetoSobrescrito.GetHashCode());
 
 Console.ReadKey();
 ```

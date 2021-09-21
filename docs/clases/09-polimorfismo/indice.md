@@ -12,7 +12,7 @@ hide_title: false
 ## Apuntes
 [Polimorfismo](./Apuntes/00-polimorfismo.md)
 
-[Clases Abstractas](./Apuntes/01-clases-abstractas.md)
+[Clases abstractas](./Apuntes/01-clases-abstractas.md)
 
 **[Cuestionario](./Apuntes/cuestionario.md)**
 
@@ -30,4 +30,5 @@ hide_title: false
 * Price, M. J. (2020). *C#9 and .NET 5 - Modern Cross-Platform Development.* (5th ed., pp. 345- 355). Packt Publishing.
 * Weisfeld, M. (2019). *The Object-Oriented Thought Process.* (5th ed.). Pearson Education.
 * Booch, G. & Rumbaugh J. & Jacobson I. (2005). *The unified modeling language.* (2th ed.). Packt Publishing.
+* *Object.GetHashCode Method*. Microsoft Docs. https://docs.microsoft.com/en-us/dotnet/api/system.object.gethashcode
 

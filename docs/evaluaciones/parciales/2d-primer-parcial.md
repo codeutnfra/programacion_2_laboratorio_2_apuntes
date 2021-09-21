@@ -173,19 +173,20 @@ Además de cumplir con las condiciones mínimas, se deberá alcanzar el puntaje 
 
 ## Entrega
 * Con su cuenta de GitHub deberá realizar un *fork* al siguiente repositorio: https://github.com/mauricioCerizza/2021C2_UTNFra_LaboII_2doD_PP. 
-  * Trabajar sobre el mismo. 
+  * **Trabajar sobre el repositorio forkeado**. 
   * Las entregas se deberán realizar en el branch `Master`.
 * Cada cambio y avance deberá ser registrado con un *commit* puntual acompañado de un mensaje descriptivo y subido inmediatamente al repositorio remoto (*push*).
 * La solución deberá ser nombrada como: *Apellido.Nombre.PrimerParcial*.
 * No realizar actualizaciones sobre el branch `Master` entre la fecha de entrega y la corrección. Si desean seguir trabajando pueden hacerlo sobre otra ramificación. 
 * Registrar **cada** entrega a través del Google Form indicado a continuación. **No se corregirán repositorios que no estén registrados** en la correspondiente instancia de entrega.
 
-| Instancia             | Fecha                     | Formulario de registro                                                                                    |
-| :-------------------- | :------------------------ | :-------------------------------------------------------------------------------------------------------- |
-| Revisión (opcional)   | Lunes 27/09/2021 10:00 AM | [Registrá tu repositorio para la instancia de revisión](https://forms.gle/crZLsvpP26KyaRHs9)              |
-| Primera entrega       | Lunes 11/10/2021 10:00 AM | [Registrá tu repositorio para la instancia de primera entrega](https://forms.gle/aEdKgSB7fuZ3ooHQ7)       |
-| Primer recuperatorio  | Lunes 25/10/2021 10:00 AM | [Registrá tu repositorio para la primer instancia de recuperatorio](https://forms.gle/vAE8fP8SowCvkruh6)  |
-| Segundo recuperatorio | Lunes 29/11/2021 10:00 AM | [Registrá tu repositorio para la segunda instancia de recuperatorio](https://forms.gle/4SxYXripefuU4gcNA) |
+| Instancia                   | Fecha                     | Formulario de registro                                                                                    |
+| :-------------------------- | :------------------------ | :-------------------------------------------------------------------------------------------------------- |
+| Primera Revisión (opcional) | Lunes 27/09/2021 10:00 AM | [Registrá tu repositorio para la instancia de PRIMERA revisión](https://forms.gle/crZLsvpP26KyaRHs9)      |
+| Segunda Revisión (opcional) | Lunes 04/10/2021 10:00 AM | [Registrá tu repositorio para la instancia de SEGUNDA revisión](https://forms.gle/Po2JszUURRNZmzCRA)      |
+| Primera entrega             | Lunes 11/10/2021 10:00 AM | [Registrá tu repositorio para la instancia de primera entrega](https://forms.gle/aEdKgSB7fuZ3ooHQ7)       |
+| Primer recuperatorio        | Lunes 25/10/2021 10:00 AM | [Registrá tu repositorio para la primer instancia de recuperatorio](https://forms.gle/vAE8fP8SowCvkruh6)  |
+| Segundo recuperatorio       | Lunes 29/11/2021 10:00 AM | [Registrá tu repositorio para la segunda instancia de recuperatorio](https://forms.gle/4SxYXripefuU4gcNA) |
 
 Los trabajos serán descargados en la fecha y hora indicada, siendo corregidos a partir de ese momento según criterio docente. Existirá una instancia de revisión **opcional**, donde se podrá entregar el trabajo (completo o incompleto) y recibir una corrección preliminar que no afectará la nota final. 
 
