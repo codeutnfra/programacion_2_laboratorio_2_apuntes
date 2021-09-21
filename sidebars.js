@@ -5,6 +5,11 @@ module.exports = {
             dirName: "introduccion",
         },
         {
+          type: "link",
+          label: "Clases de consulta",
+          href: "https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa/m/Mzk2Njk5NDA4Mzg1/details"
+        },
+        {
             type: "link",
             label: "Normas académicas y administrativas",
             href: "http://sistemas-utnfra.com.ar/Reglamento.pdf",
