@@ -8,8 +8,6 @@ hide_table_of_contents: true
 hide_title: false
 ---
 ---
-
-### Consigna
 Esta aplicación servirá de control de llamadas realizadas en una central telefónica.
 
 :::info Información
@@ -20,6 +18,7 @@ Las centralitas telefónicas son dispositivos hardware o software que concentran
 
 ![Centralita tradicional](/clases/08-herencia/ejercicios/centralita-tradicional.jpg)
 
+### Consigna
 Crear en una solución llamada `CentralTelefonica` un proyecto de tipo biblioteca de clases nombrado como `Centralita` que contenga la siguiente jerarquía de clases:
 
 ![Diagrama de clases](/clases/08-herencia/ejercicios/centralita-diagram.PNG)

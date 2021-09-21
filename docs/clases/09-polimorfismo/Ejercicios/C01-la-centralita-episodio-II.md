@@ -8,8 +8,20 @@ hide_table_of_contents: true
 hide_title: false
 ---
 ---
+![Las chicas del cable](/clases/09-polimorfismo/ejercicios/las-chicas-del-cable.jpg)
+
+:::note Curiosidad
+
+La serie española de Netflix "Las chicas del cable" se centra principalmente en la vida de cuatro mujeres teleoperadoras de la Compañía de telefonía, y aunque en un inicio el oficio de operador telefónico fuese destinado a los hombres - jóvenes que hasta entonces se habían encargado de entregar telegramas - rápidamente pasó a ser un trabajo principalmente realizado por mujeres, porque era un oficio para el que se necesitaba un alto nivel de paciencia y conllevaba mucho estrés y muchos de los antiguos trabajadores no se acabaron de adaptar a la nueva tarea. Las operadoras se encargaban de conectar de manera manual las llamadas para poner en contacto a los interlocutores, y aunque la serie esté ambientada en la década de 1920, en España ya había operadoras telefónicas desde el año 1886 y en Cuba incluso antes, en 1877. Durante casi todo el siglo XX, hasta 1988, España tuvo centrales manuales hasta que finalmente acabó automatizando completamente el servicio telefónico. La última central manual de España fue la de Polopos, un pueblo de la provincia de Granada.
+
+Para trabajar de operadora telefónica las mujeres debían cumplir ciertos requisitos: debían tener entre 18 y 27 años, no llevar gafas, estar solteras y ser capaces de estirar los brazos hasta un mínimo de 155 centímetros.​ Aparte de estos requisitos también debían superar ciertas pruebas de aptitud.
+
+Y así como en la serie se representa a las telefonistas como un referente feminista, esto también fue una realidad: las primeras mujeres en trabajar como operadoras telefónicas marcaron un antes y un después en el mercado laboral para las mujeres, porque se salían de los estándares que hasta entonces se les habían marcado y lograron hacerse un hueco en el mundo laboral, mundo que en aquellos años estaba dominado completamente por hombres. Sin embargo, su carrera laboral como telefonistas acostumbraba a ser bastante corta, ya que una vez casadas las mujeres no podían seguir trabajando como telefonistas.
+
+:::
 
 ### Consigna
+
 Partir del ejercicio [La centralita: Episodio I](../../08-herencia/Ejercicios/C03-la-centralita-episodio-I.md) y modificar la jerarquía de clases para obtener:
 
 ![Diagrama de clases](/clases/09-polimorfismo/ejercicios/centralita_episodio_II_diagram.PNG)
