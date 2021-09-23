@@ -126,7 +126,7 @@ module.exports = {
                 },
             ],
         },
-        /*   {
+           {
       type: 'category',
       label: 'Excepciones',      
       collapsible: true,
@@ -139,7 +139,7 @@ module.exports = {
         }
       ]
     },
-    {
+  /*  {
       type: 'category',
       label: 'Pruebas unitarias',      
       collapsible: true,

@@ -8,8 +8,7 @@ author:
 authorURL: 
 ---
 ## ¿Qué son las Excepciones?
-
-Las excepciones es la manera que tiene C# de controlar la gestión de errores. La gestión de errores es la técnica que permite interceptar con éxito errores esperados o inesperados en tiempo de ejecución.
+Las excepciones son la manera que tiene C# de controlar la gestión de errores. La gestión de errores es la técnica que permite interceptar con éxito errores esperados o inesperados en tiempo de ejecución.
 
 + Cuando se produce un error se *lanza* una excepción.
 + El programa debe construirse utilizando diferentes técnicas de gestión de errores para *atrapar* las excepciones y administrarlas de manera conveniente.
@@ -132,11 +131,10 @@ en el programa.
     }
 ```
 
-## InnerException > sacado de la doc de microsoft REVISAAAAAAAAAAR
+## InnerException
 + Una excepción que se produce como consecuencia directa de una excepción anterior debe incluir una referencia a esta última en la propiedad **InnerException**. Esta propiedad devuelve el mismo valor pasado al constructor o una referencia nula
 
 + Esta clase es la clase base para todas las excepciones. Cuando se produce un error, el sistema o la aplicación que se ejecuta actualmente lo notifica iniciando una excepción que contiene información sobre el error. Una vez que se produce una excepción, la aplicación o el controlador de excepciones predeterminado las controla
-
 
 ```csharp
    using System;
@@ -163,7 +161,9 @@ en el programa.
 
 ```
 
-:::important La excepción que resulta de ese código es :
+La excepción que resulta de ese código es :
+
+```
 ArithmeticException Handler: System.DivideByZeroException: Attempted to divide by zero.
    at ExceptionTestClass.Main()
-:::
+```

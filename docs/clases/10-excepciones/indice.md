@@ -10,8 +10,18 @@ hide_title: false
 ## Resumen
 
 ## Apuntes
+[Excepciones](./Apuntes/00-excepciones.md)
+
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
+### Introducción
+[I01 - Lanzar y atrapar](./Ejercicios/I01-lanzar-y-atrapar.md)
+
+### Consolidación
+[C01 - La centralita: Episodio III](./Ejercicios/C01-la-centralita-episodio-III.md)
+
+[C02 - Seguí participando](./Ejercicios/C02-segui-participando.md)
 
 ## Bibliografía
 

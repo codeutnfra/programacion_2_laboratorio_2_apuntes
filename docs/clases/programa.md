@@ -33,7 +33,7 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 ### [Clase 09 - Polimorfismo y clases abstractas](./09-polimorfismo/indice.md)
 
 ## Segundo parcial
-[//]: # "### [Clase 10 - Excepciones](./10-excepciones/indice.md)"
+### [Clase 10 - Excepciones](./10-excepciones/indice.md)
 
 [//]: # "### [Clase 11 - Pruebas unitarias](./11-testing/indice.md)"
 
