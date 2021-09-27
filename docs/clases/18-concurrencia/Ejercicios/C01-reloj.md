@@ -31,7 +31,6 @@ Crear un proyecto de Windows Forms con un RichTextBox y un Label dentro.
 - Utilizar el método Join del objeto de la clase Thread para asegurar que se hayan asignado todos los clientes a alguna caja antes de comenzar a atender.
 
 
-### Diagrama de clases
 
 
 ### Resolución

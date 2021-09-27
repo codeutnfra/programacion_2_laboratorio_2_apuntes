@@ -28,6 +28,9 @@ En esta sección encontraremos modelos de examenes y las consignas de los trabaj
 [Auto-evaluación - Segundo Parcial](https://forms.gle/PjnhiLJ6rwoAUUYR9)
 ### Laboratorio de Computación II
 #### Primer parcial
+[El dispositivo](./modelos/laboratorio/primer-parcial/el-dispositivo.md)
+
+[La librería](./modelos/laboratorio/primer-parcial/la-libreria.md)
 
 #### Segundo parcial
 

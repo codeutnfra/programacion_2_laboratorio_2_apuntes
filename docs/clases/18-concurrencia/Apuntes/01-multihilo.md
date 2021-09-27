@@ -17,6 +17,7 @@ Por defecto cada proceso tiene un único hilo, es decir, sólo puede procesar un
 Todos los hilos de un mismo proceso comparten los mismos recursos asignados por el sistema operativo.
 
 [//]: # "TODO Ejemplo del supermercado"
+[//]: # "TODO Ejercicio POMODORO"
 
 ### Multitarea apropiativa
 Por cada núcleo de la CPU, se puede ejecutar a lo mucho un proceso en cada momento. Windows y otros sistemas operativos modernos simulan la ejecución paralela de tareas dividiendo el tiempo de procesamiento entre los hilos, permitiendo que se vayan ejecutando uno después de otro en pequeñas fracciones de tiempo. El hilo que se está ejecutando es suspendido cuando termina su fracción de tiempo, luego el procesador permite que otro hilo se ejecute por el mismo periodo de tiempo. Esta forma de simular el paralelismo recibe el nombre de **multitarea apropiativa <*preemptive multitasking*>**. 

@@ -8,9 +8,9 @@ hide_title: false
 ---
 
 ## Resumen
-Hasta ahora las entradas y salidas de información fueron realizadas por el usuario a través de una interfaz gráfica. Sin embargo, es normal necesitar que este intercambio se realiza desde o hacia archivos y directorios. 
+Hasta ahora las entradas y salidas de información fueron realizadas por el usuario a través de una interfaz gráfica. Sin embargo, es normal necesitar que este intercambio se realice desde o hacia archivos y directorios. En esta sección nos adentraremos en cómo trabajar sobre el sistema de archivos usando C#.
 
-En esta sección aprenderemos a trabajar con archivos 
+Adicionalmente, aprenderemos a convertir el estado de nuestros objetos a un formato estándar que nos permita intercambiarlos con otros sistemas o persistirlos para un uso posterior. 
 
 ## Apuntes
 

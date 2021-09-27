@@ -217,7 +217,6 @@ Path.DirectorySeparatorChar: /
 ```
 
 ### Obtener los directorios especiales del sistema operativo
-
 Para obtener el directorio del sistema podemos usar la propiedad estática `SystemDirectory` de la clase `Environment`.
 
 Para obtener el directorio de archivos temporales podemos usar el método estático `GetTempPath()` de la clase `Path`.
