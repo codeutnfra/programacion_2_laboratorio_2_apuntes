@@ -7,7 +7,7 @@ hide_table_of_contents: false
 hide_title: false
 ---
 
-En esta sección encontraremos modelos de examenes y las consignas de los trabajos prácticos.
+En esta sección encontraremos modelos de parciales y las consignas de los trabajos prácticos.
 
 ## Trabajos prácticos
 [¿Cómo entregar los trabajos prácticos?](./trabajos-practicos/entrega.md)
@@ -23,9 +23,10 @@ En esta sección encontraremos modelos de examenes y las consignas de los trabaj
 
 ## Modelos de parciales 
 ### Programación II
-[Auto-evaluación - Primer Parcial](https://forms.gle/jCiLjXg2XeBHVvuA8)
+[Auto-evaluación - Primer Parcial](https://forms.gle/WkHFoMhjKQQ5jQhR6)
 
-[Auto-evaluación - Segundo Parcial](https://forms.gle/PjnhiLJ6rwoAUUYR9)
+[Auto-evaluación - Segundo Parcial](https://forms.gle/PzWFzqM2qhSYvENi6)
+
 ### Laboratorio de Computación II
 #### Primer parcial
 [El dispositivo](./modelos/laboratorio/primer-parcial/el-dispositivo.md)
@@ -33,5 +34,8 @@ En esta sección encontraremos modelos de examenes y las consignas de los trabaj
 [La librería](./modelos/laboratorio/primer-parcial/la-libreria.md)
 
 #### Segundo parcial
+
+#### Más modelos
+[Más modelos de parcial](https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa/m/NTUxNzc4MDA3OTZa/details)
 
 

@@ -314,12 +314,12 @@ module.exports = {
                         {
                             type: "link",
                             label: "Auto-evaluación - Primer Parcial",
-                            href: "https://forms.gle/jCiLjXg2XeBHVvuA8",
+                            href: "https://forms.gle/WkHFoMhjKQQ5jQhR6",
                         },
                         {
                             type: "link",
                             label: "Auto-evaluación - Segundo Parcial",
-                            href: "https://forms.gle/PjnhiLJ6rwoAUUYR9",
+                            href: "https://forms.gle/PzWFzqM2qhSYvENi6",
                         },
                     ],
                 },
@@ -342,7 +342,7 @@ module.exports = {
                                 },
                             ],
                         },
-/*                         {
+                        /* {
                             type: "category",
                             label: "Segundo parcial",
                             collapsible: true,
@@ -355,6 +355,11 @@ module.exports = {
                                 },
                             ],
                         }, */
+                        {
+                            type: "link",
+                            label: "Más modelos de parcial",
+                            href: "https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa/m/NTUxNzc4MDA3OTZa/details",
+                        },
                     ],
                 },
             ],
