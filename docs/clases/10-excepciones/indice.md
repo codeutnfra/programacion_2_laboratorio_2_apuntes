@@ -18,6 +18,8 @@ hide_title: false
 ### Introducción
 [I01 - Lanzar y atrapar](./Ejercicios/I01-lanzar-y-atrapar.md)
 
+[I02 - Atrapame si puedes...](./Ejercicios/I02-atrapame-si-puedes.md)
+
 ### Consolidación
 [C01 - La centralita: Episodio III](./Ejercicios/C01-la-centralita-episodio-III.md)
 
