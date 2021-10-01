@@ -35,11 +35,11 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 ## Segundo parcial
 ### [Clase 10 - Excepciones](./10-excepciones/indice.md)
 
-[//]: # "### [Clase 11 - Pruebas unitarias](./11-testing/indice.md)"
+### [Clase 11 - Pruebas unitarias](./11-testing/indice.md)
 
-[//]: # "### [Clase 12 - Tipos genéricos](./12-generics/indice.md)"
+### [Clase 12 - Tipos genéricos](./12-generics/indice.md)
 
-[//]: # "### [Clase 13 - Interfaces](./13-interfaces/indice.md)"
+### [Clase 13 - Interfaces](./13-interfaces/indice.md)
 
 ### [Clase 14 - Archivos y serialización](./14-serializacion/indice.md)
 
@@ -53,6 +53,6 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 [//]: # "### [Clase 19 - Eventos](./19-eventos/indice.md)"
 
-[//]: # "### [Clase 20 - Métodos de extensión](./20-otros/indice.md)"
+### [Clase 20 - Métodos de extensión](./20-otros/indice.md)
 
 [//]: # "### [Clase Extra - Introducción a la programación web] (../01-introduccion/indice.md)"
