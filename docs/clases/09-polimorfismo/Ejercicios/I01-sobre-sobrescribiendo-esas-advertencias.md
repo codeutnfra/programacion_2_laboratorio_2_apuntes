@@ -47,5 +47,5 @@ Console.ReadKey();
 6. Modificar el método `Main` para probar las modificaciones. 
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/HMOD3KrSih8) | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

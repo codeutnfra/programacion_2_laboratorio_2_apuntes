@@ -35,5 +35,5 @@ Crear una aplicación de Windows Forms que pueda realizar un cálculo de consumo
 * El programa no debe tener ninguna excepción no controlada. 
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-----------------------: | :---: | :----------------------: | :----: |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/IwNa24xU_74) | ![img](/base/github.svg) | Código |
+| :-----------------------: | :-----------------------------------: | :----------------------: | :----: |

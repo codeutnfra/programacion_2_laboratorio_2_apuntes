@@ -61,5 +61,5 @@ hide_title: false
    3. ¿A qué implementación del método `CalcularPerimetro` llaman los objetos de tipo `Cuadrado`?
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_09/I02_Calculadora_de_formas) |
-| :-----------------------: | :---: | :----------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/w9RwEGz9Eos) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_09/I02_Calculadora_de_formas) |
+| :-----------------------: | :-----------------------------------: | :----------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |

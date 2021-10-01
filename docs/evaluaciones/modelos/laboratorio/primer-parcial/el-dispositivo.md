@@ -105,5 +105,5 @@ foreach (Aplicacion app in listaApps)
 ```
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Parciales_Resueltos/Primer.Parcial.Dispositivo) |
-| :-----------------------: | :---: | :----------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/0T_TDkJAG0w) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Parciales_Resueltos/Primer.Parcial.Dispositivo) |
+| :-----------------------: | :-----------------------------------: | :----------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
