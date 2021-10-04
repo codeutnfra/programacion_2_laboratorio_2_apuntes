@@ -19,21 +19,18 @@ Realizar pruebas unitarias con regularidad supone, al final, un ahorro de tiempo
 
 ## Motivos para realizar un test unitario
 
-Si todavía no estás del todo seguro de por qué debes incorporar las unit testing a tu día a día como desarrollador, te damos algunos motivos:
-
 * Las pruebas unitarias demuestran que la lógica del código está en buen estado y que funcionará en todos los casos.
 * Aumentan la legibilidad del código y ayudan a los desarrolladores a entender el código base, lo que facilita hacer cambios más rápidamente.
 * Los test unitarios bien realizados sirven como documentación del proyecto.
 * Se realizan en pocos milisegundos, por lo que podrás realizar cientos de ellas en muy poco tiempo.
- 
 * Las pruebas unitarias permiten al desarrollador refactorizar el código más adelante y tener la garantía de que el módulo sigue funcionando correctamente. Para ello se escriben casos de prueba para todas las funciones y métodos, para que cada vez que un cambio provoque un error, sea posible identificarlo y repararlo rápidamente.
 * La calidad final del código mejorará ya que, al estar realizando pruebas de manera continua, al finalizar el código será limpio y de calidad.
-Como las pruebas unitarias dividen el código en pequeños fragmentos, es posible probar distintas partes del proyecto sin tener que esperar a que otras estén completadas.
+Como las pruebas unitarias dividen el código en pequeños fragmentos, es posible probar distintas partes del proyecto sin tener que esperar a que otras estén completas.
 
 
 ## Las tres A del unit testing
 
-Para llevar a cabo buenas pruebas unitarias, deben estar estructuradas siguiendo las tres A’s del Unit Testing. Se trata de un concepto fundamental respecto a este tipo de pruebas, que describe un proceso compuesto de tres pasos.
+Para llevar a cabo buenas pruebas unitarias, deben estar estructuradas siguiendo las tres A’s del Unit Testing:
 
 * Arrange (organizar). Es el primer paso de las pruebas unitarias. En esta parte se definen los requisitos que debe cumplir el código.
 * Act (actuar). Es el paso intermedio de las pruebas, el momento de ejecutar el test que dará lugar a los resultados que deberás analizar.
@@ -58,12 +55,12 @@ Para llevar a cabo buenas pruebas unitarias, deben estar estructuradas siguiendo
     ![Unit Test](/clases/11-testing/apuntes/UnitTest_04.PNG)
 
 2. Se escribe el test del método a probar.   
-   Primero asignamos los valores, posteriormente llamamos al método de sumar y finalmente, comprobamos que suma es correcta.
+   Primero se asignan los valores, posteriormente se llama al método de sumar y finalmente, se comprueba que **suma** es correcta.
 
     ![Unit Test](/clases/11-testing/apuntes/UnitTest_05.PNG)
 
 ## Comprobación de una excepción dentro de los test
 
-1. En este caso con MsTest debemos de utilizar el atributo [ExpectedException] sobre el método, el cual va a capturar y comprobar la excepción, y en este caso, no nos hará falta un Assert. 
+1. En este caso con MsTest se debe utilizar el atributo [ExpectedException] sobre el método, el cual va a capturar y comprobar la excepción, y en este caso,no será necesario el assert.
 
     ![Unit Test](/clases/11-testing/apuntes/UnitTest_06.PNG)
