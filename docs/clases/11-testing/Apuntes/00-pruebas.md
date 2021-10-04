@@ -51,7 +51,19 @@ Para llevar a cabo buenas pruebas unitarias, deben estar estructuradas siguiendo
 
     ![Unit Test](/clases/11-testing/apuntes/UnitTest_03.PNG)
 
-3. Creamos el proyecto de consola y agregamos la referencia del proyecto a testear en el proyecto de unit testing. La clase se creará con el atributo **[TestClass]** y el método que va a ejecutar el test contiene un atributo llamado **[TestMethod]**. 
+## Creación de un test unitario en C#
+
+1. Creamos el proyecto de consola y agregamos la referencia del proyecto a testear en el proyecto de unit testing. La clase se creará con el atributo **[TestClass]** y el método que va a ejecutar el test contiene un atributo llamado **[TestMethod]**. 
 
     ![Unit Test](/clases/11-testing/apuntes/UnitTest_04.PNG)
 
+2. Se escribe el test del método a probar.   
+   Primero asignamos los valores, posteriormente llamamos al método de sumar y finalmente, comprobamos que suma es correcta.
+
+    ![Unit Test](/clases/11-testing/apuntes/UnitTest_05.PNG)
+
+## Comprobación de una excepción dentro de los test
+
+1. En este caso con MsTest debemos de utilizar el atributo [ExpectedException] sobre el método, el cual va a capturar y comprobar la excepción, y en este caso, no nos hará falta un Assert. 
+
+    ![Unit Test](/clases/11-testing/apuntes/UnitTest_06.PNG)
