@@ -1,6 +1,6 @@
 ---
 title: Apuntes - Pruebas unitarias
-sidebar_label: Pruebas
+sidebar_label: Pruebas Unitarias
 slug: /clases/pruebas/apuntes/pruebas
 hide_table_of_contents: false
 hide_title: false
