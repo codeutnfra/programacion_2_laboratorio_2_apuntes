@@ -175,14 +175,6 @@ Como una estructura, una clase define datos y comportamiento para el tipo de dat
 
 
 
-
-
-
-
-
-
-
-
 * `CreateText`: recibe como argumento la ruta donde se desea crear o trabajar con un archivo existente. Retorna un objeto de tipo `StreamWriter`.
 * `OpenText`: recibe como argumento la ruta donde se encuentra un archivo que queremos leer. Retorna un objeto de tipo `StreamReader`.
 * `Delete`: recibe como argumento la ruta donde se encuentra un archivo que queremos eliminar.

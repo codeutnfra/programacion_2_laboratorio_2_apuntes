@@ -32,8 +32,6 @@ Utilizar las clases `OpenFileDialog` y `SaveFileDialog` para buscar los archivos
 ### Parte II
 **Sin modificar el formulario**, crear un proyecto de *biblioteca de clases* llamado "IO" y agregar las siguientes clases: 
 
-
-
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

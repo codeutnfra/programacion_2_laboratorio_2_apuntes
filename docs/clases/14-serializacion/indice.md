@@ -20,3 +20,4 @@ Adicionalmente, aprenderemos a convertir el estado de nuestros objetos a un form
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
 https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-overview
+https://es.wikipedia.org/wiki/JSON
