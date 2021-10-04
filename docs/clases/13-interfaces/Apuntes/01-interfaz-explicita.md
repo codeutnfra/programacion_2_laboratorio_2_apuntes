@@ -1,6 +1,6 @@
 ---
-title: Apuntes - Interfaces Explícitas
-sidebar_label: Interfaces Explícitas
+title: Apuntes - Interfaces explícitas
+sidebar_label: Interfaces explícitas
 slug: /clases/interfaces/apuntes/interfaces-explicitas
 hide_table_of_contents: false
 hide_title: false
