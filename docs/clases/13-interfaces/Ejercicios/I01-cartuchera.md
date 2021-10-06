@@ -1,6 +1,6 @@
 ---
-sidebar_label: I01 - Las aventuras de Lápiz y Bolígrafo
-title: Ejercicio I01 - Las aventuras de Lápiz y Bolígrafo
+sidebar_label: I01 - Cartuchera
+title: Ejercicio I01 - Cartuchera
 sidebar_position: 1
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
@@ -9,7 +9,8 @@ hide_title: false
 ---
 ---
 
-### Consigna
+## Consigna
+### Parte I
 Crear un proyecto de tipo biblioteca de clases y crear las clases del siguiente diagrama:
 
 ![Diagrama de clases](/clases/13-interfaces/ejercicios/boligrafo-y-lapiz-diagram.PNG)
@@ -52,6 +53,23 @@ Console.WriteLine(miBoligrafo);
 Console.ReadKey();
 ```
 
-### Resolución
+### Parte II
+1. Declarar la clase `CartucheraMultiuso` que tendrá un atributo del tipo `List<IAcciones>`.
+
+2. Crear el método `RecorrerElementos`.
+   1. Se deberá recorrer la lista y gastará 1 unidades de cada elemento.
+   2. Cuando sea necesario, recargará antes de salir del método (cargar 20 unidades).
+   3. Retornará `true` si se pudo gastar exactamente 1 unidad de todos los elementos.
+
+3. Declarar la clase `CartucheraSimple` que tendrá dos atributos del tipo `List<Boligrafo>` y `List<Lapiz>` respectivamente.
+
+4. Crear el método `RecorrerElementos` para que haga exactamente lo mismo que el de `CartucheraMultiuso`. Recorrer cada lista por su tipo.
+
+5. Crear dentro del método `Main` un objeto del tipo `CartucheraMultiuso` y otro de `CartucheraSimple`.
+   1. Cargar sus listas de elementos.
+   2. Llamar a los métodos `RecorrerElementos` hasta que alguno de ellos retorne `false`.
+   3. Imprimir por pantalla su retorno.
+
+## Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

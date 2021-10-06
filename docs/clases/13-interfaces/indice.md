@@ -20,7 +20,9 @@ hide_title: false
 
 ## Ejercicios
 ### Introducción
-[I01 - Las aventuras de Lápiz y Bolígrafo](./Ejercicios/I01-las-aventuras-de-lapiz-y-boligrafo.md)
+[I01 - Cartuchera](./Ejercicios/I01-cartuchera.md)
+
+[I02 - Control de aduana](./Ejercicios/I02-control-de-aduana.md)
 
 ### Consolidación
 [C01 - La centralita: Episodio V](./Ejercicios/C01-la-centralita-episodio-V.md)
