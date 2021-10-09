@@ -127,7 +127,7 @@ Para alcanzar la aprobación (nota 4) se deberán cumplir todas las siguientes p
 Además de cumplir con las condiciones mínimas, se deberá alcanzar el puntaje indicado en la sección [calificación](#calificación). 
 
 ### Condiciones mínimas para promocionar
-Para promocionar se deberá cumplir todas las condiciones mínimas de aprobación y proponer una nueva funcionalidad en base al contexto del negocio (que no sean las propuestas para los recuperatorios). 
+Para promocionar se deberá cumplir todas las condiciones mínimas de aprobación y proponer una nueva funcionalidad en base al contexto del negocio. 
 
 El nuevo feature deberá ser agregado a la aplicación siguiendo todos los criterios de calidad y buenas prácticas antes nombrados. 
 
@@ -182,8 +182,8 @@ Además de cumplir con las condiciones mínimas, se deberá alcanzar el puntaje 
 
 | Instancia                   | Fecha                     | Formulario de registro                                                                                    |
 | :-------------------------- | :------------------------ | :-------------------------------------------------------------------------------------------------------- |
-| Primera Revisión (opcional) | Lunes 27/09/2021 10:00 AM | [Registrá tu repositorio para la instancia de PRIMERA revisión](https://forms.gle/crZLsvpP26KyaRHs9)      |
-| Segunda Revisión (opcional) | Lunes 04/10/2021 10:00 AM | [Registrá tu repositorio para la instancia de SEGUNDA revisión](https://forms.gle/Po2JszUURRNZmzCRA)      |
+| ~~Primera Revisión (opcional) | Lunes 27/09/2021 10:00 AM | [Registrá tu repositorio para la instancia de PRIMERA revisión](https://forms.gle/crZLsvpP26KyaRHs9)~~      |
+| ~~Segunda Revisión (opcional) | Lunes 04/10/2021 10:00 AM | [Registrá tu repositorio para la instancia de SEGUNDA revisión](https://forms.gle/Po2JszUURRNZmzCRA)~~      |
 | Primera entrega             | Lunes 11/10/2021 10:00 AM | [Registrá tu repositorio para la instancia de primera entrega](https://forms.gle/aEdKgSB7fuZ3ooHQ7)       |
 | Primer recuperatorio        | Lunes 25/10/2021 10:00 AM | [Registrá tu repositorio para la primer instancia de recuperatorio](https://forms.gle/vAE8fP8SowCvkruh6)  |
 | Segundo recuperatorio       | Lunes 29/11/2021 10:00 AM | [Registrá tu repositorio para la segunda instancia de recuperatorio](https://forms.gle/4SxYXripefuU4gcNA) |
@@ -191,10 +191,6 @@ Además de cumplir con las condiciones mínimas, se deberá alcanzar el puntaje 
 Los trabajos serán descargados en la fecha y hora indicada, siendo corregidos a partir de ese momento según criterio docente. Existirá una instancia de revisión **opcional**, donde se podrá entregar el trabajo (completo o incompleto) y recibir una corrección preliminar que no afectará la nota final. 
 
 También se podrán utilizar los espacios de consulta en clase para evacuar cualquier duda o inconveniente que no hayan podido solucionar. **No se responderán mensajes privados por Slack fuera del horario de clase.**
-
-En cada recuperatorio se deberá entregar TODO lo requerido en la instancia anterior completo y con las correcciones indicadas, y además se agregarán [nuevas consignas y requerimientos adicionales](#primer-recuperatorio).
-
-El segundo recuperatorio reemplazará a la instancia de recuperación en **primera** fecha de final, donde deberán asistir sólo quienes estén en condiciones de promoción y aún no hayan defendido el trabajo. 
 
 El parcial **debe realizarse de forma individual**, sin colaboración, ni corrección, ni guía, ni nada similar de ningún compañero.
 
@@ -212,58 +208,7 @@ Para los recuperatorios deberán rehacer el trabajo con un diseño e implementac
 * Considerar el deadline (fecha de entrega) y el tiempo de trabajo con el que cuentan. Planificar y priorizar su trabajo. No dejar todo para último momento. 
 * Foco en el objetivo. Priorizar la entrega completa del trabajo y dejar para el final temas menos importantes (como pueden ser retoques al estilo visual). 
 
-## Primer recuperatorio
-Para aprobar el primer recuperatorio se deberán cumplir con TODAS las consignas y requisitos de la primera entrega, arreglar todo lo que se haya marcado en las correcciones y sumar las siguientes funcionalidades: 
+## Recuperatorios
+En cada recuperatorio se deberá entregar TODO lo requerido, completo y con las correcciones indicadas.
 
-* Agregar una pantalla de login, si no se ingresa un usuario y contraseña válidos no se podrá acceder a las otras pantallas. Debe existir la posibilidad de desloguearse y loguearse con otro usuario sin cerrar la aplicación. 
-
-* Manejar los siguientes perfiles de usuario: **operador** y **técnico**. El perfil deberá figurar en la barra de información junto al nombre del usuario. 
-  
-**Operador (a.k.a "el pibe que atiende el ciber")**
-* Además de las funciones que ya tenía (asignar y deasignar), deberá poder asociar problemas técnicos a una máquina o teléfono.
-  * Deberá existir una lista de opciones pre-cargadas y la posibilidad de ingresar una razón que no se encuentre en la lista. 
-  * Ejemplos: *"No anda el mouse."*, *"Se cortó el cable."*, *"No tiene cámara."*.   
-  * Al cargar un problema deberá asignarle una prioridad entre las siguientes: Alta, Media o Baja.
-  * Las máquinas o cabinas que tengan un problema asociado y no arreglado deberán figurar en estado *"Inhabilitado"*.
-
-```
-Usuario: Oper 
-Contraseña: PasáPorLaNueve
-```
-
-**Técnico (a.k.a "el que estudió programación pero lo llamaron para arreglar impresoras")**
-* Podrá visualizar solamente los problemas técnicos pendientes ordenados por prioridad de los más prioritarios a los menos prioritarios, como segundo criterio ordenar alfabéticamente de forma ascendente. 
-* Sólo él puede marcar los problemas como arreglados.
-
-```
-Usuario: CasiHacker
-Contraseña: TeFormateoElDisco
-```
-
-## Segundo recuperatorio
-Para aprobar el segundo recuperatorio se deberán cumplir con TODAS las consignas y requisitos de la primera entrega y del primer recuperatorio, arreglar todo lo que se haya marcado en las correcciones y sumar las siguientes funcionalidades: 
-
-Agregar el perfil **administrador (a.k.a "el dueño")** que tendrá todas las funciones disponibles (incluyendo las del técnico) y se le sumarán las siguientes exclusivas de este perfil: 
-* Poder cambiar los costos/tarifas de los servicios.
-* Poder acceder a un **historial de acciones** realizadas por los distintos usuarios partiendo de la última hasta la primera. 
-  * Deberá contener la **fecha y hora** exacta en que sucedió, el **nombre** del usuario, su **perfil**, y la **descripción** de la acción. 
-* Será el único que pueda ver las estadísticas históricas. El operador ya no podrá ver esta información.
-
-```
-Usuario: Admin 
-Contraseña: Admin
-```
-
-Agregar el perfil de **cliente** a la aplicación, que no requerirá usuario y contraseña para ingresar. Se montará una computadora en la entrada del local donde los clientes podrán pre-cargar sus datos en la aplicación y auto-asignarse a la cola de espera. 
-
-Entre los datos a cargar se encontrarán: 
-  * Nombre
-  * Apellido
-  * DNI
-  * Fecha de nacimiento
-  * Mail
-  * Elegir cabina o máquina.
-    * Si elige máquina, deberá seleccionar uno o varios programas, juegos o periféricos a utilizar. También ingresar la cantidad de fracciones de tiempo a alquilar o modo *"Libre"*.
-    * Si elige cabina, deberá ingresar el teléfono al que llamará (mismo criterio que en las entregas anteriores).
-
-Integrar esta nueva funcionalidad con las existentes. Los datos cargados por el cliente ya no deberán ser ingresados por el operador. 
+El segundo recuperatorio reemplazará a la instancia de recuperación en **primera** fecha de final, donde deberán asistir sólo quienes estén en condiciones de promoción y aún no hayan defendido el trabajo. 
