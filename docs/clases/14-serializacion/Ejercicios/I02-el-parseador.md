@@ -1,18 +1,36 @@
 ---
-sidebar_label: "I01 - Siempre quise tener un notepad ಥ‿ಥ"
-title: "Ejercicio I01 - Siempre quise tener un notepad ಥ‿ಥ"
-sidebar_position: 1
-author: Federico Dávila
-authorURL: https://github.com/FedeDavila1984
+sidebar_label: "I02 - El parseador"
+title: "Ejercicio I02 - El parseador"
+sidebar_position: 2
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 hide_table_of_contents: true
 hide_title: false
 ---
 ---
 
 ## Consigna
+Antes de comenzar se deberá [descargar la cáscara del proyecto](https://drive.google.com/file/d/1CPG9TLTR5LFLcMGLjHs576nPdkLuWSqd/view?usp=sharing). Los siguientes puntos se deberán resolver trabajando sobre la misma.
+
+:::important Importante
+
+Para resolver este ejercicio será de ayuda el capítulo de los apuntes **[Trabajando con archivos](../apuntes/archivos)**. 
+
+:::
 
 ### Parte I
-Crear un proyecto de *Windows Forms App* capaz de abrir, editar y guardar archivos de texto, tal como se puede hacer en un simple editor de texto como puede ser el *notepad* de *Windows*.
+Crear un nuevo proyecto de biblioteca de clases llamado `Persistencia` e implementar el siguiente diagrama de clases:
+
+* La clase `Parseador` será estática.
+* El método privado `VerificarDirectorio` deberá verificar si existe el directorio y si no existe deberá crearlo.
+  * Si existe o no existía pero lo pudo crear, retornar true. 
+  * Si no existía y no se pudo crear, retornar false.  
+* 
+
+### Parte II
+Referenciar el proyecto `Persistencia` en el proyecto `Entidades`.
+
+Crear un proyecto de consola capaz de abrir, editar y guardar archivos de texto, tal como se puede hacer en un simple editor de texto como puede ser el *notepad* de *Windows*.
 
 * Agregar una barra de menú superior (`MenuStrip`) con las siguiente opciones del menú "Archivo":
     * Archivo -> Guardar

@@ -7,6 +7,3 @@ hide_title: false
 author: 
 authorURL: 
 ---
-
-1. ¿?
-2. 

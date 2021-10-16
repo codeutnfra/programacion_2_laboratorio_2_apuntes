@@ -233,11 +233,6 @@ Borrando archivo...
 ## Streams
 Un stream es una secuencia de bytes sobre la que se puede leer o escribir. Los archivos puede ser procesados como un array, con un acceso aleatorio basado en la posición de un determinado byte en el contenido. Sin embargo, puede ser útil procesar los archivos como un stream donde los bytes pueden ser accedidos en orden secuencial. 
 
-## Trabajando con rutas
-La clase `Path` sirve para trabajar con cadenas de texto que representan o contienen rutas a archivos o directorios:
-* `Combine`: 
-* `Join`: 
-* `TryJoin`: 
 
 ## Trabajando con recursos no-manejados
 Cuando abrimos un archivo para leer o escribir, estamos usando recursos fue de .NET. A estos se los conoce como **recursos no-manejados (*unmanaged resources*)** y deben ser liberados cuando terminemos de trabajar con ellos. 
