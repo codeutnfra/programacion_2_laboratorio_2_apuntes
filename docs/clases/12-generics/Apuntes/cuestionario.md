@@ -4,8 +4,8 @@ sidebar_label: Cuestionario
 slug: /clases/generics/apuntes/cuestionario
 hide_table_of_contents: true
 hide_title: false
-author: 
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 ### Tipos genéricos
 1. ¿Qué es una clase genérica? ¿Qué permite?
