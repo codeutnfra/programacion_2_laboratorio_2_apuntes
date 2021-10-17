@@ -9,6 +9,8 @@ authorURL: https://github.com/mauricioCerizza
 ---
 
 ## Directorios
+
+
 ### Obtener el directorio actual
 Existen dos formas de obtener el directorio actual:
 * El método estático `GetCurrentDirectory()` de la clase `Directory`.

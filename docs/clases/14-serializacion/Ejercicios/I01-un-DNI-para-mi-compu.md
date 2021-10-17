@@ -41,7 +41,7 @@ Para resolver este ejercicio será de ayuda el capítulo de los apuntes **[Ambie
    
 8. Dentro del manejador del evento `Load` modificar la propiedad `Text` del label `lblDirectorioActual` y:
    1. Cargarle el mensaje *"Identificación ejecutada en: [Salto de línea]"*. Reemplazar el texto entre corchetes por un salto de línea que sea agnóstico al sistema operativo sobre el que se ejecuta la aplicación, para eso se deberá utilizar la propiedad que corresponda de la clase `Environment`.
-   2. A continuación del salto de línea generado en el punto anterior, incorporar al texto la ruta absoluta del directorio sobre el que se está ejecutando la aplicación. Obtener el dato a partir de la propiedad que corresponda de la clase `Environment`.
+   2. A continuación del salto de línea generado en el punto anterior, incorporar al texto la ruta absoluta del directorio sobre el que se está ejecutando la aplicación. Obtener el dato con la propiedad `CurrentDirectory` de la clase `Environment`.
 
 9. Crear el método `private void ConfigurarEspacioTotalYDisponible()` y utilizando el método estático `GetDrives` de la clase `DriveInfo`:
    1. Modificar la propiedad `Text` del label `lblEspacioTotal` y cargar el mensaje *"Espacio total: [espacio total] Gigabytes"*. Reemplazar el texto entre corchetes por la suma del espacio total de todas las unidades de almacenamiento de la computadora. Mostrar el dato en gygabytes redondeado al entero más cercano.

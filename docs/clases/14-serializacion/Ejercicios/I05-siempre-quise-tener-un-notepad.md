@@ -10,7 +10,6 @@ hide_title: false
 ---
 
 ## Consigna
-
 ### Parte I
 Crear un proyecto de *Windows Forms App* capaz de abrir, editar y guardar archivos de texto, tal como se puede hacer en un simple editor de texto como puede ser el *notepad* de *Windows*.
 

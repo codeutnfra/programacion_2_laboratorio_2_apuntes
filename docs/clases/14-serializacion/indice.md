@@ -26,3 +26,5 @@ https://es.wikipedia.org/wiki/Ruta_(inform%C3%A1tica)
 https://es.wikipedia.org/wiki/JSON
 https://docs.microsoft.com/en-us/dotnet/api/system.io.path
 https://stackoverflow.com/questions/24429949/device-vs-partition-vs-file-system-vs-volume-how-do-these-concepts-relate-to-ea
+
+https://en.wikipedia.org/wiki/Volume_(computing)

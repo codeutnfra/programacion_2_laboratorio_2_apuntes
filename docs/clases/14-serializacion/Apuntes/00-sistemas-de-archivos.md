@@ -15,16 +15,30 @@ Sus principales funciones son la asignación de espacio a los archivos, la admin
 
 La mayoría de los sistemas operativos manejan su propio sistema de archivos.
 
-Los sistemas de archivos proveen métodos para crear, mover, renombrar y eliminar tanto archivos como directorios.
+Los sistemas de archivos proveen métodos para crear, mover, renombrar y eliminar tanto archivos como directorios. También asignan propiedades como sólo lectura y permisos de acceso. 
 
 ### Unidades, particiones y volúmenes
 Una **unidad (*drive*)** (también llamada disco) es un dispositivo ***físico*** que se utiliza para almacenar datos.
 
-Una **partición** es una división ***lógica*** de un medio de almacenamiento ***físico***. 
+Una **partición** es una división ***lógica*** de un medio de almacenamiento ***físico*** a la que le asigna una porción del espacio disponible en el dispositivo. 
 
-Se llama **volumen** al área de almacenamiento de un medio de almacenamiento o de una de sus particiones, accesible mediante un nombre único y un formato consistente en un sistema de archivos (como FAT o NTFS). Básicamente se trata de una unidad de datos identificable y organizada bajo un formato específico. Un medio de almacenamiento físico puede tener varios volúmenes y éstos pueden abarcar varios medios de almacenamiento físicos. 
+Se llama **volumen** al área de almacenamiento efectivode un medio de almacenamiento o de una de sus particiones (es decir, física o lógica), accesible mediante un nombre único y un formato consistente en un sistema de archivos (como FAT o NTFS). Básicamente se trata de una unidad de datos identificable y organizada bajo un formato específico. 
 
-La principal diferencia entre un volumen y una partición 
+Las particiones no pueden contener un sistema de archivos directamente. En su lugar, uno o más volúmenes deben ser asociados a la misma. 
+
+Los volúmenes existen a un nivel lógico del sistema operativo, mientras que las particiones son una fragmentación lógica del hardware. A veces se corresponden uno a uno, pero no siempre. Por ejemplo, podemos un sistema operativo distinto en cada partición. 
+
+| Unidad     | Partición   | Sistema de archivos | Nombre del volumen |
+| ---------- | ----------- | ------------------- | ------------------ |
+| Disco Duro | Partición 1 | NTFS                | C:                 |
+| Disco Duro | Partición 2 | EXT3                | /                  |
+| SSD        | Partición 1 | NTFS                | E:                 |
+| USB        | Partición 1 | FAT32               | F:                 |
+
+En el ejemplo anterior:
+* Hay dos unidades físicas, un disco duro y un ssd.
+* El disco duro se separa en dos particiones, cada una con un sistema operativo distinto.
+* "C:", "/", "E:" y "F:" son volúmenes. Cada uno con su sistema de archivos.
 
 ## Trabajando con sistemas de archivos en distintas plataformas
 Como sabemos, .NET es una plataforma de desarrollo multi-plataforma donde podemos construir soluciones para Windows, Linux o MacOS. Cada sistema operativo tiene sus diferencias en cómo se almacenan y recuperan los datos en su sistema de archivos. 
