@@ -88,7 +88,7 @@ Para trabajar con este archivo se deberá utilizar el lenguaje de marcado [Markd
 * **Sobre mí**: Presentarse brevemente. Contar su experiencia programando y lo que significó para vos este trabajo (¿fue un desafío? ¿fue fácil? ¿aprendiste? ¿te divertiste? etc...). 
 * **Resumen**: Explicar qué hace la aplicación y cómo se usa a grandes rasgos. 
 * **Diagrama de clases**: Pegar una foto del diagrama de clases correspondiente a la lógica de negocio. Se debe construir con [la herramienta de Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects?view=vs-2019) y deberá estar actualizado a la última versión entregada de la solución. 
-* **Justificación técnica**: Indicar tema a tema (de las [clases 01 a la 09](../../clases/programa.md)) dónde se fue aplicando en el código **y por qué se decidió implementarlo de esa forma**. Toda decisión tiene que estar argumentada con razones técnicas que giren alrededor de los pilares de la programación orientada a objetos y cuestiones de mantenibilidad, código limpio, flexibilidad al cambio, experiencia de usuario, accesibilidad, uso seguro, rendimiento y eficiencia. 
+* **Justificación técnica**: Indicar tema a tema (de los [temas 01 al 09](../../clases/programa.md)) dónde se fue aplicando en el código **y por qué se decidió implementarlo de esa forma**. Toda decisión tiene que estar argumentada con razones técnicas que giren alrededor de los pilares de la programación orientada a objetos y cuestiones de mantenibilidad, código limpio, flexibilidad al cambio, experiencia de usuario, accesibilidad, uso seguro, rendimiento y eficiencia. 
   * Suma identificar pros y contras, si los tienen en mente. 
   * El objetivo es que demuestren que saben lo que hacen y que tomaron decisiones con criterio y no mecanizadas.
   * Si se utilizó alguna biblioteca externa también se deberá justificar la elección. 
@@ -107,7 +107,7 @@ Para alcanzar la aprobación (nota 4) se deberán cumplir todas las siguientes p
   * Deberá existir un límite mínimo para ajustar el tamaño que será aquel donde se pierde visibilidad de los controles o se dificulta el trabajo con la aplicación.
 * Las clases y sus miembros deberán estar correctamente documentados con la herramienta de documentación xml. 
 * Validar todos los ingresos de datos (cuando corresponda) mostrando mensajes claros para el usuario cuando un dato sea inválido. 
-* Abstraer las entidades y realizar un diseño orientado a objetos. Aplicar todos los temas de las [clases 01 a la 09](../../clases/programa.md) incluida.
+* Abstraer las entidades y realizar un diseño orientado a objetos. Aplicar todos los temas de los [temas 01 al 09](../../clases/programa.md) incluida.
   * Al menos dos formularios.
   * Se valorará el uso justificado de formularios MDI, pantallas modales y no-modales.
   * Ninguna entidad se debe comparar por defecto, sino por uno o varios de sus atributos (idealmente por su identificador). Se deberá cambiar el comportamiento todos los métodos de comparación (operador de igualdad, método `Equals` y método `GetHashCode`).
@@ -178,14 +178,14 @@ Además de cumplir con las condiciones mínimas, se deberá alcanzar el puntaje 
 * Cada cambio y avance deberá ser registrado con un *commit* puntual acompañado de un mensaje descriptivo y subido inmediatamente al repositorio remoto (*push*).
 * La solución deberá ser nombrada como: *Apellido.Nombre.PrimerParcial*.
 * No realizar actualizaciones sobre el branch `Master` entre la fecha de entrega y la corrección. Si desean seguir trabajando pueden hacerlo sobre otra ramificación. 
-* Registrar **cada** entrega a través del Google Form indicado a continuación. **No se corregirán repositorios que no estén registrados** en la correspondiente instancia de entrega.
+* **Registrar cada entrega** a través del Google Form indicado a continuación. **No se corregirán repositorios que no estén registrados** en la correspondiente instancia de entrega.
 
 | Instancia                       | Fecha                         | Formulario de registro                                                                                    |
 | :------------------------------ | :---------------------------- | :-------------------------------------------------------------------------------------------------------- |
 | ~~Primera Revisión (opcional)~~ | ~~Lunes 27/09/2021 10:00 AM~~ | ~~[Registrá tu repositorio para la instancia de PRIMERA revisión](https://forms.gle/crZLsvpP26KyaRHs9)~~  |
 | ~~Segunda Revisión (opcional)~~ | ~~Lunes 04/10/2021 10:00 AM~~ | ~~[Registrá tu repositorio para la instancia de SEGUNDA revisión](https://forms.gle/Po2JszUURRNZmzCRA)~~  |
 | ~~Primera entrega~~             | ~~Lunes 11/10/2021 10:00 AM~~ | ~~[Registrá tu repositorio para la instancia de primera entrega](https://forms.gle/aEdKgSB7fuZ3ooHQ7)~~   |
-| Primer recuperatorio            | Lunes 25/10/2021 10:00 AM     | [Registrá tu repositorio para la primer instancia de recuperatorio](https://forms.gle/vAE8fP8SowCvkruh6)  |
+| Primer recuperatorio            | Lunes 01/11/2021 10:00 AM     | [Registrá tu repositorio para la primer instancia de recuperatorio](https://forms.gle/vAE8fP8SowCvkruh6)  |
 | Segundo recuperatorio           | Lunes 29/11/2021 10:00 AM     | [Registrá tu repositorio para la segunda instancia de recuperatorio](https://forms.gle/4SxYXripefuU4gcNA) |
 
 Los trabajos serán descargados en la fecha y hora indicada, siendo corregidos a partir de ese momento según criterio docente. Existirá una instancia de revisión **opcional**, donde se podrá entregar el trabajo (completo o incompleto) y recibir una corrección preliminar que no afectará la nota final. 
