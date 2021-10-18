@@ -1,7 +1,7 @@
 ---
-sidebar_label: "I02 - La siempre clásica y eficaz receta"
-title: "Ejercicio I02 - La siempre clásica y eficaz receta"
-sidebar_position: 6
+sidebar_label: "I03 - La siempre clásica y eficaz receta"
+title: "Ejercicio I03 - La siempre clásica y eficaz receta"
+sidebar_position: 3
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true

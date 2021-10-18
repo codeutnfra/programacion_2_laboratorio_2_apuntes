@@ -1,5 +1,5 @@
 ---
-title: Apuntes - Archivos y serialización
+title: Apuntes - Serialización
 sidebar_label: Serialización
 slug: /clases/serializacion/apuntes/serializacion
 hide_table_of_contents: false

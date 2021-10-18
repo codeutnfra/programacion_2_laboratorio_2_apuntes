@@ -9,12 +9,12 @@ hide_title: false
 ---
 ---
 
-## Consigna
+### Consigna
 Generaremos una tarjeta de identificación para la computadora donde se está ejecutando nuestra aplicación.
 
 :::important Importante
 
-Para resolver este ejercicio será de ayuda el capítulo de los apuntes **[Ambientes y sistemas de archivos](../apuntes/ambientes-sistemas-archivos)**. 
+Para resolver este ejercicio será de ayuda el capítulo de los apuntes **[Ambientes y sistemas de archivos](../Apuntes/00-sistemas-de-archivos.md)**. 
 
 :::
 
@@ -57,7 +57,7 @@ Para resolver este ejercicio será de ayuda el capítulo de los apuntes **[Ambie
 
 Un ejemplo del resultado final (los datos variarán dependiendo de la computadora donde se ejecute la aplicación):
 
-![Resultado esperado](/clases/14-serializacion/ejercicios/un-dni-para-mi-compu-result.png)
+![Resultado esperado](/clases/14-archivos/ejercicios/un-dni-para-mi-compu-result.png)
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_14/I01_Un_DNI_para_mi_compu) |

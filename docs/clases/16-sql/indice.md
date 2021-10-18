@@ -10,8 +10,13 @@ hide_title: false
 ## Resumen
 
 ## Apuntes
+[SQL](./Apuntes/00-sql.md)
+
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
+### Introducción
+[I01 - La base del bufet](./Ejercicios/I01-la-base-del-bufet.md)
 
 ## Bibliografía
 

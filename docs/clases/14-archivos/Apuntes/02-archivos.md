@@ -1,7 +1,7 @@
 ---
 title: Apuntes - Archivos y serialización
 sidebar_label: Trabajando con archivos
-slug: /clases/serializacion/apuntes/archivos
+slug: /clases/archivos/apuntes/archivos
 hide_table_of_contents: false
 hide_title: true
 author: Mauricio Cerizza
@@ -29,9 +29,9 @@ static void Main(string[] args)
 
 Al sólo pasarle el nombre del archivo y no una ruta completa, por defecto se guardará donde se encuentre el ejecutable (.exe) de nuestra aplicación. Cuando estemos trabajando en modo Debug este directorio será la carpeta `bin/Debug` de nuestra solución. Si buscamos encontraremos el archivo creado junto con el texto.
 
-![Archivo en carpeta bin/Debug](/clases/14-serializacion/apuntes/archivo_en_bin.png)
+![Archivo en carpeta bin/Debug](/clases/14-archivos/apuntes/archivo_en_bin.png)
 
-![Archivo con el texto guardado](/clases/14-serializacion/apuntes/mi_archivo_txt.png)
+![Archivo con el texto guardado](/clases/14-archivos/apuntes/mi_archivo_txt.png)
 
 El método `WriteAllLines` hace lo mismo, pero en vez de recibir un `string` recibe un array con líneas de texto (`string[]`). 
 

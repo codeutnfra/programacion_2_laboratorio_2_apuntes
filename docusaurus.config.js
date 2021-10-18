@@ -115,7 +115,6 @@ module.exports = {
       {
         docs: {
           path: 'docs',
-          sidebarCollapsible: true,
           sidebarPath: require.resolve("./sidebars.js"),
           //editUrl: "https://github.com/mauricioCerizza/utn-prog-ii/edit/master/",
           showLastUpdateAuthor: true,        

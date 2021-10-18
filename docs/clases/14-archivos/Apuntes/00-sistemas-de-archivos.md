@@ -1,7 +1,7 @@
 ---
-title: Apuntes - Archivos y serialización
+title: Apuntes - Archivos
 sidebar_label: Sistemas de archivos
-slug: /clases/serializacion/apuntes/sistemas-de-archivos
+slug: /clases/archivos/apuntes/sistemas-de-archivos
 hide_table_of_contents: false
 hide_title: false
 author: Mauricio Cerizza
