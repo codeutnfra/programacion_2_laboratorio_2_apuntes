@@ -21,18 +21,20 @@ Hasta ahora las entradas y salidas de información fueron realizadas por el usua
 
 ## Ejercicios
 ### Introducción
+[I01 - Un DNI para mi compu](./Ejercicios/I01-un-DNI-para-mi-compu.md)
+
+[I02 - El parseador](./Ejercicios/I02-el-parseador.md)
+
+[I03 - Siempre quise tener un notepad ಥ‿ಥ](./Ejercicios/I03-siempre-quise-tener-un-notepad.md)
 
 ### Consolidación
+[C01 - Lanzar, atrapar, probar y guardar](./Ejercicios/C01-lanzar-atrapar-probar-y-guardar.md)
 
+[C02 - La centralita: Episodio VI](./Ejercicios/C02-la-centralita-episodio-VI.md)
 
 ## Bibliografía
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
-https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-overview
-https://docs.microsoft.com/en-us/dotnet/standard/serialization/introducing-xml-serialization
-https://docs.microsoft.com/en-us/dotnet/standard/serialization/how-to-serialize-an-object
-https://es.wikipedia.org/wiki/Ruta_(inform%C3%A1tica)
-https://es.wikipedia.org/wiki/JSON
-https://docs.microsoft.com/en-us/dotnet/api/system.io.path
-https://stackoverflow.com/questions/24429949/device-vs-partition-vs-file-system-vs-volume-how-do-these-concepts-relate-to-ea
-https://en.wikipedia.org/wiki/Volume_(computing)
+* Price, M. J. (2020). *C#9 and .NET 5 - Modern Cross-Platform Development.* (5th ed., pp. 474 - 496). Packt Publishing.
+* *File system and the registry (C# Programming Guide)*. Microsoft Docs. https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/
+* *Volume (computing)*. Wikipedia, the free encyclopedia. https://en.wikipedia.org/wiki/Volume_(computing)
+* *Ruta (informática)*. Wikipedia, the free encyclopedia. https://es.wikipedia.org/wiki/Ruta_(inform%C3%A1tica)
+* *Path Class*. Microsoft Docs. https://docs.microsoft.com/en-us/dotnet/api/system.io.path
