@@ -63,7 +63,7 @@ También admite hacer comentarios utilizando `//`.
         "numero": "42014133",
         "interno": "116",
         "esCelular": false
-    },
+    }
   ]
 }
 ```
@@ -109,7 +109,7 @@ public class Empleado
         }
     }
     
-    protected decimal Salario
+    public decimal Salario
     {
         get 
         {
