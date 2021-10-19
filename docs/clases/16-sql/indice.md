@@ -9,6 +9,12 @@ hide_title: false
 
 ## Resumen
 
+:::important Importante
+
+Antes de empezar con esta guía, deberás [Preparar el entorno de base de datos](/introduccion/entorno-trabajo.md#entorno-de-base-de-datos).
+
+:::
+
 ## Apuntes
 [SQL](./Apuntes/00-sql.md)
 
