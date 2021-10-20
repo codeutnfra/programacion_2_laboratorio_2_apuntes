@@ -235,7 +235,7 @@ Un stream es una secuencia de bytes sobre la que se puede leer o escribir. Los a
 
 
 ## Trabajando con recursos no-manejados
-Cuando abrimos un archivo para leer o escribir, estamos usando recursos fue de .NET. A estos se los conoce como **recursos no-manejados (*unmanaged resources*)** y deben ser liberados cuando terminemos de trabajar con ellos. 
+Cuando abrimos un archivo para leer o escribir, estamos usando recursos fuera del campo de acción del entorno de ejecución (CLR) de .NET. A estos se los conoce como **recursos no-manejados (*unmanaged resources*) y deben ser liberados cuando terminemos de trabajar con ellos. 
 
 Una forma de liberar recursos tanto cuando ocurren excepciones como cuando no, es trabajar dentro de un **bloque try-finally**. 
 

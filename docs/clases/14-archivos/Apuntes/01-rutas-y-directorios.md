@@ -13,13 +13,19 @@ Una **ruta (*path*)** es la forma de referenciar un archivo informático o direc
 
 Una ruta señala la localización exacta de un archivo o directorio mediante una cadena de caracteres concreta. Esta puede ser de diversas formas dependiendo del sistema operativo y del sistema de archivos en cuestión. En líneas generales se compondrá de los nombres de los directorios que conforman el camino hasta el archivo o directorio a lo largo del árbol de directorios, y finalmente estará el nombre del archivo o directorio que se quiere referenciar. 
 
+La clase `Path`, perteneciente al espacio de nombres `System.IO`, sirve para trabajar con cadenas de texto que representan o contienen rutas a archivos o directorios.
+
+### Rutas absolutas y relativas
 Las **rutas absolutas** señalan la ubicación de un archivo o directorio desde el directorio raíz del sistema de archivos. Un ejemplo de ruta absoluta en Windows sería `C:\usuarios\juan\archivo.txt`.
 
-Las **rutas relativas** señalan la ubicación de un archivo o directorio a partir de la posición actual del sistema operativo en el sistema de archivos. Un ejemplo de ruta relativa en Windows sería `.\archivo.txt`, donde el símbolo `.` representa la posición actual en la que estamos ubicados en el sistema de archivos. El símbolo `..` nos mueve al directorio padre de la ubicación actual, por ejemplo `..\..\otra_carpeta\archivo.txt` se movería dos directorios hacia arriba en la jerarquía, luego entraría al directorio `otra_carpeta` y por último accedería al archivo `archivo.txt`.
+Las **rutas relativas** señalan la ubicación de un archivo o directorio en relación a la posición actual sobre el sistema de archivos. Un ejemplo de ruta relativa en Windows sería `.\archivo.txt`, donde el símbolo `.` representa la posición actual en la que estamos ubicados en el sistema de archivos. El símbolo `..` nos mueve al directorio padre de la ubicación actual, por ejemplo `..\..\otra_carpeta\archivo.txt` se movería dos directorios hacia arriba en la jerarquía, luego entraría al directorio `otra_carpeta` y por último accedería al archivo `archivo.txt`.
 
-La clase `Path`, perteneciente al espacio de nombres `System.IO`, sirve para trabajar con cadenas de texto que representan o contienen rutas a archivos o directorios. Entre sus miembros estáticos se encuentran:
+#### Método `Path.GetFullPath`
 
-#### `Path.DirectorySeparatorChar`
+#### Método `Path.GetRelativePath`
+
+### Obtener separadores de rutas de forma agnóstica al sistema operativo
+#### Propiedad `DirectorySeparatorChar`
 La propiedad estática `DirectorySeparatorChar` de la clase `Path` retorna el caracter separador de directorios para el sistema operativo sobre el que se ejecuta la aplicación.
 
 ```csharp
@@ -41,7 +47,7 @@ La salida en Linux es:
 Path.DirectorySeparatorChar: /
 ```
 
-#### `Path.AltDirectorySeparatorChar`
+#### Propiedad `Path.AltDirectorySeparatorChar`
 La propiedad estática `AltDirectorySeparatorChar` de la clase `Path` retorna el caracter separador de directorios ***alternativo*** para el sistema operativo sobre el que se ejecuta la aplicación.
 
 ```csharp
@@ -65,7 +71,7 @@ Path.AltDirectorySeparatorChar: /
 
 Nótese que para Linux retorna el mismo caracter que `DirectorySeparatorChar`, ya que Linux sólo soporta `/` como separador de directorios. Windows, al contrario, soporta tanto `\` (retornado por `DirectorySeparatorChar`) como `/` (retornado por `AltDirectorySeparatorChar`).
 
-#### `Path.PathSeparator`
+#### Propiedad `Path.PathSeparator`
 La propiedad estática `PathSeparator` de la clase `Path` retorna el caracter que se usa para separar una lista de rutas en el sistema operativo sobre el que se ejecuta la aplicación.
 
 ```csharp
@@ -87,7 +93,7 @@ La salida en Linux es:
 Path.PathSeparator: :
 ```
 
-#### `Path.VolumeSeparatorChar`
+#### Propiedad `Path.VolumeSeparatorChar`
 La propiedad estática `VolumeSeparatorChar` de la clase `Path` retorna el caracter que se usa para separar volúmenes en el sistema operativo sobre el que se ejecuta la aplicación.
 
 ```csharp
@@ -109,26 +115,51 @@ La salida en Linux es:
 Path.VolumeSeparatorChar: /
 ```
 
-#### `Path.Combine`
+#### Método `Path.EndsInDirectorySeparator`
+
+### Combinar rutas
+#### Método `Path.Combine`
 El método estático `Combine` de la clase `Path` recibe un array de strings conteniendo partes de una ruta a combinar. 
 
 Si alguna de las partes es una ruta absoluta, la operación se reinicia y comienza a formar la ruta desde ese punto, descartando todas las partes previas.
 
 Si algún elemento excepto el último no es una unidad y no termina
 
-#### `Path.Join`
+#### Método `Path.Join`
 
-#### `Path.TryJoin`
+
+#### Método `Path.TryJoin`
+
+## Diferencias entre Path.Combine y Path.Join
+
+### Trabajar con extensiones
+#### Método `Path.ChangeExtension`
+
+
+#### Método `Path.HasExtension`
+
+### Nombres
+#### Método `GetFileNameWithoutExtension`
+
+#### Método `GetFileName`
+
+#### Método `GetDirectoryName`
 
 ## Directorios
 Dentro de un sistema de archivos, un **directorio** es una colección de archivos y otros directorios (sub-directorios) creado con fines organizacionales. 
 
 ### Verificar si existe un directorio
-
+Directory.Exists
 
 ### Crear un directorio
+Directory.CreateDirectory
 
 ### Eliminar un directorio
+Directory.Delete
+
+### Mover o renombrar un directorio
+Directory.Move
+
 
 ### Obtener el directorio actual
 Existen dos formas de obtener el directorio actual:
