@@ -18,12 +18,13 @@ En esta sección introduciremos algunas formas de trabajar en C# con procesos qu
 [Cuestionario](./Apuntes/cuestionario.md)
 
 ## Ejercicios
-#### Consolidación
-[C01 - El relojero](./Ejercicios/C01-reloj.md)
+### Introducción
+[I01 - El relojero](./Ejercicios/I01-el-relojero.md)
 
-[C02 - Simulador de atención a clientes](./Ejercicios/C02-simulador-clientes.md)
+[I02 - Simulador de atención a clientes](./Ejercicios/I02-simulador-clientes.md)
 
-[C03 - Simulador de llamadas](./Ejercicios/C03-simulador-centralita.md)
+### Consolidación
+[C01 - La centralita: Episodio IX](./Ejercicios/C01-la-centralita-episodio-IX.md)
 
 ## Bibliografía
 + Cleary, S. (2019). *Concurrency in C# Cookbook* (2nd ed.). Estados Unidos: O'Reilly Media.

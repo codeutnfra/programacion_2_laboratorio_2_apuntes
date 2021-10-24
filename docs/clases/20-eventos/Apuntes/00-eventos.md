@@ -7,3 +7,4 @@ hide_title: false
 author: 
 authorURL: 
 ---
+[//]: # "Los manejadores de eventos no son más que métodos invocados a través de delegados."

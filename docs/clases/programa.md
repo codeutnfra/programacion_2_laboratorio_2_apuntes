@@ -49,11 +49,11 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 ### [Tema 17 - Conexión a bases de datos](./17-databases/indice.md)
 
-[//]: # "### [Tema 18 - Delegados y expresiones lambda](./18-delegados/indice.md)"
+### [Tema 18 - Delegados y expresiones lambda](./18-delegados/indice.md)
 
-[//]: # "### [Tema 19 - Programación multi-hilo y concurrencia](./19-concurrencia/indice.md)"
+### [Tema 19 - Programación multi-hilo y concurrencia](./19-concurrencia/indice.md)
 
-[//]: # "### [Tema 20 - Eventos](./20-eventos/indice.md)"
+### [Tema 20 - Eventos](./20-eventos/indice.md)
 
 ### [Tema 21 - Métodos de extensión](./21-otros/indice.md)
 

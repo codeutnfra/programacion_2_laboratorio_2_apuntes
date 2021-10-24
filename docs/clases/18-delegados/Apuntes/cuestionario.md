@@ -4,9 +4,14 @@ sidebar_label: Cuestionario
 slug: /clases/delegados/apuntes/cuestionario
 hide_table_of_contents: true
 hide_title: false
-author: 
-authorURL: 
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
+### Delegados
+1. ¿Qué es un delegado?
+2. ¿Para qué se usan los delegados?
+3. ¿Qué tienen que cumplir los métodos referenciados por un delegado?
+4. ¿Cómo se declara un delegado?
+5. ¿Cómo se usa un delegado?
 
-1. ¿?
-2. 
+### Expresiones lambda

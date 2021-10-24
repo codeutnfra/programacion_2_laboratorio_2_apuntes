@@ -8,5 +8,6 @@ author: Mauricio Cerizza
 authorURL: https://github.com/mauricioCerizza
 ---
 
-1. ¿?
-2. 
+1. ¿Qué significa concurrencia?
+2. ¿Qué formas de concurrencia existen y cuándo se usa cada una?
+3. 
