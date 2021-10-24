@@ -117,7 +117,7 @@ Observemos que el segundo mensaje está ocurriendo en el hilo 4, mientras que lo
 
 La propiedad `Thread.CurrentThread.ManagedThreadId` retorna el id del hilo en el que se está ejecutando esa instrucción. La propiedad `Task.CurrentId` retorna el id de la tarea, es decir, de la instancia de `Task`.
 
-Otra forma de crear y ejecutar un objeto `Task` al mismo tiempo es usar el método estático `Run`. Si usamos este método, la tarea se instanciará e inicializará al mismo tiempo. 
+Otra forma de crear y ejecutar un objeto `Task` al mismo tiempo es usar el método estático `Run`. Si usamos este método, la tarea se instanciará e inicializará al mismo tiempo, ejecutando el método en algún hilo disponible en el *thread pool*. 
 
 El ejemplo anterior con `Task.Run`:
 
