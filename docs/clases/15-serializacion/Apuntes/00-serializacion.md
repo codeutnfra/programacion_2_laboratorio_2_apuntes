@@ -28,4 +28,7 @@ El **formato JSON** es más compacto y se suele utilizar en entornos web y mobil
 
 El **formato XML** contiene más información (es más pesado) pero sigue siendo utilizado principalmente para manejar la comunicación con aplicaciones que tienen cierto tiempo de antiguedad y no soportan la comunicación en otros formatos.
 
-### XML vs JSON
+### Requisitos para serializar
+Los atributos a serializar deben ser públicos o estar expuestos a través de propiedades de lectura-escritura.
+
+Adicionalmente, para la serialización XML se debe tener un constructor público sin parámetros.

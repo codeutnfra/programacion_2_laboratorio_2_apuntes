@@ -7,7 +7,7 @@ author: Mauricio Cerizza
 authorURL: https://github.com/mauricioCerizza
 ---
 ## Serialización JSON
-El formato **JavaScript Object Notation (JSON)** es un estandar abierto que se suele utilizar para transferir datos a través de la web. 
+**JavaScript Object Notation (JSON)** es un estándar abierto que usa texto de fácil lectura para almacenar y transferir objetos. Se suele utilizar para transferir datos a través de la web. Está compuesto de pares propiedad-valor y arrays. Su sintaxis es de fácil lectura, ya que almacena la información de una manera organizada y fácil de acceder. 
 
 La serialización JSON transforma las propiedades **públicas** de un objeto en una cadena de texto, array de bytes o en un stream que cumpla con la [especificación de JSON](https://datatracker.ietf.org/doc/html/rfc8259). 
 
@@ -18,6 +18,8 @@ Cada objeto en JSON se encuentra encerrado entre llaves (`{}`) y dentro de las m
 * **Cadenas de texto**: Representan secuencias de cero o más caracteres. Deben ir encerradas entre comillas dobles y permiten caracteres de escape.
 * **Booleanos**: Pueden ser `true` o `false` sin usar comillas. 
 * **`null`**: Representa el valor nulo. No lleva comillas. 
+* **Objetos**: Puede haber otros objetos como valores de propiedades. Se encierran entre llaves (`{}`).
+* **Arrays**: Puede haber colecciones de valores u otros objetos. Se encierran entre (`[]`).
 
 Cada par propiedad-valor se separa del siguiente por una coma. 
 
@@ -26,7 +28,9 @@ Cada par propiedad-valor se separa del siguiente por una coma.
     "propiedadTexto": "valor",
     "propiedadNumerica": 20,
     "propiedadBooleana": true,
-    "propiedadNula": null
+    "propiedadNula": null,  
+    "propiedadObjeto": {},
+    "propiedadArray": []
 }
 ```
 
@@ -204,6 +208,32 @@ La salida del código anterior es:
 }
 ```
 
+Para guardar el json en un archivo se puede usar un objeto de tipo `StreamWriter` o la clase `File`, tal como se vio en la [unidad de archivos](../../14-archivos/Apuntes/02-archivos.md).
+
+```csharp
+Empleado empleado = new Empleado("Juan Perez", new DateTime(1990, 03, 25), 50000M);
+
+// Genero el objeto de configuración de la serialización.
+JsonSerializerOptions opciones = new JsonSerializerOptions();
+opciones.WriteIndented = true;
+
+// Serializo un objeto de tipo Empleado a formato JSON. 
+string jsonString = JsonSerializer.Serialize(empleado, opciones);
+
+// Guardo el JSON desde un archivo.
+File.WriteAllText("empleado.json", jsonString);
+```
+
+Da como resultado:
+
+```json
+{
+  "Salario": 50000,
+  "NombreCompleto": "Juan Perez",
+  "FechaNacimiento": "1990-03-25T00:00:00"
+}
+```
+
 ## Deserializando JSON
 Deserializar significa interpretar un texto que contiene objetos serializados y volver a convertirlos en objetos en memoria. Para deserializar desde formato JSON se debe utilizar el método estático `Deserialize` de la clase `JsonSerializer`.
 
@@ -224,7 +254,7 @@ namespace Serializacion
                                     ""Salario"": 50000
                                 }";
 
-            // Obtengo un objeto de tipo Empleado a partir de un string +
+            // Obtengo un objeto de tipo Empleado a partir de un string
             // que contiene un empleado serializado en formato json. 
             Empleado empleado = JsonSerializer.Deserialize<Empleado>(jsonString);
 
@@ -248,3 +278,16 @@ Se trata exactamente del proceso opuesto. Al método genérico `Deserialize` deb
 
 Si el texto que intentamos deserializar no se encuentra bien formateado, se lanzará una excepción de tipo `JsonException`.
 
+Para leer el json desde un archivo se puede usar un objeto de tipo `StreamReader` o la clase `File`, tal como se vio en la [unidad de archivos](../../14-archivos/Apuntes/02-archivos.md).
+
+```csharp
+// Obtengo el JSON desde un archivo.
+string jsonString = File.ReallAllText("empleado.json");
+
+// Deserializo un objeto de tipo Empleado a partir de JSON. 
+Empleado empleado = JsonSerializer.Deserialize<Empleado>(jsonString);
+
+Console.WriteLine($"Nombre: {empleado.NombreCompleto}");
+Console.WriteLine($"Fecha de nacimiento: {empleado.FechaNacimiento}");
+Console.WriteLine($"Salario: {empleado.Salario}");
+```
