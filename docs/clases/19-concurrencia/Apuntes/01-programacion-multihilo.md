@@ -1,6 +1,6 @@
 ---
 sidebar_label: Programación multi-hilo
-slug: /clases/concurrencia/apuntes/multihilo
+slug: /clases/concurrencia/apuntes/programacion-multihilo
 hide_table_of_contents: false
 hide_title: true
 author: Mauricio Cerizza

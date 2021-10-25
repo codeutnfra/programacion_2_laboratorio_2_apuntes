@@ -13,7 +13,7 @@ En esta sección introduciremos algunas formas de trabajar en C# con procesos qu
 ## Apuntes
 [Concurrencia](./Apuntes/00-concurrencia.md)
 
-[Programación multi-hilo](./Apuntes/01-multihilo.md)
+[Programación multi-hilo](./Apuntes/01-programacion-multihilo.md)
  
 [Cuestionario](./Apuntes/cuestionario.md)
 
