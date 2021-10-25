@@ -63,6 +63,8 @@ Cuando procesamos en paralelo cada fragmento de trabajo debe ser tan independien
 
 [//]: # "TODO Colecciones concurrentes"
 
+[//]: # "TODO Ejercicio que tenga un servicio o programa cargando datos aleatorios en la base de datos y otro actualizando estadísticas en pantalla.... bogus?"
+
 ## Trabajando con hilos
 La clase `Task` representa una operación individual que será delegada y ejecutada en un hilo del thread pool, es decir, en paralelo al sub-proceso que la origina. 
 

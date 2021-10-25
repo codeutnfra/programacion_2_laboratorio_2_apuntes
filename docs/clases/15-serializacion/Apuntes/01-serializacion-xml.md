@@ -127,30 +127,17 @@ Como vemos, el objeto de tipo `Alumno` se encuentra representado por la etiqueta
 Deserializar significa interpretar un texto que contiene objetos serializados y volver a convertirlos en objetos en memoria. Para deserializar desde formato JSON se debe utilizar el método estático `Deserialize` de la clase `JsonSerializer`.
 
 ```csharp
-using System;
-using System.Text.Json;
-
-namespace Serializacion
+static void Main(string[] args)
 {
-    public class Program
+    using (StreamReader streamReader = new StreamReader("alumno.xml"))
     {
-        public static void Main()
-        {
-            string jsonString = @"
-                                {
-                                    ""NombreCompleto"": ""Juan Perez"",
-                                    ""FechaNacimiento"": ""1990-03-25T00:00:00"",
-                                    ""Salario"": 50000
-                                }";
+        XmlSerializer xmlSerializer = new XmlSerializer(typeof(Alumno));
 
-            // Obtengo un objeto de tipo Empleado a partir de un string +
-            // que contiene un empleado serializado en formato json. 
-            Empleado empleado = JsonSerializer.Deserialize<Empleado>(jsonString);
+        Alumno alumno = xmlSerializer.Deserialize(streamReader) as Alumno;
 
-            Console.WriteLine($"Nombre: {empleado.NombreCompleto}");
-            Console.WriteLine($"Fecha de nacimiento: {empleado.FechaNacimiento}");
-            Console.WriteLine($"Salario: {empleado.Salario}");
-        }
+        Console.WriteLine($"Nombre: {alumno.NombreCompleto}");
+        Console.WriteLine($"Fecha de nacimiento: {alumno.FechaNacimiento}");
+        Console.WriteLine($"Promedio: {alumno.Promedio}");
     }
 }
 ```
@@ -159,8 +146,8 @@ La salida del código anterior es:
 
 ```
 Nombre: Juan Perez
-Fecha de nacimiento: 25/3/1990 00:00:00
-Salario: 50000
+Fecha de nacimiento: 12/12/2000 00:00:00
+Promedio: 7,8
 ```
 
 Se trata exactamente del proceso opuesto. Al método genérico `Deserialize` debemos indicarle el tipo al que queremos deserializar y pasarle como argumento un `string` que contenga el o los objetos en formato JSON.  

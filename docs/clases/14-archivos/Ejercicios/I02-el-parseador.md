@@ -10,6 +10,13 @@ hide_title: false
 ---
 
 ## Consigna
+
+:::caution Advertencia
+
+El siguiente ejercicio se encuentra incompleto.
+
+:::
+
 Antes de comenzar se deberá descargar la cáscara del proyecto. Los siguientes puntos se deberán resolver trabajando sobre la misma.
 
 :::important Importante

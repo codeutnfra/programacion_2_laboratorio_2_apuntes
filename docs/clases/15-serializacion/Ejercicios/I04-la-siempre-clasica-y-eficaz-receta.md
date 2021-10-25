@@ -1,7 +1,7 @@
 ---
-sidebar_label: "I03 - La siempre clásica y eficaz receta"
-title: "Ejercicio I03 - La siempre clásica y eficaz receta"
-sidebar_position: 3
+sidebar_label: "I04 - La siempre clásica y eficaz receta"
+title: "Ejercicio I04 - La siempre clásica y eficaz receta"
+sidebar_position: 4
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
@@ -14,7 +14,7 @@ Crear un proyecto de consola. Seguir esta receta al pie de la letra sin agregar 
 
 1. Crear una clase `Persona` con dos atributos privados de tipo `string`, nombre y apellido.
    1. Agregarle un constructor que reciba ambos parámetros. 
-   2. Crear un método estático llamado `Guardar` que reciba un objeto de tipo `Persona`, la serialice en formato XML y la almacene en un archivo con nombre inválido (por ejemplo: `""`).
+   2. Crear un método estático llamado `Guardar` que reciba un objeto de tipo `Persona`, la serialice en **formato XML** y la almacene en un archivo con nombre inválido (por ejemplo: `""`).
    3. Crear un método estático llamado `Leer` que deserialice desde un archivo con nombre inválido (por ejemplo: `""`) y retorne un objeto de tipo `Persona`.
    4. Sobrecargar el método `ToString` para mostrar los datos de la persona. 
 
@@ -22,7 +22,7 @@ Crear un proyecto de consola. Seguir esta receta al pie de la letra sin agregar 
 
 3. Luego intentar leer ese objeto serializado en una nueva instancia de `Persona` y mostrarlo por pantalla. 
 
-4. Repetir los métodos `Guardar` y `Leer` pero con formato JSON.
+4. Repetir los métodos `Guardar` y `Leer` pero con **formato JSON**.
 
 5. Por cada excepción que lance la aplicación:
    1. Generar un bloque `catch` que la capture y maneje.

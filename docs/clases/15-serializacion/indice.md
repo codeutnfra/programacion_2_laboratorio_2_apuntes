@@ -21,7 +21,7 @@ Aprenderemos a convertir el estado de nuestros objetos a un formato estándar qu
 
 ## Ejercicios
 ### Introducción
-[I03 - La siempre clásica y eficaz receta](./Ejercicios/I03-la-siempre-clasica-y-eficaz-receta.md)
+[I04 - La siempre clásica y eficaz receta](./Ejercicios/I04-la-siempre-clasica-y-eficaz-receta.md)
 
 ### Consolidación
 [C01 - Siempre quise tener un notepad-serializador (≧∇≦)](./Ejercicios/C01-siempre-quise-tener-un-notepad-serializador.md)

@@ -17,8 +17,9 @@ La serialización permite al desarrollador almacenar el estado de un objeto y re
 
 Entre sus usos más frecuentes se encuentran:
 * Enviar el objeto a una aplicación o sistema externo a través de servicios web u otros sistemas de comunicación.
-* 
-
+* Pasar el objeto a otro proceso o máquina.
+* Persistir el objeto en una unidad de almacenamiento.
+* Persistir el objeto en una base de datos.
 
 ## Formatos de serialización
 Siempre que serializamos lo hacemos a un formato específico, uno que luego pueda ser reinterpretado para rearmar el objeto. Existen docenas de formatos que se pueden especificar, pero los más comunes son **Extensible Markup Language (XML)** y **JavaScript Object Notation (JSON)**.
@@ -26,3 +27,5 @@ Siempre que serializamos lo hacemos a un formato específico, uno que luego pued
 El **formato JSON** es más compacto y se suele utilizar en entornos web y mobile. Esto sucede por dos motivos, primero es más liviano y por lo tanto la carga de datos que tiene que viajar por la red es menor, y segundo porque se ha convertido en un estandar al ser el formato de serialización nativo de JavaScript. 
 
 El **formato XML** contiene más información (es más pesado) pero sigue siendo utilizado principalmente para manejar la comunicación con aplicaciones que tienen cierto tiempo de antiguedad y no soportan la comunicación en otros formatos.
+
+### XML vs JSON
