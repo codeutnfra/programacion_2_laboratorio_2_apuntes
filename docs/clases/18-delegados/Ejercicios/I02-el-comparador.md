@@ -1,6 +1,6 @@
 ---
-sidebar_label: "I02 - Chat grupal"
-title: "Ejercicio I02 - Chat grupal"
+sidebar_label: "I02 - El comparador"
+title: "Ejercicio I02 - El comparador"
 sidebar_position: 2
 author: Mauricio Cerizza
 authorURL: https://github.com/mauricioCerizza

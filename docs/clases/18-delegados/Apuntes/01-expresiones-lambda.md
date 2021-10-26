@@ -51,3 +51,8 @@ saludar("Mundo");
 ```
 
 La salida del código anterior es *¡Hola Mundo!*.
+
+
+[//]: # "TODO Ejercicio el comparador"
+[//]: # "TODO Ejercicio anonymous"
+[//]: # "TODO Ejercicio chat grupal"

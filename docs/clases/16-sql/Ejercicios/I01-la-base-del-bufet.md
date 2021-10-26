@@ -2,7 +2,7 @@
 sidebar_label: "I01 - La base del bufet"
 title: "Ejercicio I01 - La base del bufet"
 sidebar_position: 1
-author: 
+author: Ezequiel Oggioni
 authorURL: 
 hide_table_of_contents: true
 hide_title: false
@@ -79,7 +79,7 @@ Realizar las siguientes consultas:
 7. Indicar el monto (cantidad * precio) de todos los envíos.
 8. Obtener la cantidad total del producto 1 enviado por el proveedor 102.
 9. Obtener todos los números de los productos suministrados por algún proveedor de ‘Avellaneda’.
-10.  Obtener los domicilios y localidades de los proveedores cuyos nombres contengan la letra ‘I’.
+10. Obtener los domicilios y localidades de los proveedores cuyos nombres contengan la letra ‘I’.
 11. Agregar el producto numero 4, llamado ‘Chocolate’, de tamaño chico y con un precio de 25,35.
 12. Insertar un nuevo proveedor (únicamente con los campos obligatorios).
 13. Insertar un nuevo proveedor (107), donde el nombre y la localidad son ‘Rosales’ y ‘La Plata’.
@@ -87,7 +87,6 @@ Realizar las siguientes consultas:
 15. Cambiar el tamaño de ‘Chico’ a ‘Mediano’ de todos los productos cuyas cantidades sean mayores a 300 inclusive.
 16. Eliminar el producto número 1.
 17. Eliminar a todos los proveedores que no han enviado productos.
-
 
 ## Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |

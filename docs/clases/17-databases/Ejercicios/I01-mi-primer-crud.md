@@ -15,7 +15,6 @@ hide_title: false
    2. `Nombre`: varchar(50).
    3. `Apellido`: varchar(50).
 
-
 2. Crear una biblioteca de clases con una clase `Persona`.
    1. Tendrá id, nombre y apellido como atributos privados.
    2. Tendrá un constructor que reciba los 3 parámetros y otro que sólo reciba nombre y apellido.

@@ -10,8 +10,15 @@ hide_title: false
 ## Resumen
 
 ## Apuntes
+[Delegados](./Apuntes/00-delegados.md)
+
+[Expresiones lambda](./Apuntes/01-expresiones-lambda.md)
+
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
+### Introducción
+[I01 - El delegado](./Ejercicios/I01-el-delegado.md)
 
 ## Bibliografía
 
