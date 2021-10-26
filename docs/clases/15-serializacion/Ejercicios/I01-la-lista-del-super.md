@@ -8,7 +8,6 @@ hide_table_of_contents: true
 hide_title: false
 ---
 ---
-
 ### Consigna
 El objetivo será crear una aplicación que maneje una lista de supermercado. Se podrá agregar, eliminar y modificar los elementos de la lista.
 
@@ -29,6 +28,8 @@ Crear un proyecto de Windows Forms con un formulario llamado `FrmAltaModificacio
 * Tendrá un `TextBox` llamado `txtObjeto`, un `Button` llamado `btnConfirmar` y un `Button` llamado `btnCancelar`.
 
 * El `txtObjeto` no deberá poder contener un texto de más de 50 caracteres (propiedad `MaxLength`). 
+
+* Tendrá una propiedad `Objeto` pública y de sólo lectura que retornará el contenido del `txtObjeto`.
 
 * Al instanciarse deberá configurarse de acuerdo a la siguiente información que recibirá como argumentos en su constructor:
   * El título del formulario.
@@ -74,6 +75,8 @@ Agregar otro formulario llamado `FrmListaSuper` que se vea como el siguiente:
 
 * Deberá ser el formulario que se muestra al iniciar la aplicación.
 
+* Tendrá un atributo `listaSupermercado` de tipo `List<string>` que contendrá los elementos de la lista del supermercado.
+
 * Deberá iniciar centrado en la pantalla (propiedad `StartPosition`). 
 
 * Tendrá un `ListBox` llamado `lstObjetos`.
@@ -86,6 +89,7 @@ Agregar otro formulario llamado `FrmListaSuper` que se vea como el siguiente:
     * El título será *"Agregar objeto"*.
     * El contenido del `txtObjeto` será un texto vacío.
     * El texto del `btnConfirmar` será *"Agregar"*.
+  * Si la propiedad `DialogResult` de la instancia de `FrmAltaModificacion` vale `DialogResult.OK`, agregar el elemento retornado por la propiedad `Objeto` a la lista del supermercado. Caso contrario, no hacer nada.  
 
 * Tendrá un `Button` llamado `btnEliminar` cuyo texto será *"-"* y al pasar por encima deberá [mostrar un tooltip](https://docs.microsoft.com/es-es/dotnet/desktop/winforms/controls/how-to-set-tooltips-for-controls-on-a-windows-form-at-design-time?view=netframeworkdesktop-4.8) con el texto *"ELiminar objeto"*.
   * Deberá estar anclado arriba y a la derecha (propiedad `Anchor`). 
@@ -97,6 +101,7 @@ Agregar otro formulario llamado `FrmListaSuper` que se vea como el siguiente:
     * El título será *"Modificar objeto"*.
     * El contenido del `txtObjeto` será el elemento seleccionado en `lstObjetos`. Si no hay nada seleccionado, no hacer nada y mostrar un cartel informando que se debe seleccionar un elemento de la lista. 
     * El texto del `btnConfirmar` será *"Modificar"*.
+  * Si la propiedad `DialogResult` de la instancia de `FrmAltaModificacion` vale `DialogResult.OK`, modificar el objeto en la lista del supermercado asignándole el valor de la propiedad `Objeto`. Caso contrario, no hacer nada.  
 
 * En el manejador del evento `Load` se deberá buscar el archivo `listaSupermercado.xml` en la carpeta de datos de aplicaciones (`Environment.SpecialFolder.ApplicationData`) y, si existe, deserializarla desde **formato XML** como una lista de `string`. 
   * Cargar `lstObjetos` con los elementos de la lista.
@@ -110,7 +115,7 @@ Para actualizar el contenido de un `ListBox` se debe cargar la propiedad `DataSo
 
 ```csharp
    listBox.DataSource = null;
-   listBox.DataSource = coleccion;
+   listBox.DataSource = listaSupermercado;
 ```
 
 :::
