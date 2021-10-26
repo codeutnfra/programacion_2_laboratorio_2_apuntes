@@ -9,34 +9,56 @@ hide_title: false
 ---
 --- 
 ### Consigna
-Partir del ejercicio [Siempre quise tener un notepad ಥ‿ಥ](../../14-archivos/Ejercicios/I03-siempre-quise-tener-un-notepad.md) y **sin modificar el formulario**, crear un proyecto de biblioteca de clases llamado `IO` y agregar las siguientes clases e interfaces: 
+Partir del ejercicio [Siempre quise tener un notepad ಥ‿ಥ](../../14-archivos/Ejercicios/I03-siempre-quise-tener-un-notepad.md) y **sin modificar el diseño del formulario**, crear un proyecto de biblioteca de clases llamado `IO` y agregar los siguientes elementos: 
 
-![Diagrama de clases](/clases/13-interfaces/ejercicios/boligrafo-y-lapiz-diagram.PNG)
+![Diagrama de clases](/clases/15-serializacion/ejercicios/notepad-serializador-diagram.png)
 
-* El método `ValidarArchivo` de la clase `Archivo` comprobará que el archivo exista. 
-  * Si existe retornará `true`. De no existir, lanzará la excepción `ArchivoIncorrectoException` con el mensaje *"El archivo no se encontró."*.
+* Crear un nuevo tipo de excepción llamado `ArchivoIncorrectoException`.
 
-* En el mismo método validará que la extensión del archivo sea la que retorna la propiedad **abstracta protegida** `Extension`.
-  * De no ser la extensión correcta, lanzará la excepción `ArchivoIncorrectoException` con el mensaje *"El archivo no tiene la extensión [extensión]."*. Reemplazar el texto entre corchetes por la extensión que se esperaba (propiedad `Extension`). 
+* El método `ValidarSiExisteElArchivo` de la clase `Archivo` comprobará que el archivo exista. Si existe retornará `true`. De no existir, lanzará la excepción `ArchivoIncorrectoException` con el mensaje *"El archivo no se encontró."*.
 
-* En la clase `PuntoJson`, `Extension` retornará *.json*.
+* El método `ValidarExtensión` validará que la extensión del archivo sea la que retorna la propiedad **abstracta protegida** `Extension`. 
+  * De no ser la extensión correcta, lanzará la excepción `ArchivoIncorrectoException` con el mensaje *"El archivo no tiene la extensión [extensión]."*. Reemplazar el texto entre corchetes por la extensión que se esperaba.
 
-* En la clase `PuntoTxt`, `Extension` retornará *.txt*.
+* Agregar la clase `PuntoJson` que herede de `Archivo`. 
+  * `Extension` retornará *.json*.
+  * Será genérica y tendrá un tipo genérico `T` que **deberá ser un tipo de referencia**. 
 
-* En la clase `PuntoXml`, `Extension` retornará *.xml*.
+* Agregar la clase `PuntoXml` que herede de `Archivo`. 
+  * `Extension` retornará *.xml*.
+  * Será genérica y tendrá un tipo genérico `T` que **deberá ser un tipo de referencia**. 
 
-* En el formulario, al ir a los menú de *"Abrir"* o *"Guardar como..."*, el mismo cuadro de dialogo deberá ofrecer la posibilidad de abrir "Archivos de texto (.txt)", "Archivos JSON (.json)" o "Archivos XML (.xml)". Para esto, utilizar la propiedad `Filter` de `OpenFileDialog`.
+* Agregar la clase `PuntoTxt` que herede de `Archivo`. 
+  * `Extension` retornará *.txt*.
 
-* Los métodos de la clase `PuntoJson` serializarán a formato JSON, mientras que los de la clase `PuntoXml` a formato XML. 
+* Automatizar pruebas unitarias que verifiquen que el método `ValidarExtension` funcione tal como se espera para cada una de las clases derivadas de `Archivo`. 
+  * Probar tanto casos válidos (extensión correcta), como casos inválidos (extensión incorrecta).
+  
+* Implementar la interfaz `IArchivo` en `PuntoJson` y `PuntoXml` usando el tipo genérico.
+  * Los métodos de la clase `PuntoJson` serializarán y deserializarán el tipo genérico en **formato JSON**, mientras que en la clase `PuntoXml` lo harán en **formato XML**.
 
-* El método `Guardar` comprobará que el archivo existe, en cuyo caso lo guardará.
+* Implementar la interfaz `IArchivo` con el tipo `string`.
+  * Los métodos leerán y guardarán **texto plano**. 
 
-* El método `GuardarComo` guardará en un nuevo archivo.
+* En los tres casos:
+  * El método `Guardar` comprobará que el archivo exista, en cuyo caso guardará el contenido en el archivo.
+  * El método `GuardarComo` guardará el contenido en un nuevo archivo, sólamente comprobando que la extensión sea la correcta.
+  * El método `Leer` comprobará que el archivo existe, en cuyo caso retornará su contenido.
+  * **Reutilizar código**.
 
-* El método `Leer` comprobará que el archivo existe, en cuyo caso lo abrirá.
+* En el formulario, al ir a los menú de *"Abrir"* o *"Guardar como..."*, el mismo cuadro de dialogo deberá ofrecer la posibilidad de abrir "Archivos de texto (.txt)", "Archivos JSON (.json)" o "Archivos XML (.xml)". Para esto, utilizar la propiedad `Filter` de `OpenFileDialog` y `CloseFileDialog`.
+
+* Agregar atributos al formulario de tipo `PuntoJson`, `PuntoXml` y `PuntoTxt`. 
+  * Instanciarlos en el constructor del formulario. 
+  * Los genéricos serán de tipo `string`. 
+
+* En las funcionalidades existentes del formulario:
+  * Si la extensión del archivo es *".json"*, utilizar los métodos del atributo `PuntoJson`.
+  * Si la extensión del archivo es *".xml"*, utilizar los métodos del atributo `PuntoXml`.
+  * Si la extensión del archivo es *".txt"*, utilizar los métodos del atributo `PuntoTxt`.
 
 * Realizar las modificaciones necesarias para que funcione correctamente.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-----------------------: | :---: | :----------------------: | :----: |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_15/C01_Siempre_quise_tener_un_notepad_serializador) |
+| :-----------------------: | :---: | :----------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
