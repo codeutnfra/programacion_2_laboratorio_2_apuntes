@@ -9,30 +9,86 @@ hide_title: false
 ---
 ---
 ### Consigna
-Crear un proyecto de tipo consola para simular la atención paralela de clientes en dos cajas de un negocio. 
+Se creará una solución para simular la atención paralela de clientes en dos cajas de un negocio. 
 
-Para ello se pide crear las siguientes clases:
+![FrmCartelera](/clases/19-concurrencia/ejercicios/animacion-atencion-a-clientes.gif)
+
+Empezar creando un proyecto de biblioteca de clases y declarar las siguientes clases:
 
 #### `Caja`
-- Tendrá como único atributo una lista `filaClientes` de tipo `string`.
-- El constructor de la clase `Caja` deberá inicializar dicha lista.
-- El método `AtenderClientes` deberá recorrer la fila de clientes e ir imprimiendo el nombre del cliente que se está atendiendo junto con el número de caja que será previamente seteado en la propiedad `Name` del thread.
-- Por cada cliente que se atiende en cada caja se tardará 2 segundos.
+- Tendrá un atributo **estático** de tipo `Random` que será instanciado en un constructor **estático**.
 
+- Tendrá un atributo de tipo `Queue<string>` llamado `clientesALaEspera`.
+
+- Tendrá un atributo de tipo `string` llamado `nombreCaja` que será expuesto por una propiedad de **sólo lectura**.
+
+- Tendrá una propiedad `CantidadDeClientesALaEspera` que retornará la cantidad actual de elementos en la cola `clientesALaEspera`.
+
+- El **único** constructor **de instancia** deberá:
+  - Instanciar la cola `clientesALaEspera`.
+  - Recibir el nombre de la caja y asignarlo al atributo `nombreCaja`.
+  - Recibir la referencia a un método que no retorne nada y reciba un objeto de tipo `Caja` y otro de tipo `string`. Dicha referencia deberá asignarse a un campo privado llamado `delegadoClienteAtendido`. **Declarar un nuevo tipo delegado que permita cumplir con este punto**.
+
+- Tendrá un método `AgregarCliente` con visibilidad `internal` que recibirá un cliente y lo agregará a `clientesALaEspera`.
+
+- Tendrá un método `IniciarAtencion` con visibilidad `internal` que deberá iniciar la atención de clientes en un sub-proceso paralelo. Este método no recibirá nada y retornará la instancia de `Task` que se haya utilizado.
+  - El proceso de atención de clientes:
+    - Iterará desde que se inicia hasta que finalice la ejecución de la aplicación.
+    - Si hay clientes a la espera (se puede verificar con el [método `Any`](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.any?view=net-5.0) de la biblioteca *LINQ* (`System.Linq`) que retorna `true` si una colección contiene algún elemento.):
+      - Se retirará al siguiente cliente de la cola `clientesALaEspera`.
+      - Se invocará al método referenciado por el atributo de tipo delegado, pasándole la instancia de esa misma caja y el cliente que se recuperó de la cola. 
+      - Se suspenderá el hilo por un periodo de 1 a 5 segundos de manera aleatoria (usar atributo `Random`).
 #### `Negocio`
-- Tendrá como atributos una lista `clientes` de tipo `string` y dos atributos de tipo `Caja`.
-- Crear propiedades de sólo lectura para todos sus atributos.
-- El constructor recibirá por parámetro las dos cajas e inicializará la lista de clientes.
-- El método `AsignarCaja` deberá imprimir el mensaje *"Asignando cajas..."* cuando sea invocado. Recorrer la lista de clientes y asignar a cada cliente a la fila de la caja que menos clientes tenga en ese momento.
-- La asignación de cada cliente a una caja tardará 1 segundo.
+- Requerirá la instalación del **paquete NuGet `NameGenerator`** en la biblioteca te clases.
 
-#### `Main`
-- La asignación de cada cliente a una caja tardará 1 segundo.
-- Asignar las cajas a los clientes en dos subprocesos que se ejecuten en paralelo, uno para atender los clientes de la `caja1` y otro para atender los clientes de la `caja2`. Los hilos destinados a atender a los clientes deberán tener en su propiedad `Name` el nombre de la caja que está atendiendo.
-- Se deberán iniciar los 3 threads uno a continuación del otro.
-- Utilizar el método `Join` del objeto de la clase `Thread` para asegurar que se hayan asignado todos los clientes a alguna caja antes de comenzar a atender.
+- Crear un atributo **estático** de tipo `RealNameGenerator` (namespace `NameGenerator.Generators`) que que será instanciado en un constructor **estático**.
+  
+- Tendrá un atributo de tipo `ConcurrentQueue<string>` llamado `clientes`. Este tipo de dato es la versión del tipo `Queue` que cuenta con seguridad para trabajar con hilos (es *thread-safe*).
 
+[//]: # "TODO Referencia a documentación de colecciones concurrentes"
+
+- Tendrá un atributo de tipo `List<Caja>` llamado `cajas`.
+
+- El **único** constructor **de instancia** deberá:
+  - Recibirá una lista de cajas y la asignará al atributo `cajas`.
+  - Instanciará el atributo `clientes`.
+
+- Tendrá un método público `ComenzarAtencion` que:
+  - Lo primero que hará será abrir todas las cajas del negocio, llamando al método `AbrirCajas` de cada caja.
+  - En segundo lugar iniciará una tarea **concurrente** (en otro hilo) de simulación de clientes. 
+    - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
+    - Esta tarea deberá agregar un nuevo cliente a la cola `clientes` **cada un segundo**. 
+    - Para generar el nuevo cliente utilizar el método `Generate` del atributo estático de tipo `RealNameGenerator`.
+  - En tercer lugar iniciará una tarea **concurrente** (en otro hilo) de asignación de cajas. Lo que hará es asignar a **la caja con MENOS clientes** al siguiente cliente en la cola `clientes`.
+    - Para saber cuál es la caja con menos clientes, ordenar las cajas de forma **ascendente** en base a la propiedad `CantidadDeClientesALaEspera`. 
+      - Utilizar el método `OrderBy` de la biblioteca *LINQ* (`System.Linq`), que tiene como argumento un delegado que recibe un cliente y retorna el valor esa instancia por el que se debe ordenar (en este caso la propiedad `CantidadDeClientesALaEspera`). Ante cualquier duda, [consulte la documentación](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderby?view=net-5.0).
+    - Una vez ordenada la lista debemos quedarnos con la caja con menos clientes a la espera, es decir, la primera luego de haber ordenado de forma ascendente. Para esto utilizar el método `First` de la biblioteca *LINQ* (`System.Linq`), que retorna el primer elemento de una colección. Ante cualquier duda, [consulte la documentación](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.first?view=net-5.0).
+    - Para recuperar el cliente de la cola `clientes` utilizar el [método `TryDequeue`](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentqueue-1.trydequeue?view=net-5.0). 
+    - Si el método `TryDequeue` retornó un `string` que no sea nulo ni espacio en blanco (puede usar el [método estático `string.IsNullOrWhiteSpace`](https://docs.microsoft.com/en-us/dotnet/api/system.string.isnullorwhitespace?view=net-5.0)), agregar el cliente a la caja utilizando el método `AgregarCliente` de la caja.
+  - No recibirá nada y retornará la lista de sub-procesos iniciados por el negocio (`List<Task>`). Esta lista debe incluir los hilos iniciados para la simulación de clientes, la asignación de cajas y los retornados por el método `AbrirCajas` de las cajas.
+
+Crear una aplicación de consola y en el método `Main`:
+1. Instanciar el delegado declarado en `Caja` con una **expresión lambda** que imprima un mensaje en la consola con el siguiente formato:
+   
+   ```[Hora actual con formato HH:MM:ss] - Hilo [Id del hilo actual (usar `Task.CurrentId`)] - [Nombre de la caja] - Atendiendo a [nombre del cliente]. Quedan [cantidad de clientes a la espera] clientes en esta caja.```
+
+   Ejemplo de resultado esperado: *"13:10:31 - Hilo 1 - Caja 01 - Atendiendo a Christopher Torres. Quedan 2 clientes en esta caja."*
+
+   Reemplazar el texto entre corchetes por el dato correspondiente. 
+
+
+2. Instanciar 2 cajas, pasándole al constructor el delegado instanciado en el punto anterior.
+
+3. Instanciar una variable de tipo `List<Caja>` y agregarle las cajas creadas en el punto anterior.
+
+4. Instanciar un `Negocio` y pasarle la lista de cajas del punto anterior.
+
+5. Imprimir por consola el texto: *"Asignando cajas..."*
+
+6. Llamar al método `ComenzarAtencion` de `Negocio`.
+
+7. Utilizar el método estático `WaitAll` de `Task` para que la aplicación no se cierre mientras los hilos retornados por el método `ComenzarAtencion` estén corriendo. Tener en cuenta que `WaitAll` recibe un array como argumento y no una lista (usar el método `ToArray` de las listas). 
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_19/I02_Simulador_de_atencion_a_clientes) |
 | :-----------------------: | :---: | :----------------------: | :----: |
