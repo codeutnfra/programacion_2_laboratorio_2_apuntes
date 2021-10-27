@@ -32,16 +32,16 @@ Empezar creando un proyecto de biblioteca de clases y declarar las siguientes cl
 - Tendrá un método `AgregarCliente` con visibilidad `internal` que recibirá un cliente y lo agregará a `clientesALaEspera`.
 
 - Tendrá un método `IniciarAtencion` con visibilidad `internal` que deberá iniciar la atención de clientes en un sub-proceso paralelo. Este método no recibirá nada y retornará la instancia de `Task` que se haya utilizado.
-  - El proceso de atención de clientes:
-    - Iterará desde que se inicia hasta que finalice la ejecución de la aplicación.
+  - La tarea de atención de clientes:
+    - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
     - Si hay clientes a la espera (se puede verificar con el [método `Any`](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.any?view=net-5.0) de la biblioteca *LINQ* (`System.Linq`) que retorna `true` si una colección contiene algún elemento.):
       - Se retirará al siguiente cliente de la cola `clientesALaEspera`.
-      - Se invocará al método referenciado por el atributo de tipo delegado, pasándole la instancia de esa misma caja y el cliente que se recuperó de la cola. 
+      - Se invocará al método referenciado por `delegadoClienteAtendido`, pasándole la instancia de esa misma caja y el cliente que se recuperó de la cola. 
       - Se suspenderá el hilo por un periodo de 1 a 5 segundos de manera aleatoria (usar atributo `Random`).
 #### `Negocio`
-- Requerirá la instalación del **paquete NuGet `NameGenerator`** en la biblioteca te clases.
+- Requerirá la instalación del **paquete NuGet `NameGenerator`** en el proyecto de biblioteca de clases.
 
-- Crear un atributo **estático** de tipo `RealNameGenerator` (namespace `NameGenerator.Generators`) que que será instanciado en un constructor **estático**.
+- Crear un atributo **estático** de tipo `RealNameGenerator` (namespace `NameGenerator.Generators`) que será instanciado en un constructor **estático**.
   
 - Tendrá un atributo de tipo `ConcurrentQueue<string>` llamado `clientes`. Este tipo de dato es la versión del tipo `Queue` que cuenta con seguridad para trabajar con hilos (es *thread-safe*).
 
@@ -59,12 +59,13 @@ Empezar creando un proyecto de biblioteca de clases y declarar las siguientes cl
     - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
     - Esta tarea deberá agregar un nuevo cliente a la cola `clientes` **cada un segundo**. 
     - Para generar el nuevo cliente utilizar el método `Generate` del atributo estático de tipo `RealNameGenerator`.
-  - En tercer lugar iniciará una tarea **concurrente** (en otro hilo) de asignación de cajas. Lo que hará es asignar a **la caja con MENOS clientes** al siguiente cliente en la cola `clientes`.
+  - En tercer lugar iniciará una tarea **concurrente** (en otro hilo) de asignación de cajas. Esta tarea asignará al siguiente cliente en la cola `clientes` a **la caja con MENOS clientes** .
+    - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
     - Para saber cuál es la caja con menos clientes, ordenar las cajas de forma **ascendente** en base a la propiedad `CantidadDeClientesALaEspera`. 
       - Utilizar el método `OrderBy` de la biblioteca *LINQ* (`System.Linq`), que tiene como argumento un delegado que recibe un cliente y retorna el valor esa instancia por el que se debe ordenar (en este caso la propiedad `CantidadDeClientesALaEspera`). Ante cualquier duda, [consulte la documentación](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderby?view=net-5.0).
     - Una vez ordenada la lista debemos quedarnos con la caja con menos clientes a la espera, es decir, la primera luego de haber ordenado de forma ascendente. Para esto utilizar el método `First` de la biblioteca *LINQ* (`System.Linq`), que retorna el primer elemento de una colección. Ante cualquier duda, [consulte la documentación](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.first?view=net-5.0).
     - Para recuperar el cliente de la cola `clientes` utilizar el [método `TryDequeue`](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentqueue-1.trydequeue?view=net-5.0). 
-    - Si el método `TryDequeue` retornó un `string` que no sea nulo ni espacio en blanco (puede usar el [método estático `string.IsNullOrWhiteSpace`](https://docs.microsoft.com/en-us/dotnet/api/system.string.isnullorwhitespace?view=net-5.0)), agregar el cliente a la caja utilizando el método `AgregarCliente` de la caja.
+    - Si el método `TryDequeue` retornó un `string` que no sea nulo ni espacios en blanco (puede usar el [método estático `string.IsNullOrWhiteSpace`](https://docs.microsoft.com/en-us/dotnet/api/system.string.isnullorwhitespace?view=net-5.0)), agregar el cliente a la caja utilizando el método `AgregarCliente` de la caja.
   - No recibirá nada y retornará la lista de sub-procesos iniciados por el negocio (`List<Task>`). Esta lista debe incluir los hilos iniciados para la simulación de clientes, la asignación de cajas y los retornados por el método `AbrirCajas` de las cajas.
 
 Crear una aplicación de consola y en el método `Main`:
@@ -76,7 +77,6 @@ Crear una aplicación de consola y en el método `Main`:
 
    Reemplazar el texto entre corchetes por el dato correspondiente. 
 
-
 2. Instanciar 2 cajas, pasándole al constructor el delegado instanciado en el punto anterior.
 
 3. Instanciar una variable de tipo `List<Caja>` y agregarle las cajas creadas en el punto anterior.
@@ -87,7 +87,7 @@ Crear una aplicación de consola y en el método `Main`:
 
 6. Llamar al método `ComenzarAtencion` de `Negocio`.
 
-7. Utilizar el método estático `WaitAll` de `Task` para que la aplicación no se cierre mientras los hilos retornados por el método `ComenzarAtencion` estén corriendo. Tener en cuenta que `WaitAll` recibe un array como argumento y no una lista (usar el método `ToArray` de las listas). 
+7. Utilizar el método estático `WaitAll` de `Task` para que la aplicación no se cierre mientras los hilos retornados por el método `ComenzarAtencion` estén corriendo. Tener en cuenta que `WaitAll` recibe un array como argumento y no una lista (usar el método `ToArray` para convertir la lista en un array). 
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_19/I02_Simulador_de_atencion_a_clientes) |
