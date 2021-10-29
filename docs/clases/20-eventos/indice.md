@@ -8,10 +8,20 @@ hide_title: false
 ---
 
 ## Resumen
+Los eventos permiten que una clase u objeto notifique a otras clases u objetos cuando ocurre algo de interés. La clase que envía (o genera ) el evento se llama editor y las clases que reciben (o manejan ) el evento se llaman suscriptores .
 
 ## Apuntes
 
+[Eventos](./Apuntes/00-eventos.md)
+
 ## Ejercicios
+### Consolidacion
+
+[C01 - Temporizador](./Ejercicios/C01-temporizador.md)
 
 ## Bibliografía
+
+* Liberty, Jesse; MacDonald, Brian (2008) *Learning C# 3.0*.  O'Reilly Media, Inc.
+* *Events*. Microsoft Docs. https://docs.microsoft.com/en-us/dotnet/standard/events/
+* *How to: Raise and Consume Events*. Microsoft Docs. https://docs.microsoft.com/en-us/dotnet/standard/events/how-to-raise-and-consume-events.
 
