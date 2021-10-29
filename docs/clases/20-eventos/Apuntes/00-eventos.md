@@ -144,9 +144,11 @@ this.hora = dt.Hour;
 
 ### Suscripción al evento
 
-Todo lo que queda es crear clases que puedan suscribirse a este evento. Crearás dos. El trabajo de la clase `DisplayClock` no es realizar un seguimiento del tiempo, sino mostrar la hora actual en la consola.
 
-El ejemplo simplifica esta clase a dos métodos. El primero es un método auxiliar llamado Subscribe () que se usa para suscribirse al delegado SecondChanged del reloj. El segundo método es el controlador de eventos TimeHasChanged ():
+Todo lo que queda es crear clases que puedan suscribirse a este evento. El formulario `FrmPrincipal` contiene un label `lblTiempo` que muestra la hora actual.
+
+En en método `FrmPrincipal_Load` se crea una instacia de `Reloj` que se una para suscribirse al evento `SegundoCambiado`  y llamar al método `Ejecutar()`. De esta manera cada vez que se genera el evento será manejado por el método `MostrarCambioTiempo` que actualiza la propiedad `Text` de `lblTiempo`.   
+
 
 ```csharp
 public class FrmPrincipal : Form
@@ -165,7 +167,7 @@ public class FrmPrincipal : Form
 }
 ```
 
-Cuando se invoca el método, `FrmPrincipal_Load`, se asocia el evento de la lcase Reloj con el método manejador.
+Cuando se invoca el método, `FrmPrincipal_Load`, se asocia el evento de la clase Reloj con el método manejador.
 
- El operador `+=` es el mecanismo mediante el cual las clases pueden registrar sus manejadores de eventos con el evento. El uso operador `+=` permite que varias clases registren manejadores para un solo evento. El operador `-=` permite desasociar el manejador al evento.
+ El operador `+=` es el mecanismo mediante el cual las clases pueden asociar sus manejadores de eventos con el evento. El uso del operador `+=` permite que varias clases registren manejadores para un solo evento. El operador `-=` permite desasociar el manejador al evento.
  
