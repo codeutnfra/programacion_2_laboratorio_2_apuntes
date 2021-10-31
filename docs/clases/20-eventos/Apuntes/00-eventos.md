@@ -7,15 +7,13 @@ hide_title: false
 author: 
 authorURL: 
 ---
-[//]: # "Los manejadores de eventos no son más que métodos invocados a través de delegados."
 
 ## Eventos
-
 Los eventos permiten que una clase u objeto notifique a otras clases u objetos cuando ocurre una acción. La acción puede ser causada por la interacción del usuario, como un clic en un botón, o puede resultar de alguna otra lógica del programa, como el cambio en el estado de un objeto. 
 
-El objeto que genera el evento se llama remitente(sender) o emisor del evento . El remitente del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores . Un método que maneja un evento se llama manejador de eventos
+El objeto que genera el evento se llama remitente(sender) o emisor del evento. El remitente del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores. Un método que maneja un evento se llama manejador de eventos. Los manejadores de eventos no son más que métodos invocados a través de delegados.
 
-El evento suele ser miembro de la clase que lo genera; por ejemplo, el evento Click es un miembro de la clase Button
+El evento suele ser miembro de la clase que lo genera; por ejemplo, el evento `Click` es un miembro de la clase `Button`.
 
 ### Declaración
 Los eventos se declaran con la palabra reservada `event` seguido del tipo de delegado para el evento.
