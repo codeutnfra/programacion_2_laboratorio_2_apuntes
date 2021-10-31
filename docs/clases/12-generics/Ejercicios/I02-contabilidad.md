@@ -1,6 +1,6 @@
 ---
-sidebar_label: I01 - Contabilidad
-title: Ejercicio I01 - Contabilidad
+sidebar_label: I02 - Contabilidad
+title: Ejercicio I02 - Contabilidad
 sidebar_position: 1
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984

@@ -8,6 +8,7 @@ hide_title: false
 ---
 
 ## Resumen
+Esta sección consiste en 
 
 :::important Importante
 
@@ -16,7 +17,11 @@ Antes de empezar con esta guía, deberás [Preparar el entorno de base de datos]
 :::
 
 ## Apuntes
-[SQL](./Apuntes/00-sql.md)
+[Bases de datos](./Apuntes/00-bases-de-datos.md)
+
+[Lenguaje de consultas SQL](./Apuntes/01-sql.md)
+
+[DML - Data Manipulation Language](./Apuntes/02-dml.md)
 
 **[Cuestionario](./Apuntes/cuestionario.md)**
 

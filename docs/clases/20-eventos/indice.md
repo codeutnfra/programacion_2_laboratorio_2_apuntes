@@ -11,6 +11,8 @@ hide_title: false
 
 ## Apuntes
 
+**[Cuestionario](./Apuntes/cuestionario.md)**
+
 ## Ejercicios
 
 ## Bibliografía

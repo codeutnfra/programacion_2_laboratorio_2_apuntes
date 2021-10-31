@@ -45,7 +45,7 @@ Les pedimos paciencia y que nos ayuden a encontrar posibles errores.
 
 ### [Tema 15 - Serialización](./15-serializacion/indice.md)
 
-### [Tema 16 - Introducción a SQL](./16-sql/indice.md)
+### [Tema 16 - Introducción a bases de datos y SQL](./16-sql/indice.md)
 
 ### [Tema 17 - Conexión a bases de datos](./17-databases/indice.md)
 
