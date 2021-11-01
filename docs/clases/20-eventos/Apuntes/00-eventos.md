@@ -11,21 +11,9 @@ authorURL:
 ## Eventos
 Los eventos permiten que una clase u objeto notifique a otras clases u objetos cuando ocurre una acción. La acción puede ser causada por la interacción del usuario, como un clic en un botón, o puede resultar de alguna otra lógica del programa, como el cambio en el estado de un objeto. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-El objeto que genera el evento se llama remitente (sender) o emisor del evento . El remitente del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores. Un método que maneja un evento se llama manejador de eventos.
-
-El evento suele ser miembro de la clase que lo genera; por ejemplo, el evento Click es un miembro de la clase Button.
-=======
-El objeto que genera el evento se llama remitente(sender) o emisor del evento. El remitente del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores. Un método que maneja un evento se llama manejador de eventos. Los manejadores de eventos no son más que métodos invocados a través de delegados.
+El objeto que genera el evento se llama remitente (sender) o emisor del evento. El emisor del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores. Un método que maneja un evento se llama manejador de eventos. Los manejadores de eventos no son más que métodos invocados a través de delegados.
 
 El evento suele ser miembro de la clase que lo genera; por ejemplo, el evento `Click` es un miembro de la clase `Button`.
->>>>>>> 92bf0c75e6b4f39634b88c6537d3ea3c721dc145
-=======
-El objeto que genera el evento se llama remitente(sender) o emisor del evento. El remitente del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores. Un método que maneja un evento se llama manejador de eventos. Los manejadores de eventos no son más que métodos invocados a través de delegados.
-
-El evento suele ser miembro de la clase que lo genera; por ejemplo, el evento `Click` es un miembro de la clase `Button`.
->>>>>>> 92bf0c75e6b4f39634b88c6537d3ea3c721dc145
 
 ### Declaración
 Los eventos se declaran con la palabra reservada `event` seguido del tipo de delegado para el evento.
@@ -50,7 +38,7 @@ Por convención, los manejadores de eventos en .NET siempre devuelven `void` y t
 
 #### La Clase EventArgs
 
- `EventArgs` es la clase base para todos los datos de eventos. La clase [EventArgs](https://docs.microsoft.com/en-us/dotnet/api/system.eventargs) hereda todos sus métodos de Object y agrega un campo estático público llamado `Empty`, que representa un evento sin estado (para permitir el uso eficiente de eventos sin estado). En otras palabras, la clase EventArgs es un depósito vacío que se puede usar para proporcionar cualquier información que desee sobre el evento. Lo que hace la clase suscriptora con esa información es asunto del suscriptor; no le importa al editor. De esta manera, la clase suscriptora puede hacer coincidir fácilmente la firma del delegado requerida, simplemente tomando un parámetro de tipo EventArgs. El suscriptor puede usar toda, parte o nada de la información pasada en EventArgs.
+`EventArgs` es la clase base para todos los datos de eventos. La clase [EventArgs](https://docs.microsoft.com/en-us/dotnet/api/system.eventargs) hereda todos sus métodos de Object y agrega un campo estático público llamado `Empty`, que representa un evento sin estado (para permitir el uso eficiente de eventos sin estado). En otras palabras, la clase EventArgs es un depósito vacío que se puede usar para proporcionar cualquier información que desee sobre el evento. Lo que hace la clase suscriptora con esa información es asunto del suscriptor; no le importa al editor. De esta manera, la clase suscriptora puede hacer coincidir fácilmente la firma del delegado requerida, simplemente tomando un parámetro de tipo EventArgs. El suscriptor puede usar toda, parte o nada de la información pasada en EventArgs.
 
 El delegado `NotificadorCambioTiempo` encapsulará cualquier método que devuelve `void` y que tome dos parámetros. El primer parámetro es un objeto que representa el `Reloj` (el objeto que genera el evento), y el segundo parámetro es un objeto de tipo `InfoTiempoEventArgs`, derivado de EventArgs, que contendrá información útil para cualquier persona interesada en este evento. El objeto `InfoTiempoEventArgs` tendrá información sobre la hora, los minutos y los segundos actuales. Define un constructor y tres variables enteras públicas.
 
@@ -178,7 +166,7 @@ public partial class FrmPrincipal : Form
 
 Cuando se invoca el método, `FrmPrincipal_Load`, se asocia el evento de la clase Reloj con el método manejador.
 
- El operador `+=` es el mecanismo mediante el cual las clases pueden asociar sus manejadores de eventos con el evento. El uso del operador `+=` permite que varias clases registren manejadores para un solo evento. El operador `-=` permite desasociar el manejador al evento.
+El operador `+=` es el mecanismo mediante el cual las clases pueden asociar sus manejadores de eventos con el evento. El uso del operador `+=` permite que varias clases registren manejadores para un solo evento. El operador `-=` permite desasociar el manejador al evento.
 
- La firma del método `MostrarCambioTiempo` que maneja el evento tiene que coincidir con la firma del delegado `NotificadorCambioTiempo`, que recibe como primer parámetro object y como segundo parámetro el objeto `InfoTiempoEventArgs`.
+La firma del método `MostrarCambioTiempo` que maneja el evento tiene que coincidir con la firma del delegado `NotificadorCambioTiempo`, que recibe como primer parámetro object y como segundo parámetro el objeto `InfoTiempoEventArgs`.
  
