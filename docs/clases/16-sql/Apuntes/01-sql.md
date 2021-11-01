@@ -25,7 +25,7 @@ Pero debemos saber que existen las siguientes instrucciones dentro de este lengu
 * **`TRUNCATE`**: Elimina todos los registros de una tabla.
 
 ### DML (Data Manipulation Language)
-Con este lenguaje podemos obtener, agregar, modificar y eliminar los datos dentro de las tablas, sus principales sentencias son:
+Con este lenguaje podemos consultar, agregar, modificar y eliminar los datos dentro de las tablas, sus principales sentencias son:
 
 * **`SELECT`**: Nos deja relacionar, filtrar y ordenar los datos para poder visualizarlos.
 * **`INSERT`**: Agrega una tupla dentro de una tabla.

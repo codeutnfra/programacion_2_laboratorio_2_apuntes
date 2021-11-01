@@ -14,7 +14,6 @@ Crear un proyecto de Windows Forms App.
 
 Utilizando [las bases de datos de prueba de Microsoft SQL Server](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/adventure-works) crear un programa que permita agregar y modificar elementos de la tabla `Production.Product`.
 
-
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

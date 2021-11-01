@@ -41,7 +41,6 @@ hide_title: false
 
 9. `btnEliminar` borrará de la base a la persona seleccionada en el ListBox.
 
-
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
 | :-----------------------: | :---: | :----------------------: | :----: |

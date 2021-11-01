@@ -27,7 +27,9 @@ Antes de empezar con esta guía, deberás [Preparar el entorno de base de datos]
 
 ## Ejercicios
 ### Introducción
-[I01 - La base del bufet](./Ejercicios/I01-la-base-del-bufet.md)
+[I01 - Empleados y registrados](./Ejercicios/I01-empleados-y-registrados.md)
+
+[I02 - La base del bufet](./Ejercicios/I02-la-base-del-bufet.md)
 
 ## Bibliografía
 
