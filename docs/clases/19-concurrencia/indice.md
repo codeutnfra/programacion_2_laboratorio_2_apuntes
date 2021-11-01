@@ -15,7 +15,7 @@ En esta sección introduciremos algunas formas de trabajar en C# con procesos qu
 
 [Programación multi-hilo](./Apuntes/01-programacion-multihilo.md)
  
-[Cuestionario](./Apuntes/cuestionario.md)
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
 ### Introducción

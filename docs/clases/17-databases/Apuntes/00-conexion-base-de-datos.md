@@ -21,7 +21,7 @@ Primero se debe instalar el paquete `System.Data.SqlClient`:
 Para conectarnos a la base de datos utilizamos una instancia de `SqlConnection`.  
 
 ```csharp
-SqlConnection connection; // Puente
+SqlConnection connection; // Puente.
 SqlCommand command;      // Quien lleva la consulta.
 SqlDataReader reader;   // Quien trae los datos.
 
@@ -98,9 +98,3 @@ sqlCommand.Parameters.AddWithValue("@Age", "19");
 sqlCommand.ExecuteNonQuery();
 sqlCommand.Parameters.Clear();
 ```
-
-## Exportar una base de datos
-<iframe width="560" height="315" src="https://www.youtube.com/embed/71PTdD2li0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Importar una base de datos
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2Lxznt6Bi0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,4 +1,4 @@
----
+gi---
 title: Índice - Tipos genéricos
 sidebar_label: Índice
 sidebar_position: 0

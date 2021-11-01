@@ -11,8 +11,9 @@ hide_title: false
 Los eventos permiten que una clase u objeto notifique a otras clases u objetos cuando ocurre algo de interés. La clase que envía (o genera ) el evento se llama emirosa y las clases que reciben (o manejan ) el evento se llaman suscriptoras .
 
 ## Apuntes
-
 [Eventos](./Apuntes/00-eventos.md)
+
+**[Cuestionario](./Apuntes/cuestionario.md)**
 
 ## Ejercicios
 ### Introductorio
