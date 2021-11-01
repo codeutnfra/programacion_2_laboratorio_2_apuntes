@@ -8,13 +8,16 @@ hide_title: false
 ---
 
 ## Resumen
-Los eventos permiten que una clase u objeto notifique a otras clases u objetos cuando ocurre algo de interés. La clase que envía (o genera ) el evento se llama editor y las clases que reciben (o manejan ) el evento se llaman suscriptores .
+Los eventos permiten que una clase u objeto notifique a otras clases u objetos cuando ocurre algo de interés. La clase que envía (o genera ) el evento se llama emirosa y las clases que reciben (o manejan ) el evento se llaman suscriptoras .
 
 ## Apuntes
 
 [Eventos](./Apuntes/00-eventos.md)
 
 ## Ejercicios
+### Introductorio
+
+[I01 - Avisame Si Cambia](./Ejercicios/I01-avisame-si-cambia.md)
 ### Consolidacion
 
 [C01 - Temporizador](./Ejercicios/C01-temporizador.md)

@@ -13,9 +13,9 @@ authorURL:
 
 Los eventos permiten que una clase u objeto notifique a otras clases u objetos cuando ocurre una acción. La acción puede ser causada por la interacción del usuario, como un clic en un botón, o puede resultar de alguna otra lógica del programa, como el cambio en el estado de un objeto. 
 
-El objeto que genera el evento se llama remitente(sender) o emisor del evento . El remitente del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores . Un método que maneja un evento se llama manejador de eventos
+El objeto que genera el evento se llama remitente (sender) o emisor del evento . El remitente del evento no sabe qué objeto o método recibirá (manejará) los eventos que genera. Los objetos que reciben (o manejan ) el evento se llaman suscriptores. Un método que maneja un evento se llama manejador de eventos.
 
-El evento suele ser miembro de la clase que lo genera; por ejemplo, el evento Click es un miembro de la clase Button
+El evento suele ser miembro de la clase que lo genera; por ejemplo, el evento Click es un miembro de la clase Button.
 
 ### Declaración
 Los eventos se declaran con la palabra reservada `event` seguido del tipo de delegado para el evento.
@@ -79,8 +79,7 @@ public void Ejecutar( )
         {
             // crea una instancia de InfoTiempoEventArgs
             // para pasar al suscriptor
-            InfoTiempoEventArgs infoTiempo = 
-                 new InfoTiempoEventArgs(dt.Hour, dt.Minute, dt.Second);
+            InfoTiempoEventArgs infoTiempo = new InfoTiempoEventArgs(dt.Hour, dt.Minute, dt.Second);
 
             // verifico que haya suscriptores al evento
             if (SegundoCambiado is not null)
@@ -151,7 +150,7 @@ En en método `FrmPrincipal_Load` se crea una instacia de `Reloj` que se una par
 
 
 ```csharp
-public class FrmPrincipal : Form
+public partial class FrmPrincipal : Form
 {
     private void FrmPrincipal_Load(object sender, EventArgs e)
     {
@@ -170,4 +169,6 @@ public class FrmPrincipal : Form
 Cuando se invoca el método, `FrmPrincipal_Load`, se asocia el evento de la clase Reloj con el método manejador.
 
  El operador `+=` es el mecanismo mediante el cual las clases pueden asociar sus manejadores de eventos con el evento. El uso del operador `+=` permite que varias clases registren manejadores para un solo evento. El operador `-=` permite desasociar el manejador al evento.
+
+ La firma del método `MostrarCambioTiempo` que maneja el evento tiene que coincidir con la firma del delegado `NotificadorCambioTiempo`, que recibe como primer parámetro object y como segundo parámetro el objeto `InfoTiempoEventArgs`.
  
