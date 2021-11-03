@@ -26,6 +26,8 @@ Antes de empezar con esta guía, deberás [Preparar el entorno de base de datos]
 
 [I02 - Adventure Works](./Ejercicios/I02-adventure-works.md)
 
+[I03 - Esto definitivamente no es Steam](./Ejercicios/I03-esto-definitivamente-no-es-steam.md)
+
 ### Consolidación
 [C01 - La centralita: Episodio VIII](./Ejercicios/C01-la-centralita-episodio-VIII.md)
 
