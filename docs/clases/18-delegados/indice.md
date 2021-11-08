@@ -23,6 +23,8 @@ Las expresiones lambda son funciones con una sintaxis diferente que permite util
 ### Introducción
 [I01 - El delegado](./Ejercicios/I01-el-delegado.md)
 
+[I02 - El comparador](./Ejercicios/I02-el-comparador.md)
+
 ## Bibliografía
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
 https://docs.microsoft.com/en-us/dotnet/api/system.action?view=net-5.0
