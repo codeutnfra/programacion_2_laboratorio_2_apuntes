@@ -8,6 +8,9 @@ hide_title: false
 ---
 
 ## Resumen
+Los delegados son tipos que representan una referencia a un método, permitiendo usarlos como argumentos de otros métodos o almacenarlos como atributos de una clase.  
+
+Las expresiones lambda son funciones con una sintaxis diferente que permite utilizarlas en una expresión en vez de los típicos métodos que son miembros de una clase.  
 
 ## Apuntes
 [Delegados](./Apuntes/00-delegados.md)
@@ -21,4 +24,7 @@ hide_title: false
 [I01 - El delegado](./Ejercicios/I01-el-delegado.md)
 
 ## Bibliografía
-
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
+https://docs.microsoft.com/en-us/dotnet/api/system.action?view=net-5.0
+https://docs.microsoft.com/en-us/dotnet/api/system.func-1?view=net-5.0
+https://docs.microsoft.com/en-us/dotnet/api/system.predicate-1?view=net-5.0

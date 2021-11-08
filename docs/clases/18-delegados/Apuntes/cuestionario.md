@@ -13,6 +13,6 @@ authorURL: https://github.com/mauricioCerizza
 3. ¿Qué tienen que cumplir los métodos referenciados por un delegado?
 4. ¿En qué se diferencian los delegados de los punteros a función vistos en el lenguaje C?
 5. ¿Cómo se declara un delegado?
-6. ¿Cómo se usa un delegado?
-
-### Expresiones lambda
+6. ¿Cómo se instancia un delegado?
+7. ¿Cómo se usa un delegado?
+8. ¿En qué se diferencian los delegados `Func`, `Action` y `Predicate`?
