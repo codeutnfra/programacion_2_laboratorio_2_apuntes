@@ -33,7 +33,7 @@ Empezar creando un proyecto de biblioteca de clases y declarar las siguientes cl
 
 - Tendrá un método `IniciarAtencion` con visibilidad `internal` que deberá iniciar la atención de clientes en un sub-proceso paralelo. Este método no recibirá nada y retornará la instancia de `Task` que se haya utilizado.
   - La tarea de atención de clientes:
-    - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
+    - Se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
     - Si hay clientes a la espera (se puede verificar con el [método `Any`](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.any?view=net-5.0) de la biblioteca *LINQ* (`System.Linq`) que retorna `true` si una colección contiene algún elemento.):
       - Se retirará al siguiente cliente de la cola `clientesALaEspera`.
       - Se invocará al método referenciado por `delegadoClienteAtendido`, pasándole la instancia de esa misma caja y el cliente que se recuperó de la cola. 
@@ -54,7 +54,7 @@ Empezar creando un proyecto de biblioteca de clases y declarar las siguientes cl
   - Instanciará el atributo `clientes`.
 
 - Tendrá un método público `ComenzarAtencion` que:
-  - Lo primero que hará será abrir todas las cajas del negocio, llamando al método `AbrirCajas` de cada caja.
+  - Lo primero que hará será abrir todas las cajas del negocio, llamando al método `IniciarAtencion` de cada caja.
   - En segundo lugar iniciará una tarea **concurrente** (en otro hilo) de simulación de clientes. 
     - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
     - Esta tarea deberá agregar un nuevo cliente a la cola `clientes` **cada un segundo**. 
@@ -66,7 +66,7 @@ Empezar creando un proyecto de biblioteca de clases y declarar las siguientes cl
     - Una vez ordenada la lista debemos quedarnos con la caja con menos clientes a la espera, es decir, la primera luego de haber ordenado de forma ascendente. Para esto utilizar el método `First` de la biblioteca *LINQ* (`System.Linq`), que retorna el primer elemento de una colección. Ante cualquier duda, [consulte la documentación](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.first?view=net-5.0).
     - Para recuperar el cliente de la cola `clientes` utilizar el [método `TryDequeue`](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentqueue-1.trydequeue?view=net-5.0). 
     - Si el método `TryDequeue` retornó un `string` que no sea nulo ni espacios en blanco (puede usar el [método estático `string.IsNullOrWhiteSpace`](https://docs.microsoft.com/en-us/dotnet/api/system.string.isnullorwhitespace?view=net-5.0)), agregar el cliente a la caja utilizando el método `AgregarCliente` de la caja.
-  - No recibirá nada y retornará la lista de sub-procesos iniciados por el negocio (`List<Task>`). Esta lista debe incluir los hilos iniciados para la simulación de clientes, la asignación de cajas y los retornados por el método `AbrirCajas` de las cajas.
+  - No recibirá nada y retornará la lista de sub-procesos iniciados por el negocio (`List<Task>`). Esta lista debe incluir los hilos iniciados para la simulación de clientes, la asignación de cajas y los retornados por el método `IniciarAtencion` de las cajas.
 
 Crear una aplicación de consola y en el método `Main`:
 1. Instanciar el delegado declarado en `Caja` con una **expresión lambda** que imprima un mensaje en la consola con el siguiente formato:
