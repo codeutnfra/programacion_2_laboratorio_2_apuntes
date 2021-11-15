@@ -57,7 +57,7 @@ Empezar creando un proyecto de biblioteca de clases y declarar las siguientes cl
   - Lo primero que hará será abrir todas las cajas del negocio, llamando al método `IniciarAtencion` de cada caja.
   - En segundo lugar iniciará una tarea **concurrente** (en otro hilo) de simulación de clientes. 
     - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
-    - Esta tarea deberá agregar un nuevo cliente a la cola `clientes` **cada un segundo**. 
+    - Esta tarea deberá agregar un nuevo cliente a la cola `clientes` **cada un segundo** (suspender 1 segundo el hilo). 
     - Para generar el nuevo cliente utilizar el método `Generate` del atributo estático de tipo `RealNameGenerator`.
   - En tercer lugar iniciará una tarea **concurrente** (en otro hilo) de asignación de cajas. Esta tarea asignará al siguiente cliente en la cola `clientes` a **la caja con MENOS clientes** .
     - La tarea se seguirá ejecutando de manera iterativa hasta que se cierre la aplicación. 
