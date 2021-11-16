@@ -9,7 +9,7 @@ hide_title: false
 ---
 ---
 ### Consigna
-1. Crear un Formulario con dos `textBox`, tres `label` y un `button`.
+1. Crear un formulario con dos `TextBox`, tres `Label` y un `Button`.
 
 ![digrama de clase formulario](/clases/20-Eventos/ejercicios/diagrama_formulario.png)
 ![Vista formulario](/clases/20-Eventos/ejercicios/imagen_formulario.png)
