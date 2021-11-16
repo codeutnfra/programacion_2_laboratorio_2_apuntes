@@ -1,9 +1,9 @@
 ---
-sidebar_label: I01 - Avisame Si Cambias
-title: Ejercicio I01 - Avisame Si Cambias
+sidebar_label: I01 - Avisame si cambia
+title: Ejercicio I01 - Avisame si cambia
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
-sidebar_position: 101
+sidebar_position: 1
 hide_table_of_contents: true
 hide_title: false
 ---
@@ -11,12 +11,12 @@ hide_title: false
 ### Consigna
 1. Crear un formulario con dos `TextBox`, tres `Label` y un `Button`.
 
-![digrama de clase formulario](/clases/20-Eventos/ejercicios/diagrama_formulario.png)
+![Diagrama de clase del formulario](/clases/20-Eventos/ejercicios/diagrama_formulario.png)
 ![Vista formulario](/clases/20-Eventos/ejercicios/imagen_formulario.png)
 
 2. Crear la clase `Persona` a partir del siguiente diagrama de clases:
 
-![digrama de clase persona](/clases/20-Eventos/ejercicios/diagrama_biblioteca.png)
+![Digrama de clase Persona](/clases/20-Eventos/ejercicios/diagrama_biblioteca.png)
 
 #### Clase `Persona`:
 * El método `Mostrar` deberá retornar un `string` con el nombre y el apellido de la persona.
