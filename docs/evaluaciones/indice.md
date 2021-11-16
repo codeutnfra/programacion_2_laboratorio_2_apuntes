@@ -34,6 +34,7 @@ En esta sección encontraremos modelos de parciales y las consignas de los traba
 [La librería](./modelos/laboratorio/primer-parcial/la-libreria.md)
 
 #### Segundo parcial
+[♫♪ Que vengan los bomberos ♫♪](./modelos/laboratorio/segundo-parcial/que-vengan-los-bomberos.md)
 
 #### Más modelos
 [Más modelos de parcial](https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa/m/NTUxNzc4MDA3OTZa/details)

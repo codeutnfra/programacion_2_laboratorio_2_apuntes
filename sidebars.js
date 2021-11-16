@@ -318,7 +318,7 @@ module.exports = {
                                 },
                             ],
                         },
-                        /* {
+                        {
                             type: "category",
                             label: "Segundo parcial",
                             collapsed: true,
@@ -329,7 +329,7 @@ module.exports = {
                                         "evaluaciones/modelos/laboratorio/segundo-parcial",
                                 },
                             ],
-                        }, */
+                        },
                         {
                             type: "link",
                             label: "Más modelos de parcial",
