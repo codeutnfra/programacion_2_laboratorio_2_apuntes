@@ -58,8 +58,8 @@ GO
 
 6. Clase `Salida`:
    1. El constructor dará inicio a la salida colocando la fecha y hora actual en el atributo correspondiente.
-   2. El método `FinalizarSalida` dará fin a la salida colocal la fecha y hora actual en el atributo correspondiente. 
-   3. La propiedad `TiempoTotal` retornará la diferencia en minutos entre la fecha de inicio y la fecha de fin. 
+   2. El método `FinalizarSalida` dará fin a la salida colocar la fecha y hora actual en el atributo correspondiente. 
+   3. La propiedad `TiempoTotal` retornará la diferencia en segundos entre la fecha de inicio y la fecha de fin. 
 
 7. Crear un nuevo tipo de excepción llamado `BomberoOcupadoException` con al menos dos sobrecargas de constructores.
 
@@ -75,9 +75,9 @@ GO
       5. Avisará mediante el evento `MarcarFin` que se terminó la salida. Utilizar el parámetro `bomberoIndex` para informar al formulario cuál bombero fue. 
 
 9. Formulario `Cuartel`:
-   1. El método `OcultarBombero` será el manejador del evento `MarcarFin`. Hacer todo lo necesario para que funcione. 
+   1. El método `DespacharServicio` deberá ejecutar `AtenderSalida` en un nuevo hilo. 
    2. El manejador del evento `FormClosing` del formulario deberá asegurarse que no quede ningún hilo activo al salir. 
-   3. El método `DespacharServicio` deberá ejecutar `AtenderSalida` en un nuevo hilo. 
+   3. El método `OcultarBombero` será el manejador del evento `MarcarFin`. Hacer todo lo necesario para que funcione. 
    4. Si se quiere despachar a un bombero que ya está atendiendo otra salida, se deberá lanzar la excepción `BomberoOcupadoException` y controlarla en el evento `Click` de cada botón, guardando en el log *"Salida bombero X no concretada*.
    5. Los botones `Reporte` serializarán el objeto `Bombero` correspondiente. 
 
@@ -86,5 +86,5 @@ GO
     2. Verificar que el método de extensión de `DateTime` funcione tal como se espera.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-----------------------: | :---: | :----------------------: | :----: |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Parciales_Resueltos/Segundo.Parcial.Bomberos) |
+| :-----------------------: | :---: | :----------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
