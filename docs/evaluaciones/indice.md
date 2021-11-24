@@ -21,6 +21,8 @@ En esta sección encontraremos modelos de parciales y las consignas de los traba
 ## Parciales
 [2do D - Primer parcial - Laboratorio de Computación II](./parciales/2d-primer-parcial.md)
 
+[2do D - Segundo Parcial - Lista de series](./parciales/lista-de-series.md)
+
 ## Modelos de parciales 
 ### Programación II
 [Auto-evaluación - Primer Parcial](https://forms.gle/WkHFoMhjKQQ5jQhR6)

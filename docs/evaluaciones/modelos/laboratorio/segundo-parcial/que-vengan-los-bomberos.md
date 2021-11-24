@@ -85,6 +85,6 @@ GO
     1. Verificar que los métodos `Leer` y `Guardar` de `Bombero` serialicen y deserialicen correctamente.
     2. Verificar que el método de extensión de `DateTime` funcione tal como se espera.
 
-### Resolución
+## Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Parciales_Resueltos/Segundo.Parcial.Bomberos) |
 | :-----------------------: | :---: | :----------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
