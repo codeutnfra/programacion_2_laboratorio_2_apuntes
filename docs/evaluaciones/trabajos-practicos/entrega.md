@@ -20,16 +20,16 @@ Sigue los siguientes pasos para poder realizar la entrega de trabajos prácticos
 
 2. Crear el repositorio **tps_laboratorio_ii**.
 
-3. Publicar repositorio en el [**formulario de registro**](https://goo.gl/forms/PyiJiMfqKzakc1YE2).
+3. Publicar repositorio en el [**formulario de registro**](https://docs.google.com/forms/d/e/1FAIpQLSeLBy6MbaO6fXS4f4S8NoFkI_Oe-GJyhROWnYfs_2I15uU3wA/viewform?vc=0&c=0&w=1&flr=0).
 
 :::warning Fecha límite
 
-La fecha límite para registrar el repositorio es el **Lunes 13/09/2021 a las 9 AM**.
+La fecha límite para registrar el repositorio es el **Lunes 02/05/2022 a las 9 AM**.
 
 :::
 
 :::important Importante
-* La única vía para reportar el repositorio de GitHub es dando respuesta al [**formulario de registro**](https://goo.gl/forms/PyiJiMfqKzakc1YE2).
+* La única vía para reportar el repositorio de GitHub es dando respuesta al [**formulario de registro**](https://docs.google.com/forms/d/e/1FAIpQLSeLBy6MbaO6fXS4f4S8NoFkI_Oe-GJyhROWnYfs_2I15uU3wA/viewform?vc=0&c=0&w=1&flr=0).
 
 * El repositorio **se debe publicar una única vez**, y se tomará esa primera publicación para toda la cursada. No enviar mails, no enviar mensajes por Slack, no preguntar todo el tiempo si su repositorio está bien. Seguir las instrucciones y publicarlo una sola vez.
 
