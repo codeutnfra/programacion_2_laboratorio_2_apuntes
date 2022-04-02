@@ -16,7 +16,11 @@ En esta sección encontraremos modelos de parciales y las consignas de los traba
 
 [Recuperatorios de trabajos prácticos](./trabajos-practicos/recuperatorios.md)
 
-[Consignas de trabajos prácticos](https://classroom.google.com/w/NTQ1MTg2NjM5NDBa/tc/NTQ1MTg2NjM5NTNa)
+[Trabajo Práctico N°1](./trabajos-practicos/recuperatorios.md)
+
+[Trabajo Práctico N°2](./trabajos-practicos/recuperatorios.md)
+
+[Trabajo Práctico N°3/4](./trabajos-practicos/recuperatorios.md)
 
 ## Parciales
 [2do D - Primer parcial - Laboratorio de Computación II](./parciales/2d-primer-parcial.md)

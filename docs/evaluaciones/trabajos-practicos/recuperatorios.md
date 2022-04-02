@@ -10,13 +10,11 @@ hide_title: true
 ## ¿Cómo recuperar trabajos prácticos?
 1. Colocar dentro del **mismo repositorio publicado a comienzos de la cursada**, en el branch `Master`, la carpeta `RecuperatoriosTP`. **NO generar un nuevo repositorio, NO volver a informarlo**.
 
-
 2. Dentro de dicha carpeta colocar, según corresponda, los recuperatorios de los trabajos prácticos cada uno en su respectivo directorio:
    1. TP1
    2. TP2
    3. TP3
    4. TP4
-
 
 3. Sólo se buscará material en dicha carpetas.
 
@@ -29,6 +27,3 @@ hide_title: true
 7. Los recuperatorios deben cumplir con todas las [condiciones mínimas para la aprobación de los trabajos prácticos](./condiciones#condiciones-mínimas-para-la-aprobación).
 
 8. La interpretación de las consignas debe ser PERFECTA. Se trata de una instancia de recuperación tardía. 
-
-
-
