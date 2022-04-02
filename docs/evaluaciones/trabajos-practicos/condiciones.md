@@ -9,7 +9,7 @@ hide_title: true
 ## Condiciones para la entrega de trabajos prácticos
 :heavy_exclamation_mark::heavy_exclamation_mark: No se corregirá NINGÚN trabajo práctico que no cumpla la siguientes pautas:
 
-1. Recordar **registrar su repositorio** como se indica en la sección [¿Cómo entregar los trabajos prácticos?](./entrega). Leer bien y prestar atención a las consignas.
+1. Recordar **registrar su repositorio** como se indica en la sección [¿Cómo entregar los trabajos prácticos?](./entrega.md). Leer bien y prestar atención a las consignas.
 
 2. Sólo se utilizará el branch `Master`.
 

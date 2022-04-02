@@ -25,4 +25,4 @@ La materia Laboratorio de Computación II cuenta con cuatro entregas de trabajos
 
 Programación II NO tiene trabajos prácticos obligatorios.
 
-Para más información, consultar [la sección de trabajos prácticos](../evaluaciones#trabajos-prácticos). 
+Para más información, consultar [la sección de trabajos prácticos](../evaluaciones/indice.md#trabajos-prácticos). 

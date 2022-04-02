@@ -24,6 +24,6 @@ hide_title: true
 
 6. Los recuperatorios deberán ser subidos al repositorio en el formato antes mencionado **el día LUNES anterior a cada semana de finales** de termino de cursada (meses de julio o diciembre, según corresponda) a las 10hs. Caso contrario, se desaprobará la materia.
 
-7. Los recuperatorios deben cumplir con todas las [condiciones mínimas para la aprobación de los trabajos prácticos](./condiciones#condiciones-mínimas-para-la-aprobación).
+7. Los recuperatorios deben cumplir con todas las [condiciones mínimas para la aprobación de los trabajos prácticos](./condiciones.md#condiciones-mínimas-para-la-aprobación).
 
 8. La interpretación de las consignas debe ser PERFECTA. Se trata de una instancia de recuperación tardía. 

@@ -10,7 +10,7 @@ hide_title: true
 ## ¿Cómo entregar los trabajos prácticos?
 :::caution Atención
 
-Antes de empezar lee con atención las [condiciones de entrega y aprobación](./condiciones).
+Antes de empezar lee con atención las [condiciones de entrega y aprobación](./condiciones.md).
 
 :::
 

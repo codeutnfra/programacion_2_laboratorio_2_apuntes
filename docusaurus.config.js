@@ -9,6 +9,7 @@ module.exports = {
   favicon: "base/favicon.ico",
   organizationName: "codeutnfra",
   projectName: "programacion_2_laboratorio_2_apuntes",   
+  trailingSlash: true,
   themeConfig: {   
     hideableSidebar: true,
     navbar: {

@@ -21,7 +21,7 @@ Antes de comenzar se deberá descargar la cáscara del proyecto. Los siguientes 
 
 :::important Importante
 
-Para resolver este ejercicio será de ayuda el capítulo de los apuntes **[Trabajando con archivos](../apuntes/archivos)**. 
+Para resolver este ejercicio será de ayuda el capítulo de los apuntes **[Trabajando con archivos](../Apuntes/02-archivos.md)**. 
 
 :::
 
