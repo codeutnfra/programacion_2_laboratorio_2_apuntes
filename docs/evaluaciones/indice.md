@@ -16,16 +16,17 @@ En esta sección encontraremos modelos de parciales y las consignas de los traba
 
 [Recuperatorios de trabajos prácticos](./trabajos-practicos/recuperatorios.md)
 
-[Trabajo Práctico N°1](./trabajos-practicos/recuperatorios.md)
+[Trabajo Práctico N°1](./trabajos-practicos/tp-01.md)
 
-[Trabajo Práctico N°2](./trabajos-practicos/recuperatorios.md)
+[Trabajo Práctico N°2](./trabajos-practicos/tp-02.md)
 
-[Trabajo Práctico N°3/4](./trabajos-practicos/recuperatorios.md)
+[Trabajo Práctico N°3/4](./trabajos-practicos/tp-03.md)
 
-## Parciales
-[2do D - Primer parcial - Laboratorio de Computación II](./parciales/2d-primer-parcial.md)
+<!-- ## Parciales -->
 
-[2do D - Segundo Parcial - Lista de series](./parciales/lista-de-series.md)
+<!-- [2do D - Primer parcial - Laboratorio de Computación II](./parciales/2d-primer-parcial.md) -->
+
+<!-- [2do D - Segundo Parcial - Lista de series](./parciales/lista-de-series.md) -->
 
 ## Modelos de parciales 
 ### Programación II

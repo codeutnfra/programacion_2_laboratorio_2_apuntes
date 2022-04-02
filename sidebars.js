@@ -263,7 +263,7 @@ module.exports = {
                 }
             ],
         },
-        {
+/*         {
             type: "category",
             label: "Parciales",
             collapsed: true,
@@ -273,7 +273,7 @@ module.exports = {
                     dirName: "evaluaciones/parciales",
                 },
             ],
-        },
+        }, */
         {
             type: "category",
             label: "Modelos de parcial",
