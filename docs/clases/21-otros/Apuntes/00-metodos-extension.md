@@ -8,7 +8,7 @@ author: Mauricio Cerizza
 authorURL: 
 ---
 ## Métodos de extensión
-Los **métodos de extensión** permiten agregar nuevos métodos a tipos de dato existentes. No existe ninguna diferencia entre invocar a un método de extensión y llamar a los métodos realmente definidos en el tipo. 
+Los **métodos de extensión** permiten agregar nuevos métodos a tipos de datos existentes. No existe ninguna diferencia entre invocar a un método de extensión y llamar a los métodos realmente definidos en el tipo. 
 
 Usar este mecanismo de extensión tiene la ventaja de poder agregar funcionalidad a tipos de datos que no podemos modificar, como los que provee la base class library. Además, no requiere modificar la definición original ni una relación tan estrecha como la herencia. De todas formas se puede extender cualquier tipo, aunque no sean primitivos ni formen parte de la base class library. 
 

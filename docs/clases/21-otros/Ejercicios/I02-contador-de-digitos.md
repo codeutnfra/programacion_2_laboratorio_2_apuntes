@@ -10,11 +10,13 @@ hide_title: false
 ---
 ### Consigna
 Crear un método de extensión para la clase `Int64` en un proyecto de consola:
-* Se llamará `CantidadDeDigitos` y retornará la cantidad de dígitos que forman un número.
-* Utilizar este método para dar informar por pantalla la cantidad de dígitos.
+* Se llamará `ContarCantidadDeDigitos` y retornará la cantidad de dígitos que forman un número.
+* Informar por pantalla la cantidad de dígitos.
 * Utilizar el formato para que quede tal cual la pantalla planteada:
 
 ![Salida por consola](/clases/25-otros/ejercicios/consola-contador-digitos.png)
+
+**Realizar un desarrollo guiado por pruebas (TDD).** Es decir, primero crear las pruebas del método `ContarCantidadDeDigitos` y luego la lógica necesaria para que el método supere dichas pruebas. 
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
