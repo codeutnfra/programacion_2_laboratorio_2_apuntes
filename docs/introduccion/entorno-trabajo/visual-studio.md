@@ -1,19 +1,19 @@
 ---
-title: Preparar el entorno de trabajo 
-sidebar_label: Preparar el entorno de trabajo
+title: Instalación de Visual Studio y .NET
+sidebar_label: Instalación de Visual Studio y .NET
 sidebar_position: 7
-slug: /introduccion/entorno-trabajo
+slug: /introduccion/visual-studio
 hide_table_of_contents: false
 hide_title: false
 author: Mauricio Cerizza
 authorURL: https://github.com/mauricioCerizza
 ---
-## Plataforma de desarrollo
+## Instalación de .NET
 Una **plataforma de desarrollo** es un conjunto de herramientas (editores de código, compiladores, entornos de ejecución, lenguajes de programación, bibliotecas, etc) que nos permite construir determinadas aplicaciones de software.
 
 La plataforma que utilizaremos en la cursada es [**.NET**](https://dotnet.microsoft.com/). Durante el transcurso del cuatrimestre nos adentraremos en las características y detalles de esta tecnología.
 
-### Instalación de .NET
+### Instrucciones para la instalación del SDK de .NET
 Lo primero que haremos es instalar el **SDK** de la última versión de .NET.
 
 :::note Información
@@ -26,16 +26,16 @@ Instrucciones para la instalación:
 1. Ingresar a https://dotnet.microsoft.com/download y presionar el botón `Download .NET SDK x64` de la versión marcada como `(recommended)` para descargar el instalador.
 2. Una vez descargado el instalador, ejecutarlo, presionar instalar y listo. 
 
-## Entorno de desarrollo integrado 
+## Instalación de Visual Studio
 Hoy en día se puede trabajar con .NET desde cualquier editor de código, por más simple que sea. 
 
 Microsoft tiene una familia de editores de códigos y entornos de desarrollo integrados (IDEs) entre los que se incluyen:
 * Visual Studio Code
 * GitHub Codespaces
-* Visual Studio 2019
-* Visual Studio 2019 para Mac
+* Visual Studio
+* Visual Studio para Mac
 
-Cualquiera de estos sirve para desarrollar profesionalmente con C# y .NET. Sin embargo, durante toda la cursada trabajaremos únicamente con el **IDE Visual Studio 2019** y sobre el sistema operativo **Windows**. 
+Cualquiera de estos sirve para desarrollar profesionalmente con C# y .NET. Sin embargo, durante toda la cursada trabajaremos únicamente con el **IDE Visual Studio** y sobre el sistema operativo **Windows**. 
 
 **IDE** es un acrónimo para **Integrated Development Environment** (Entorno de Desarrollo Integrado, en español), una aplicación que proporciona todos los servicios y herramientas necesarios para desarrollar software (editor de texto, diseñador visual, administrador de archivos, debugger, entre otras). 
 
@@ -47,9 +47,8 @@ Si no tenés instalado Windows en tu máquina, te dejamos un tutorial para levan
 
 :::
 
-### Instalación de Visual Studio
-Instrucciones para la instación:
-1. Descargar el instalador desde https://visualstudio.microsoft.com/es/downloads/. Elegir la ***versión Community/Comunidad***, la única gratuita para uso educativo o particular. 
+### Instrucciones para la instalación de Visual Studio
+1. Descargar el instalador para la ***última versión*** de Visual Studio desde https://visualstudio.microsoft.com/es/downloads/. Elegir la ***versión Community/Comunidad***, la única gratuita para uso educativo o particular. 
 2. Ejecutar el instalador y presionar continuar.
 3. Cuando aparezcan las opciones, seleccionar:
     + En la pestaña `Cargas de trabajo` marcar la opción `Desarrollo de escritorio de .NET`.
@@ -58,10 +57,10 @@ Instrucciones para la instación:
 4. Presionar instalar y esperar a que finalice.
 
 ***Paso 3 - Pestaña 'Cargas de trabajo'***
-![Instalación VS 2019 - Cargas de trabajo](/introduccion/instalacion_vs_01.png)
+![Instalación VS - Cargas de trabajo](/introduccion/entorno-trabajo/instalacion_vs_01.png)
 
 ***Paso 3 - Pestaña 'Componentes individuales'***
-![Instalación VS 2019 - Componentes individuales](/introduccion/instalacion_vs_02.png)
+![Instalación VS - Componentes individuales](/introduccion/entorno-trabajo/instalacion_vs_02.png)
 
 ### Herramientas y características adicionales para Visual Studio
 #### Shortcuts
@@ -113,16 +112,9 @@ Visual studio permite extender sus características nativas instalando extension
 
 Algunas recomendaciones del equipo docente son:
 * [**Select Next Occurrence**](https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence) - Permite seleccionar múltiples ocurrencias de un texto seleccionado y editar simultáneamente las mismas. Intenta replicar las características de edición múltiple de editores como Sublime Text o Visual Studio Code. 
+![Select Next Ocurrence Gif](../../../static/introduccion/entorno-trabajo/select_next.gif)
 
 Pueden encontrarlos todos en [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Installs).
 
 [//]: # "TODO ###Debugging en Visual Studio"
-
-## Entorno de base de datos
-### Instalación del entorno de base de datos
-[//]: # "TODO profundizar"
-Sobre el final de materia necesitaremos un motor y un IDE especializados para trabajo con bases de datos.
-
-* __SQL Server (Desarrollador):__ https://www.microsoft.com/es-es/sql-server/sql-server-downloads
-* __SQL Management Studio:__ https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
 
