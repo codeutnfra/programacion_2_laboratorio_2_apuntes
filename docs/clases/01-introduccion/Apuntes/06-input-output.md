@@ -36,7 +36,7 @@ Texto sin salto de línea.
 
 :::tip
 
-Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir el método `WriteLine` más rápido, para accionarlo debemos escribir `cw` y presionar dos veces la tecla `TAB`.
+Existe un [snippet](/introduccion/entorno-trabajo/visual-studio.md#snippets) para escribir el método `WriteLine` más rápido, para accionarlo debemos escribir `cw` y presionar dos veces la tecla `TAB`.
 
 :::
 

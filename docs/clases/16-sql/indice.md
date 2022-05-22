@@ -12,7 +12,7 @@ Esta sección consiste en
 
 :::important Importante
 
-Antes de empezar con esta guía, deberás [Preparar el entorno de base de datos](/introduccion/entorno-trabajo.md#entorno-de-base-de-datos).
+Antes de empezar con esta guía, deberás [Preparar el entorno de base de datos](/introduccion/entorno-trabajo/sql-server.md).
 
 :::
 

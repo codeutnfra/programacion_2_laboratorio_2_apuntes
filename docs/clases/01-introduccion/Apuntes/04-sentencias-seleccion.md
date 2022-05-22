@@ -102,7 +102,7 @@ if (x < 10)
 
 :::tip
 
-Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `if` más rápido, para accionarlo debemos escribir `if` y presionar dos veces la tecla `TAB`.
+Existe un [snippet](/introduccion/entorno-trabajo/visual-studio.md#snippets) para escribir la sentencia `if` más rápido, para accionarlo debemos escribir `if` y presionar dos veces la tecla `TAB`.
 
 :::
 
@@ -124,7 +124,7 @@ else
 
 :::tip
 
-Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `else` más rápido, para accionarlo debemos escribir `else` y presionar dos veces la tecla `TAB`.
+Existe un [snippet](/introduccion/entorno-trabajo/visual-studio.md#snippets) para escribir la sentencia `else` más rápido, para accionarlo debemos escribir `else` y presionar dos veces la tecla `TAB`.
 
 :::
 
@@ -217,6 +217,6 @@ En el ejemplo anterior se ejecutará el `MetodoTres()`.
 
 :::tip
 
-Existe un [snippet](/introduccion/entorno-trabajo.md#snippets) para escribir la sentencia `switch` más rápido, para accionarlo debemos escribir `switch` y presionar dos veces la tecla `TAB`.
+Existe un [snippet](/introduccion/entorno-trabajo/visual-studio.md#snippets) para escribir la sentencia `switch` más rápido, para accionarlo debemos escribir `switch` y presionar dos veces la tecla `TAB`.
 
 :::
