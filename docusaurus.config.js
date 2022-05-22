@@ -11,7 +11,11 @@ module.exports = {
   projectName: "programacion_2_laboratorio_2_apuntes",   
   trailingSlash: true,
   themeConfig: {   
-    hideableSidebar: true,
+    docs: {
+      sidebar: {
+        hideable: true
+      }
+    },
     navbar: {
       title: "Programación II",
       logo: {
