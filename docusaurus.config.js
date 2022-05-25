@@ -20,7 +20,7 @@ module.exports = {
       title: "Programación II",
       logo: {
         alt: "UTN Logo",
-        src: "base/logo.svg",
+        src: "base/logo.png",
       },
       items: [
         {
