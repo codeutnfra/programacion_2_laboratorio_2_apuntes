@@ -109,5 +109,5 @@ Este formulario se va a encargar de guardar o modificar el juego en la base de d
 El método `PintarForm` se va a encargar de mostrarle al usuario todos los datos del juego a modificar.
 
 ## Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/y_zZBFKuUs8) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_17/I03_Esto_definitivamente_no_es_Steam) |
 | :-----------------------: | :---: | :----------------------: | :----: |
