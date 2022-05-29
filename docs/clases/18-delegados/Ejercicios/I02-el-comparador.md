@@ -30,5 +30,5 @@ hide_title: false
    * Utilizar el método `ContarSignosPuntuacion` provisto en la solución. 
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_18/I02_El_comparador) |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/B8ckKLh52Mo) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_18/I02_El_comparador) |
 | :-----------------------: | :---: | :----------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |

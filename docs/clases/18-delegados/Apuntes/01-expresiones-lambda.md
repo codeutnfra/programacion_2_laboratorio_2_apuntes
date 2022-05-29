@@ -12,6 +12,8 @@ Las expresiones lambda son funciones con una sintaxis diferente que permite util
 
 Permiten crear funciones anónimas. Una **función anónima** es una función que no tiene nombre ni declaración formal. Normalmente se utilizan como argumentos de métodos que tienen delegados como parámetros de entrada.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1Z9a-z_lhCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 El **operador lambda `=>`** se utiliza para separar la lista de parámetros del cuerpo del método anónimo. Los parámetros de entrada van a la izquierda del operador lambda y la sentencia o bloque de instrucciones al otro lado.
 
 Cuando el cuerpo del método se compone de una sola sentencia, se denomina **expresión lambda (*lambda expression*)** y no lleva llaves. 
@@ -57,6 +59,8 @@ Se puede escribir como una expresión lambda así:
     Console.WriteLine(saludo);    
 }
 ```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pKND-M9bFG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Variables externas
 Dentro de una expresión lambda podremos usar variables fuera de ese método, pero dentro del alcance que contiene a la expresión lambda.
@@ -107,6 +111,8 @@ saludar("Mundo");
 ```
 
 La salida del código anterior es *¡Hola Mundo!*.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FwCOoprd1Jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [//]: # "TODO Ejercicio el comparador"
 [//]: # "TODO Ejercicio anonymous"

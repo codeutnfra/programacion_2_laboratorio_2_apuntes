@@ -14,6 +14,8 @@ Los delegados son **tipos de referencia**, al instanciarlos (son objetos) podemo
 
 Todos los delegados derivan de la clase `Delegate` y son sellados (no se puede heredar de ellos). No se permite que otros tipos de datos deriven de `Delegate`.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K335VO1bRWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Usos comunes de los delegados
 Como un delegado instanciado es un objeto, se pueden pasar como argumento de métodos o ser asignados a un propiedad. Permiten a un método aceptar un delegado como parámetro y llamar al delegado en algún momento futuro. Esto se conoce como **devolución de llamada asincrónica (*asynchronous callback*)**, y es una forma común de notificar al invocador cuando una tarea prolongada ha terminado. 
 
@@ -21,8 +23,12 @@ Otro uso común es definir un método de comparación y pasarlo como criterio a 
 
 Son particularmente útiles cuando el código que contiene el método a invocar se desarrolla de manera independiente al código invocador, ya que los delegados desacoplan a la clase que los declara de la clase que los usa. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4Qvio8Tezv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Delegados vs punturos a función
 A diferencia de los punteros a función de C y C++, los delegados son completamente orientados a objetos y **encapsulan tanto la referencia al método como la instancia a la que pertenece**. Además, los delegados cuentan con seguridad de tipos.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nf8iCMN2MCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Declaración de delegados
 Los delegados se declaran con la palabra reservada `delegate` seguido del tipo de retorno, el nombre del tipo delegado y los parámetros de entrada. Los parámetros y el tipo de retorno sólo cumplen la función de definir qué clase de métodos puede referenciar el delegado, conservando la seguridad de tipos que caracteriza al lenguaje. 
@@ -85,6 +91,8 @@ La salida del ejemplo anterior será:
 Se recibió una notificación para: Juan Perez.
 ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8tgX7WapHZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Delegados predefinidos
 La *base class library* trae algunos tipos delegados **genéricos** que cubren la mayoría de los usos y nos evitan declarar nuevos delegados personalizados.
 
@@ -93,6 +101,8 @@ La *base class library* trae algunos tipos delegados **genéricos** que cubren l
 * `Predicate`: Representa métodos que retornan bool y reciben un parámetro de entrada.
 
 En los tres casos, tanto el tipo de retorno como de los parámetros de entrada se definirá a partir del argumento proporcionado a los tipos genéricos. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NGV0Zt8UVHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Delegado Action
 `Action` es un delegado que presenta métodos que no retornan valores. 
@@ -164,6 +174,8 @@ Si lo escribimos pasándole un sólo argumento a sus tipo genérico, representa 
 
 ## Delegados multidifusión
 Un delegado puede refenciar más de un método y llamarlos a todos cuando es accionado. Cuando un delegado apunta a múltiples métodos se lo llama **delegado multidifusión (*multicast delegate*)**. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XPDKu4sz1cY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Agregar métodos a la lista de invocación
 Para agregar métodos a la lista de invocación de un delegado multidifusión se utilizan los operadores `+` o `+=`. Recordemos que todos los métodos deben tener una firma que corresponda al tipo delegado. 
@@ -327,3 +339,6 @@ SumarDos
 MultiplicarPorDos
 ElevarAlCuadrado
 ```
+
+## Resumen
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3R_bw_MtAGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
