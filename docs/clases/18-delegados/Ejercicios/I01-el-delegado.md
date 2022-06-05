@@ -45,5 +45,5 @@ Se deberá construir una aplicación de Windows Forms, que contenga como formula
 ![Animación de resultado final](/clases/18-delegados/ejercicios/ElDelegado.gif)
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_18/I01_El_delegado) |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/WmEHK2NQrgE) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_18/I01_El_delegado) |
 | :-----------------------: | :---: | :----------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
