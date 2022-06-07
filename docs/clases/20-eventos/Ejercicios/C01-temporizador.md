@@ -18,7 +18,7 @@ hide_title: false
 * Si se llama al método `IniciarTemporizador`, se iniciará el hilo, siempre y cuando no esté activo. 
 * Si se llama al método `DetenerTemporizador`, se detendrá el hilo, siempre y cuando esté activo.
 * El intervalo de tiempo determinará cada cuanto tiempo en milisegundos se lanzará el evento.
-* El método `CorrerTiempo` será el encargado de hacer la demora y lanzar el evento `EventoTiempo`.
+* El método `CorrerTiempo` será el encargado de hacer la demora y lanzar el evento `TiempoCumplido`.
 
 2. Implementar `Temporizador` en el formulario del ejercicio anterior, iniciando el reloj en el manejador del evento `Load` usando solamente la clase `Temporizador`. 
 
