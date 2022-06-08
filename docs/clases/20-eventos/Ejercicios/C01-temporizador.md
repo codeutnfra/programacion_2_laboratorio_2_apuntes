@@ -31,5 +31,5 @@ hide_title: false
 ![frmReloj](/clases/20-Eventos/ejercicios/frmReloj.gif)
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_20/C01_Temporizador) |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/lvg4AL90cmc) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_20/C01_Temporizador) |
 | :-----------------------: | :---: | :----------------------: | :----: |
