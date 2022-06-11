@@ -25,6 +25,9 @@ Las expresiones lambda son funciones con una sintaxis diferente que permite util
 
 [I02 - El comparador](./Ejercicios/I02-el-comparador.md)
 
+## Videos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZU3OfSJlsrdfyNQfBA6Hw12612ZhY6_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Bibliografía
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
 https://docs.microsoft.com/en-us/dotnet/api/system.action?view=net-5.0
