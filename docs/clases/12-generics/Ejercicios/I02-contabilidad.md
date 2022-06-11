@@ -24,5 +24,5 @@ Crear un proyecto de biblioteca de clases y agregar las clases del siguiente dia
 Crear un proyecto de consola y generar el código necesario para probar dichas clases.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/RhWJ9LMsPkU) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_12/I02_Contabilidad) |
 | :-----------------------: | :---: | :----------------------: | :----: |

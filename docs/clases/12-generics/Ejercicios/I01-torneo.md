@@ -41,5 +41,5 @@ hide_title: false
     5. Llamar al menos 3 veces a la propiedad `JugarPartido` de cada torneo e imprimir su respuesta por pantalla.
 
 ### Resolución
-| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
+| ![img](/base/youtube.svg) | [Video](https://youtu.be/wnwsGaDWZUU) | ![img](/base/github.svg) | [Código](https://github.com/codeutnfra/programacion_2_laboratorio_2/tree/master/Ejercicios_Resueltos/Clase_12/I01_Torneo) |
 | :-----------------------: | :---: | :----------------------: | :----: |
