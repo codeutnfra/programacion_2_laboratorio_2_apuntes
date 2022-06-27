@@ -51,7 +51,7 @@ los procedimientos recomendados indican que no debería obligar a los
 desarrolladores a saber cómo hacerlo.  
 
 
-## Grafia
+## Grafía
 
 ### PascalCase
 
