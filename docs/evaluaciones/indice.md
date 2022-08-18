@@ -7,8 +7,8 @@ hide_table_of_contents: false
 hide_title: false
 ---
 
-En esta sección encontraremos modelos de parciales y las consignas de los trabajos prácticos.
-
+En esta sección encontraremos modelos de parciales 
+<!-- 
 ## Trabajos prácticos
 [¿Cómo entregar los trabajos prácticos?](./trabajos-practicos/entrega.md)
 
@@ -20,7 +20,7 @@ En esta sección encontraremos modelos de parciales y las consignas de los traba
 
 [Trabajo Práctico N°2](./trabajos-practicos/tp-02.md)
 
-[Trabajo Práctico N°3/4](./trabajos-practicos/tp-03.md)
+[Trabajo Práctico N°3/4](./trabajos-practicos/tp-03.md) -->
 
 <!-- ## Parciales -->
 

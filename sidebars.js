@@ -278,7 +278,7 @@ module.exports = {
     ],
     Evaluaciones: [
         "evaluaciones/indice",
-        {
+        /* {
             type: "category",
             label: "Trabajos prácticos",
             collapsed: true,
@@ -288,7 +288,7 @@ module.exports = {
                     dirName: "evaluaciones/trabajos-practicos",
                 }
             ],
-        },
+        }, */
 /*         {
             type: "category",
             label: "Parciales",

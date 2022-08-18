@@ -9,7 +9,6 @@ hide_table_of_contents: true
 Para acceder a la instancia de examen final se deberá:
 * Cumplir con los requisitos académicos de asistencia (75%).
 * Aprobar los parciales con nota 4 o mayor.
-* Aprobar los trabajos prácticos (sólo Laboratorio de Computación II).
 
 ### Promoción de la materia
 Para alcanzar la promoción directa, además de cumplir las condiciones de regularización antes mencionadas, se deberá aprobar ambos parciales con nota 6 o más. 
@@ -20,9 +19,3 @@ El criterio de evaluación para alcanzar la aprobación (nota 4) o la promoción
 
 :::
 
-### Trabajos prácticos
-La materia Laboratorio de Computación II cuenta con cuatro entregas de trabajos prácticos que deberán estar aprobados para regularizar la materia. 
-
-Programación II NO tiene trabajos prácticos obligatorios.
-
-Para más información, consultar [la sección de trabajos prácticos](../evaluaciones/indice.md#trabajos-prácticos). 
