@@ -7,9 +7,9 @@ hide_table_of_contents: true
 hide_title: false
 ---
 
-| Instancia de evaluación | Cuatrimestre | Profesor  | Tiempo de resolución |
-| :---------------------: | :----------: | :-------: | :------------------: |
-|     Segundo Parcial     |   2do 2020   | F. Dávila |     120 minutos      |
+| Instancia de evaluación | Cuatrimestre |    Profesor   | Tiempo de resolución |
+| :---------------------: | :----------: | :-----------: | :------------------: |
+|     Segundo Parcial     |   2do 2020   | A. Bongioanni |     120 minutos      |
 
 ## Criterios de evaluación
 * **2 (dos) errores en el mismo tema anulan su puntaje.**

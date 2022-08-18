@@ -15,30 +15,27 @@ hide_table_of_contents: true
 
 ### 2do C - Miércoles y Jueves de 18:30 a 22:30 hs
 
-| **Docente** |                                       Federico Dávila                                       |                                     Esteban Prieto                                     |        
-| :---------- | :-----------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: | 
-| ***Cargo*** |                                           Titular                                           |                                           Ayudante                                           |                          Ayudante                           |
-| ***Mail***  |                               f.davila@sistemas-utnfra.com.ar                               |                             e.prieto@sistemas-utnfra.com.ar                              |        
-| ***Redes*** | [GitHub](https://t.ly/mFQM) - [You Tube](https://t.ly/XRmo) - [LinkedIn](https://t.ly/1szL) | [GitHub](https://t.ly/piPe) - [You Tube](https://t.ly/m7xL) - [LinkedIn](https://t.ly/6iWq) | 
+| **Docente** | Pedro Señeriz            |  Felipe Bustos Gil                |        
+| :---------- | :------------------------: | :----------------------------: | 
+| ***Cargo*** | Titular                    | Ayudante                       |                          
+| ***Mail***  | |felibustosomg@gmail.com|        
+| ***Redes*** |  | 
 
 
 ### 2do D - Lunes y Martes de 18:30 a 22:30 hs
 
-| **Docente** |                      Mauricio Cerizza                       |                                       Lucas Rodríguez                                       |                                       Lautaro Galarza                                        |
-| :---------- | :---------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| ***Cargo*** |                           Titular                           |                                          Adjunto                                           |                                          Ayudante                                           |
-| ***Mail***  |              m.cerizza@sistemas-utnfra.com.ar               |                              l.rodriguez@sistemas-utnfra.com.ar                               |                               l.galarza@sistemas-utnfra.com.ar                               |
-| ***Redes*** | [GitHub](https://t.ly/5R7m) - [LinkedIn](https://t.ly/ztVl) | [GitHub](https://t.ly/ZrQo) - [LinkedIn](https://t.ly/mWO9) | [GitHub](https://t.ly/d6nn) - [You Tube](https://t.ly/jkdY) - [LinkedIn](https://t.ly/lqhL) |
-
-
+| **Docente** | Lucas Rodriguez            |  Esteban Prieto                | Ornela Curcio | Ignacio Smirlian       
+| :---------- | :------------------------: | :----------------------------: | :----------:  | :----------: |
+| ***Cargo*** | Titular                    | Ayudante                       | Ayudante      | Ayudante                         
+| ***Mail***  |l.rodriguez@sistemas-utnfra.com.ar|e.prieto@sistemas-utnfra.com.ar|ornecurcio@gmail.com|ignaciosmirlian@gmail.com   
+| ***Redes*** | [GitHub](https://bit.ly/3dtLuzV) - [LinkedIn](https://bit.ly/3c2L7vQ) | [GitHub](https://t.ly/piPe) - [You Tube](https://t.ly/m7xL) - [LinkedIn](https://t.ly/6iWq) | [LinkedIn](https://bit.ly/3dGFGDq) |  [LinkedIn](https://bit.ly/3Au4ZSa) | 
 
 
 
 ### 2do E - Lunes y Martes de 18:30 a 22:30 hs
 
-| **Docente** |                      Alejandro Bongioanni                       |                       Esteban Prieto                       |  
+| **Docente** |                      Mario Rampi                       |                       Felipe Bustos Gil                  |  
 | :---------- | :---------------------------------------------------------: | :---------------------------------------------------------: | 
 | ***Cargo*** |                           Titular                           |                           Ayudante                           |                     
-| ***Mail***  |              a.bongioanni@sistemas-utnfra.com.ar               |             e.prieto@sistemas-utnfra.com.ar              |          
-| ***Redes*** | [GitHub](https://t.ly/8AqEd) - [You Tube](https://t.ly/QLhO) - [LinkedIn](https://t.ly/3P15) | [GitHub](https://t.ly/piPe) - [You Tube](https://t.ly/m7xL) - [LinkedIn](https://t.ly/6iWq) | [GitHub](https://t.ly/qNPb) - [LinkedIn](https://t.ly/dKCp) | [LinkedIn](https://t.ly/otPs) |
-
+| ***Mail***  |              m.rampi@sistemas-utnfra.com.ar    |             felibustosomg@gmail.com    |          
+| ***Redes*** | 
