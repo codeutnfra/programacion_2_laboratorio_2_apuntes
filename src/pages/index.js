@@ -41,7 +41,7 @@ const features = [
     imageUrl: 'base/campus.svg',
     description: (
       <>
-        <p>La planificación, las grabaciones de las clases y las calificaciones se encuentran en <b><a target="_blank" href="https://classroom.google.com/c/NTQ1MTg2NjM5NDBa?cjc=lqqdttc">Google Classroom</a></b>.</p>
+        <p>La planificación, las grabaciones de las clases y las calificaciones se encuentran en <b>Google Classroom</b>.</p>
       </>
     ),
   },

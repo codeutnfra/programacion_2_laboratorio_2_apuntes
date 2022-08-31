@@ -42,8 +42,8 @@ En esta sección encontraremos modelos de parciales
 
 #### Segundo parcial
 [♫♪ Que vengan los bomberos ♫♪](./modelos/laboratorio/segundo-parcial/que-vengan-los-bomberos.md)
-
+<!-- 
 #### Más modelos
 [Más modelos de parcial](https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa/m/NTUxNzc4MDA3OTZa/details)
 
-
+ -->

@@ -13,8 +13,10 @@ Classroom viene a tomar el papel del campus virtual.
 
 Allí se volcarán las notas, la planificación del cuatrimestre y material de las clases como presentaciones y grabaciones en video. 
 
+Solicitale acceso al docente de tu [comisión](./comisiones.md).
+<!-- 
 [Visitá Classroom ahora](https://classroom.google.com/c/NTQ1MTg2NjM5NDBa?cjc=lqqdttc).
-
+ -->
 ## Slack
 Será nuestro medio de comunicación fuera de clase, tanto con los profesores como entre los alumnos. 
 

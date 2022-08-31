@@ -363,11 +363,11 @@ module.exports = {
                                 },
                             ],
                         },
-                        {
+                       /*  {
                             type: "link",
                             label: "Más modelos de parcial",
                             href: "https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa/m/NTUxNzc4MDA3OTZa/details",
-                        },
+                        }, */
                     ],
                 },
             ],

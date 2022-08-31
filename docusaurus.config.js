@@ -76,10 +76,10 @@ module.exports = {
               href:
                 "https://join.slack.com/t/utn-prog2/shared_invite/zt-a7q2ca78-HDLaVbxtzMLSzVrxct3xWg",
             },
-            {
+            /* {
               label: "Google Classroom",
               href: "https://classroom.google.com/c/NTQ1MTg2NjM5NDBa?cjc=lqqdttc",
-            },
+            }, */
           ],
         },
         {
