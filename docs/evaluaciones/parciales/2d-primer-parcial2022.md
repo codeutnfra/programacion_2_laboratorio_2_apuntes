@@ -18,6 +18,28 @@ Nos han contratado para desarrollar el sistema que facilite la administración d
 
 ![Avion](/evaluaciones/parciales/avion.gif)
 
+Los cuatro vendedores de viaje designados por la empresa deberán poder loguearse cada uno de ellos con su usuario y contraseña para tiene que poder realizar las siguientes acciones:
+
+1. **Visualizar la lista de vuelos disponibles y la información del mismo**
+
+  Deberá visualizarse en sistema todos los vuelos disponibles,y poder crearse nuevos vuelos. Una vez elegido el vuelo, deberá poder visualizarse la información básica del vuelo,tal como origen,destino,hora de partida, y alguna información más que crean conveniente.
+
+
+2. **Vender un vuelo a un pasajero o a un grupo familiar**
+
+  Deberá poder vender pasajes, siempre y cuando se pueda satisfacer las necesidades del cliente (por ej: si ofrece o no comida,si tiene wifi, si posee el suficiente espacio entre asientos, el tipo de comida que ofrece,etc). 
+  Por ej, si el avión está lleno, o si su bodega no tiene más capacidad para recibir las valijas de los pasajeros,deberá notificarlo.
+
+3. **Información de cada vuelo**
+
+El vendedor logueado deberá acceder a ver la información detallada de los pasajeros, incluido por ejemplo el equipaje despachado.
+
+4. **Consultar estadísticas históricas**
+
+En alguna sección,deberán poder verse los vuelos que ya han sido realizados,para poder efectuar cálculos estadísticos sobre ellos , por ej, recaudación, cantidad de pasajeros de la aerolínea,etc.
+
+
+### Carácteristicas de la compañia
 
 A nivel nacional,ofrece los siguientes destinos: 
 
@@ -45,25 +67,12 @@ A nivel internacional, ofrece solo los siguientes destinos internacionales por e
 + Acapulco(México)
 + Miami(EEUU)
 
-Cada una de las 7 aeronaves poseen las siguientes características:
+La compañía cuenta con una flota de 7 aeronaves que de todas sus características, solo poseen en común las siguientes:
 
-
-+ Se identifica a partir de su matrícula (un identificador alfabético numérico de 8 dígitos).
++ Se identifica a partir de su matrícula (un identificador alfanumerico de 8 dígitos).
 + Cantidad de asientos.
 + Cantidad de baños.
-+ Ofrece o no comida.
-+ Capacidad bodega (en kilogramos).
-
- 
-Por otro lado, cada **vuelo** deberá informar:
- +  Ciudad de partida.
- +  Ciudad de destino.
- +  Fecha de vuelo.
- +  Avión en el que se viajará.
- +  Cantidad de asientos disponibles clase premium.
- +  Cantidad de asientos disponibles clase turista.
- +  Costo de cada clase.
- +  Duración del vuelo.
++ Capacidad bodega.
 
 
 De cada **avión**, el 20% de sus asientos serán para clase premium. 
@@ -77,6 +86,9 @@ De cada **avión**, el 20% de sus asientos serán para clase premium.
     * **Clase Turista**: Podrá llevar un bolso de mano y despachar solo una valija de hasta 25kg.
     * **Clase Premium**: Podrá llevar un bolso de mano y despachar hasta dos valijas de 21kg cada una. Esta clase cuesta un 15% más de lo que costaría el mismo pasaje para turista.
 
+
+La cabina del avión tiene capacidad para un bolso de mano de todos los pasajeros, por lo tanto todos los pasajeros pueden subir con un bolso de mano si así lo desean.
+
 De los **pasajeros** se necesita saber: 
 * Nombre completo
 * Dni.
@@ -84,18 +96,10 @@ De los **pasajeros** se necesita saber:
 * Equipajes con los que viaja (puede ser de mano y/o de bodega).
 
 
-El **operador del sistema** tiene que poder realizar las siguientes acciones:
-
-* Loguearse al sistema con usuario y contraseña.
-* Visualizar la lista de vuelos disponibles.
-* Vender un vuelo (asignar uno o más pasajeros a un vuelo).
-* Ver lista de pasajeros.
-* Consultar estadísticas históricas.
-
 ### Consigna
 Desarrollar una aplicación de escritorio con Windows Forms que resuelva las siguientes necesidades del cliente.
 
-Se deberá poder:
+Sumado a lo ya descrito anteriormente,se deberá poder:
 
 * Ver la lista de vuelos y la cantidad de asientos disponibles.
 * Ver la lista de pasajeros de cada vuelo.
@@ -144,8 +148,9 @@ Para trabajar con este archivo se deberá utilizar el lenguaje de marcado [Markd
 * Separar de forma física (distintos proyectos) la capa de presentación (interfaz de usuario) de la lógica de negocio.
 * Los datos de uso que no se cargan manualmente deben encontrarse pre-cargados (como literales) así como algunos datos históricos que simulan ejecuciones previas del programa ya que no contaremos con persistencia de datos.
 * Todos los formularios deberán contar con un botón de ayuda que explique brevemente cómo se utilizan las funcionalidades.
+* Para todos los formularios no deben tener color por defecto, deben estar alineados al centro de la pantalla y la aplicación debe poder cerrarse desde un botón “Salir”,y no desde la cruz del formulario.
 * Para todos los formularios se debe poder maximizar, minimizar y cambiar el tamaño de la ventana.
-  * La posición y/o tamaño de los controles deberá ajustarse con la ventana. Pista: hay una propiedad específica para esto, la vimos en clase.
+  * La posición y/o tamaño de los controles deberá ajustarse con la ventana. Pista: hay una propiedad específica para esto.
   * Deberá existir un límite mínimo para ajustar el tamaño que será aquel donde se pierde visibilidad de los controles o se dificulta el trabajo con la aplicación.
 * Las clases y sus miembros deberán estar correctamente documentados con la herramienta de documentación xml o ser lo suficientemente autodescriptivos (esto último queda a criterio del docente corrector).
 * Validar todos los ingresos de datos (cuando corresponda) mostrando mensajes claros para el usuario cuando un dato sea inválido.
