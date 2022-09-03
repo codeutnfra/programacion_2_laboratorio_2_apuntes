@@ -205,6 +205,12 @@ El resultado de la exposición oral **puede anular la promoción** si detectamos
 
 ## Entrega
 * Las entregas se deberán  realizar en GitHub el branch `Master`.
+* El repositorio deberá ser creado como *privado* agregando como colaboradores al equipo docente:
+  * lucasrodriguezutnfra                             
+  * ornecurcio      
+  * ignacio0104   
+  * p-esteban
+
 * Cada cambio y avance deberá ser registrado con un *commit* puntual acompañado de un mensaje descriptivo y subido inmediatamente al repositorio remoto (*push*).
 * La solución deberá ser nombrada como: *Apellido.Nombre.PrimerParcial*.
 * No realizar actualizaciones sobre el branch `Master` entre la fecha de entrega y la corrección. Si desean seguir trabajando pueden hacerlo sobre otra ramificación. 
@@ -240,3 +246,8 @@ En el recuperatorio se deberá entregar TODO lo requerido, completo y con las co
 
 
 
+:::note Vuela vuela...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WVJGsY6CSHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+:::
