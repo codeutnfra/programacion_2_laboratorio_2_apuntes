@@ -149,9 +149,6 @@ Para trabajar con este archivo se deberá utilizar el lenguaje de marcado [Markd
 * Los datos de uso que no se cargan manualmente deben encontrarse pre-cargados (como literales) así como algunos datos históricos que simulan ejecuciones previas del programa ya que no contaremos con persistencia de datos.
 * Todos los formularios deberán contar con un botón de ayuda que explique brevemente cómo se utilizan las funcionalidades.
 * Para todos los formularios no deben tener color por defecto, deben estar alineados al centro de la pantalla y la aplicación debe poder cerrarse desde un botón “Salir”,y no desde la cruz del formulario.
-* Para todos los formularios se debe poder maximizar, minimizar y cambiar el tamaño de la ventana.
-  * La posición y/o tamaño de los controles deberá ajustarse con la ventana. Pista: hay una propiedad específica para esto.
-  * Deberá existir un límite mínimo para ajustar el tamaño que será aquel donde se pierde visibilidad de los controles o se dificulta el trabajo con la aplicación.
 * Las clases y sus miembros deberán estar correctamente documentados con la herramienta de documentación xml o ser lo suficientemente autodescriptivos (esto último queda a criterio del docente corrector).
 * Validar todos los ingresos de datos (cuando corresponda) mostrando mensajes claros para el usuario cuando un dato sea inválido.
 * Abstraer las entidades y realizar un diseño orientado a objetos. Aplicar todos los temas de los temas 01 al 09 incluida.
@@ -224,7 +221,7 @@ El resultado de la exposición oral **puede anular la promoción** si detectamos
 | Instancia                       | Fecha                         | Formulario de registro                                                                                       |
 | :------------------------------ | :---------------------------- | :----------------------------------------------------------------------------------------------------------- |
 | Primera Entrega                 | Martes 04/10/2022 10:00 AM    | [Registrá tu repositorio para la instancia de primera entrega](https://forms.gle/rTFjyM3UqATHNnDz7)          |
-| Primer recuperatorio            | Martes 18/10/2022 10:00 AM    | [Registrá tu repositorio para la instancia de recuperatorio](https://forms.gle/VrEGRNsetLpyBAkKA)            |
+<!-- | Primer recuperatorio            | Martes 18/10/2022 10:00 AM    | [Registrá tu repositorio para la instancia de recuperatorio](https://forms.gle/VrEGRNsetLpyBAkKA)            | -->
 
 Los trabajos serán descargados en la fecha y hora indicada, siendo corregidos a partir de ese momento según criterio docente. 
 
@@ -234,9 +231,7 @@ El parcial **debe realizarse de forma individual**.
 
 :::warning Advertencia
 
-La sospecha o detección de copias conducirá a la desaprobación de ambos alumnos, quedando sin posibilidad de promoción quien tenga el commit más reciente sobre el repositorio.
-
-Para el recuperatorio la nota máxima será cuatro.
+La sospecha o detección de copias conducirá a la desaprobación de ambos alumnos, quedando sin posibilidad de promoción quien tenga el commit más reciente sobre el repositorio. Para el recuperatorio la nota máxima será cuatro.
 
 :::
 
