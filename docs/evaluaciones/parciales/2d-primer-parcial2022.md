@@ -32,11 +32,11 @@ Los cuatro vendedores de viaje designados por la empresa deberán poder loguears
 
 3. **Información de cada vuelo**
 
-El vendedor logueado deberá acceder a ver la información detallada de los pasajeros, incluido por ejemplo el equipaje despachado.
+  El vendedor logueado deberá acceder a ver la información detallada de los pasajeros, incluido por ejemplo el equipaje despachado.
 
 4. **Consultar estadísticas históricas**
 
-En alguna sección,deberán poder verse los vuelos que ya han sido realizados,para poder efectuar cálculos estadísticos sobre ellos , por ej, recaudación, cantidad de pasajeros de la aerolínea,etc.
+  En alguna sección,deberán poder verse los vuelos que ya han sido realizados,para poder efectuar cálculos estadísticos sobre ellos , por ej, recaudación, cantidad de pasajeros de la aerolínea,etc.
 
 
 ### Carácteristicas de la compañia
@@ -206,7 +206,7 @@ El resultado de la exposición oral **puede anular la promoción** si detectamos
 
 
 ## Entrega
-* Las entregas se deberán  realizar en GitHub el branch `Master`.
+* Las entregas se deberán  realizar en GitHub en el branch `Master`.
 * El repositorio deberá ser creado como *privado* agregando como colaboradores al equipo docente:
   * lucasrodriguezutnfra                             
   * ornecurcio      
