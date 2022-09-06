@@ -221,7 +221,8 @@ El resultado de la exposición oral **puede anular la promoción** si detectamos
 | Instancia                       | Fecha                         | Formulario de registro                                                                                       |
 | :------------------------------ | :---------------------------- | :----------------------------------------------------------------------------------------------------------- |
 | Primera Entrega                 | Martes 04/10/2022 10:00 AM    | [Registrá tu repositorio para la instancia de primera entrega](https://forms.gle/rTFjyM3UqATHNnDz7)          |
-<!-- | Primer recuperatorio            | Martes 18/10/2022 10:00 AM    | [Registrá tu repositorio para la instancia de recuperatorio](https://forms.gle/VrEGRNsetLpyBAkKA)            | -->
+
+ [//]: # " Primer recuperatorio            | Martes 18/10/2022 10:00 AM    | [Registrá tu repositorio para la instancia de recuperatorio](https://forms.gle/VrEGRNsetLpyBAkKA)    "
 
 Los trabajos serán descargados en la fecha y hora indicada, siendo corregidos a partir de ese momento según criterio docente. 
 
