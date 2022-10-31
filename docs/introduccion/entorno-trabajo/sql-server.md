@@ -59,4 +59,8 @@ Si tu computadora no soporta la última versión de SQL Server, podés descargar
 3. Presionar el botón "Connect".
 
 4. Si se pudo conectar está todo correcto. Si tuviste algún problema contactá a los docentes.
+
+## Instalación de entonrno SQL Server
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ksOeu0lf9dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    

@@ -48,3 +48,6 @@ En el siguiente video, Lucas nos explica los conceptos clave para trabajar con W
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-4BuCOuE5YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Alta, modificación y navegación de un fromulario
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-QtsDyfHggw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

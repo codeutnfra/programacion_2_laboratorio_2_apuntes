@@ -45,15 +45,15 @@ const features = [
       </>
     ),
   },
-  {
-    title: 'Slack',
-    imageUrl: 'base/robots-hablando.svg',
-    description: (
-      <>
-        <p>Nos mantenemos al día y nos comunicamos afuera del aula a través de <b><a target="_blank" href="https://join.slack.com/t/utn-prog2/shared_invite/zt-a7q2ca78-HDLaVbxtzMLSzVrxct3xWg">Slack</a></b>.</p>
-      </>
-    ),
-  },
+  // {
+  //   title: 'Slack',
+  //   imageUrl: 'base/robots-hablando.svg',
+  //   description: (
+  //     <>
+  //       <p>Nos mantenemos al día y nos comunicamos afuera del aula a través de <b><a target="_blank" href="https://join.slack.com/t/utn-prog2/shared_invite/zt-a7q2ca78-HDLaVbxtzMLSzVrxct3xWg">Slack</a></b>.</p>
+  //     </>
+  //   ),
+  // },
   {
     title: 'Ejercicios resueltos',
     imageUrl: 'base/resueltos.svg',
